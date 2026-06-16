@@ -1,36 +1,43 @@
-# HealthCore — Health & Wellness Platform
+# HealthCore
 
-A full-stack web application that translates Kinesiology and Human Performance & Nutrition coursework into practical, evidence-based tools for everyday users.
+HealthCore is a static health and fitness dashboard for logging nutrition, hydration, weight trends, workouts, strength progress, and optional AI-assisted wellness reflections.
 
-**Live:** [jacobcoleman921.netlify.app](https://jacobcoleman921.netlify.app)
-
-## About
-
-Built as an independent project by a Kinesiology & Psychology double major at UMass Amherst (GPA 3.81). The goal is to bridge the gap between academic health science and accessible, user-friendly wellness tools — grounded in coursework including Human Performance & Nutrition, Anatomy & Physiology, and Neuromechanics of Human Motion.
-
-## Built With
-
-- **JavaScript / React** — front-end UI and component architecture
-- **HTML / CSS** — responsive layout and styling
-- **Netlify** — continuous deployment and hosting
+The project is built as a single-page HTML/CSS/JavaScript app. It runs entirely in the browser, stores user data in `localStorage`, and can be hosted from GitHub Pages, Netlify, or any static file host.
 
 ## Features
 
-- Evidence-based health and wellness tools derived from Kinesiology coursework
-- Responsive design for desktop and mobile
-- Clean, user-focused UI built end-to-end independently
+- Daily calorie, macro, micronutrient, and water tracking
+- USDA FoodData Central search with manual food entry fallback
+- Personal food library for reusable meals and ingredients
+- Workout logging for push, pull, legs, shoulders, and custom sessions
+- Strength estimates, one-rep max tracking, muscle volume, and percentile views
+- Weight history, trend chart, and recent-entry log
+- Optional Groq-powered AI Coach using a locally stored API key
+- JSON export for personal backups
 
-## Getting Started
+## Privacy Notes
+
+- HealthCore does not include a backend.
+- Food, workout, profile, goal, and API-key data stay in the browser's local storage.
+- USDA search uses the public `DEMO_KEY`, which is rate limited.
+- The AI Coach only sends data to Groq after the user adds a Groq API key and runs an analysis.
+- AI Coach output is for general wellness reflection only and is not medical advice.
+
+## Run Locally
+
+Open `index.html` in a browser, or serve the folder locally:
 
 ```bash
-git clone https://github.com/JacobColeman921/HealthCore.git
-cd HealthCore
-npm install
-npm start
+python3 -m http.server 4173
 ```
+
+Then visit `http://127.0.0.1:4173`.
+
+## Deployment
+
+Because the app is static, the root `index.html` can be deployed directly with GitHub Pages or Netlify.
 
 ## Author
 
-**Jacob Coleman** — [github.com/JacobColeman921](https://github.com/JacobColeman921)
-
-B.S. Kinesiology & Psychology, University of Massachusetts Amherst
+Jacob Coleman<br>
+[github.com/JacobColeman921](https://github.com/JacobColeman921)
