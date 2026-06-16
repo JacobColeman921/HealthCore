@@ -4,6 +4,8 @@ HealthCore is a browser-based health and fitness dashboard for tracking nutritio
 
 I built it as a practical health-tech project that connects my Kinesiology and Human Performance & Nutrition coursework with a usable consumer wellness tool. The app is intentionally lightweight: it runs as a static single-page app, stores data locally in the browser, and can be deployed on any static host.
 
+[Live demo](https://jacobcoleman921.github.io/HealthCore/)
+
 ![HealthCore dashboard](docs/screenshots/dashboard.png)
 
 ## Quick Review
