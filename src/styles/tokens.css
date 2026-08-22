@@ -1,0 +1,38 @@
+:root {
+  color-scheme: light dark;
+  --font-sans: "Archivo Variable", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --canvas: #f4f6f2;
+  --surface: #fcfdf9;
+  --surface-strong: #ffffff;
+  --ink: #14211f;
+  --ink-soft: #5f6d69;
+  --line: #d8ded9;
+  --line-strong: #b9c4be;
+  --accent: #0e655d;
+  --accent-soft: #dcece8;
+  --good: #2e704b;
+  --warn: #a05e16;
+  --danger: #a13d3d;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.9rem;
+  --radius-lg: 1.35rem;
+  --shadow: 0 18px 45px rgba(25, 45, 39, 0.08);
+  --rail-width: 15.5rem;
+}
+
+[data-theme="dark"] {
+  --canvas: #111816;
+  --surface: #17201d;
+  --surface-strong: #1d2824;
+  --ink: #eef4ef;
+  --ink-soft: #aab7b1;
+  --line: #2d3b36;
+  --line-strong: #465750;
+  --accent: #78c4b6;
+  --accent-soft: #203d37;
+  --good: #7bc697;
+  --warn: #dda765;
+  --danger: #e28d8d;
+  --shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+}

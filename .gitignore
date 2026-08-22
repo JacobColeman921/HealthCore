@@ -2,3 +2,8 @@
 *.log
 healthcore_data.json
 .worktrees/
+node_modules/
+dist/
+playwright-report/
+test-results/
+.env*.local
