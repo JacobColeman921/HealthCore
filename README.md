@@ -4,11 +4,13 @@ A personal training and nutrition record.
 
 [Open the live site](https://jacobcoleman921.github.io/HealthCore/)
 
-![Consistency Today view](docs/qa/screenshots/today-desktop.png)
+![Consistency Today view](docs/qa/screenshots/portfolio-today.png)
 
-| Meal Ideas | Training Library |
+| Meal Ideas | Active Workout |
 | --- | --- |
-| ![Consistency Meal Ideas view](docs/qa/screenshots/food-ideas-desktop.png) | ![Consistency Training Library view](docs/qa/screenshots/train-desktop.png) |
+| ![Consistency Meal Ideas view](docs/qa/screenshots/portfolio-meals.png) | ![Consistency Active Workout view](docs/qa/screenshots/portfolio-workout.png) |
+
+![Consistency Weekly Report view](docs/qa/screenshots/portfolio-weekly-report.png)
 
 Consistency is a browser-based record for food, workouts, recovery, and progress. It keeps entries on the current device and does not require an account.
 
