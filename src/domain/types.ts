@@ -32,14 +32,14 @@ export interface FoodEntry {
 }
 
 export interface BodyRecord { id: string; date: string; value: number; }
-export interface SleepRecord extends BodyRecord { quality?: number; }
+export interface SleepRecord extends BodyRecord { quality?: number; source?: "manual" | "garmin"; }
 export interface WorkoutSet { id: string; reps: number; weight: number; completed: boolean; }
 export interface WorkoutExercise { exerciseId: string; name: string; primaryMuscles: string[]; sets: WorkoutSet[]; }
 export interface WorkoutSession { id: string; date: string; title: string; durationMinutes: number; exercises: WorkoutExercise[]; notes?: string; }
 export interface CardioRecord { id: string; date: string; type: string; durationMinutes: number; distance?: number; calories?: number; notes?: string; source?: "manual" | "garmin"; }
 export interface Plan { id: string; name: string; days: Array<{ name: string; exerciseIds: string[] }>; }
 export interface Habit { id: string; label: string; dates: string[]; }
-export interface IntegrationSettings { groqKey?: string; geminiKey?: string; }
+export type IntegrationSettings = Record<string, never>;
 
 export interface MettlefieldStateV1 {
   version: 1;

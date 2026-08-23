@@ -17,15 +17,18 @@ The Playwright suite runs against desktop Chrome and a mobile Chrome viewport. I
 - A meal idea can be added to the diary
 - A common food can be searched and added from the local catalog
 - A cardio activity can be saved
+- A saved plan can launch and complete a workout
+- A malformed backup cannot replace the current record
 - Core screens do not overflow horizontally
-- The shell has no serious or critical automated accessibility violations
+- Five representative routes pass serious/critical accessibility checks in both themes with color contrast enabled
 
-The unit suite covers nutrition totals, training calculations, recovery summaries, state migration, and Garmin parsing.
+The unit suite covers nutrition totals, training calculations, recovery summaries, authentic legacy-state migration, strict backup validation, unit conversion, persistence warnings, Garmin parsing, and import deduplication.
 
 ## Responsive review sizes
 
-- 390 by 844 mobile viewport
-- 1440 by 1000 desktop viewport
+- 360, 768, 1024, and 1440 pixel breakpoint checks
+- 390 by 844 mobile screenshots
+- 1440 by 1000 desktop screenshots
 
 The desktop layout uses a fixed navigation rail and a wide work surface. The mobile layout moves navigation to a fixed bottom bar, stacks forms and panels, and keeps subnavigation horizontally available without expanding the page width.
 

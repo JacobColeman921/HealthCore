@@ -1,41 +1,39 @@
 import { defaultState } from "../domain/defaults";
-import type { MettlefieldStateV1 } from "../domain/types";
+import type { FoodEntry, Habit, MettlefieldStateV1, Plan, WorkoutExercise } from "../domain/types";
+import { stateSchema } from "./schema";
 
-function read<T>(storage: Storage, key: string, fallback: T): T {
-  try {
-    const raw = storage.getItem(key);
-    return raw ? JSON.parse(raw) as T : fallback;
-  } catch { return fallback; }
-}
+type UnknownRecord = Record<string, unknown>;
+const activityMap: Record<string, number> = { sedentary: 1.2, light: 1.375, moderate: 1.55, active: 1.725, very_active: 1.9 };
+function read(storage: Storage, key: string, fallback: unknown): unknown { try { const raw = storage.getItem(key); return raw ? JSON.parse(raw) : fallback; } catch { return fallback; } }
+function record(value: unknown): UnknownRecord { return value && typeof value === "object" && !Array.isArray(value) ? value as UnknownRecord : {}; }
+function array(value: unknown): unknown[] { return Array.isArray(value) ? value : []; }
+function number(value: unknown, fallback = 0): number { const parsed = Number(value); return Number.isFinite(parsed) ? parsed : fallback; }
+function text(value: unknown, fallback = ""): string { return typeof value === "string" && value.trim() ? value.trim() : fallback; }
+function uid(prefix: string, ...parts: unknown[]) { return `${prefix}-${parts.map((part) => String(part ?? "").replace(/[^a-z0-9]+/gi, "-").toLowerCase()).join("-")}`.slice(0, 190); }
+function meal(value: unknown): FoodEntry["meal"] { const normalized = text(value, "Snack").toLowerCase(); return normalized === "breakfast" ? "Breakfast" : normalized === "lunch" ? "Lunch" : normalized === "dinner" ? "Dinner" : "Snack"; }
+function date(value: unknown): string | undefined { return text(value).match(/^\d{4}-\d{2}-\d{2}/)?.[0]; }
+function inferredMuscles(name: string) { const value = name.toLowerCase(); if (/bench|push.?up|chest/.test(value)) return ["chest", "triceps"]; if (/squat|leg press|lunge/.test(value)) return ["quadriceps", "glutes"]; if (/deadlift|hip thrust|leg curl/.test(value)) return ["glutes", "hamstrings"]; if (/row|pull.?down|pull.?up/.test(value)) return ["back", "biceps"]; if (/overhead press|shoulder|lateral raise/.test(value)) return ["shoulders", "triceps"]; if (/curl/.test(value)) return ["biceps"]; return []; }
 
-function array<T>(value: unknown): T[] { return Array.isArray(value) ? value as T[] : []; }
+function legacyFoods(entries: unknown): FoodEntry[] { return Object.entries(record(entries)).flatMap(([entryDate, value]) => array(record(value).foods).map((raw, index) => { const food = record(raw); const qty = Math.max(0, number(food.qty, 1)); return { id: text(food.id, uid("food", entryDate, index, food.name)), date: date(entryDate) || entryDate, meal: meal(food.meal), name: text(food.name, "Saved food"), serving: text(food.serving || food.serving_size, qty === 1 ? "1 serving" : `${qty} servings`), calories: number(food.calories) * qty, protein: number(food.protein) * qty, carbs: number(food.carbs) * qty, fat: number(food.fat) * qty }; })); }
+function entryWater(entries: unknown) { return Object.entries(record(entries)).flatMap(([entryDate, value]) => { const ounces = number(record(value).water); return ounces > 0 ? [{ id: uid("water", entryDate), date: entryDate, value: ounces / 8 }] : []; }); }
+function entryWeights(entries: unknown) { return Object.entries(record(entries)).flatMap(([entryDate, value]) => { const weight = number(record(value).weight); return weight > 0 ? [{ id: uid("weight", entryDate), date: entryDate, value: weight }] : []; }); }
+function workoutExercises(value: unknown): WorkoutExercise[] { return array(value).map((raw, index) => { const item = record(raw); const name = text(item.name, `Exercise ${index + 1}`); return { exerciseId: uid("legacy-exercise", name), name, primaryMuscles: inferredMuscles(name), sets: array(item.sets).map((rawSet, setIndex) => { const set = record(rawSet); return { id: uid("set", name, setIndex), reps: Math.max(1, number(set.reps, 1)), weight: Math.max(0, number(set.weight)), completed: true }; }) }; }); }
+function legacyPlans(value: unknown): Plan[] { return array(value).map((raw, index) => { const item = record(raw); const days = Object.entries(record(item.days)).map(([name, rawExercises]) => ({ name, exerciseIds: array(rawExercises).map((exercise) => uid("legacy-exercise", typeof exercise === "string" ? exercise : record(exercise).name)) })); return { id: text(item.id, uid("plan", index, item.name)), name: text(item.name, `Plan ${index + 1}`), days: days.length ? days : [{ name: "Day 1", exerciseIds: [] }] }; }); }
+function legacyHabits(storage: Storage): Habit[] { const legacy = array(read(storage, "hc_habits", [])); if (!legacy.length) return defaultState.habits; const checks = record(read(storage, "hc_habit_checks", {})); return legacy.map((raw, index) => { const item = record(raw); const habitId = text(item.id, uid("habit", index)); return { id: habitId, label: text(item.name || item.label, `Habit ${index + 1}`), dates: Object.entries(checks).filter(([, day]) => Boolean(record(day)[habitId])).map(([day]) => day) }; }); }
 
 export interface MigrationResult { state: MettlefieldStateV1; migrated: boolean; sourceKeys: string[]; }
-
 export function migrateLegacyState(storage: Storage): MigrationResult {
-  const sourceKeys = Object.keys(storage).filter((key) => key.startsWith("hc_"));
-  const profile = read(storage, "hc_profile", defaultState.profile);
-  const goals = read(storage, "hc_goals", defaultState.goals);
-  const entries = read<unknown>(storage, "hc_entries", []);
-  const settings = read<Record<string, string>>(storage, "hc_settings", {});
+  const sourceKeys = Object.keys(storage).filter((key) => key.startsWith("hc_")); const entries = read(storage, "hc_entries", {}); const profile = record(read(storage, "hc_profile", {})); const goals = record(read(storage, "hc_goals", {}));
   const state: MettlefieldStateV1 = {
     ...defaultState,
-    profile: { ...defaultState.profile, ...profile },
-    goals: { ...defaultState.goals, ...goals },
-    foods: array(entries),
-    weights: array(read(storage, "hc_weights", [])),
-    sleep: array(read(storage, "hc_sleep", [])),
-    workouts: array(read(storage, "hc_workouts", [])),
-    cardio: array(read(storage, "hc_cardio", [])),
-    habits: array(read(storage, "hc_checklist", [])),
-    plans: array(read(storage, "hc_custom_plans", [])),
-    manualMaxes: read(storage, "hc_manual_maxes", {}),
-    activePlanId: read<string | undefined>(storage, "hc_active_plan", undefined),
-    integrations: {
-      groqKey: storage.getItem("hc_groq_key") || settings.groqKey,
-      geminiKey: storage.getItem("hc_gemini_key") || settings.geminiKey,
-    },
-    migratedAt: sourceKeys.length ? new Date().toISOString() : undefined,
+    profile: { ...defaultState.profile, name: text(profile.name), units: profile.units === "metric" ? "metric" : "imperial", goal: (["weight_loss", "muscle_gain", "maintenance", "recomp"] as const).find((item) => item === profile.goal) || defaultState.profile.goal, age: number(profile.age) || undefined, heightCm: profile.height_cm ? number(profile.height_cm) : profile.height_in ? number(profile.height_in) * 2.54 : undefined, activity: typeof profile.activity === "string" ? activityMap[profile.activity] || defaultState.profile.activity : number(profile.activity) || defaultState.profile.activity },
+    goals: { ...defaultState.goals, calories: number(goals.calories, defaultState.goals.calories), protein: number(goals.protein, defaultState.goals.protein), carbs: number(goals.carbs, defaultState.goals.carbs), fat: number(goals.fat, defaultState.goals.fat), water: goals.water ? number(goals.water) / 8 : defaultState.goals.water, sleep: number(goals.sleep, defaultState.goals.sleep) },
+    foods: legacyFoods(entries), water: entryWater(entries), weights: [...entryWeights(entries), ...array(read(storage, "hc_weights", [])).map((raw, index) => { const item = record(raw); return { id: text(item.id, uid("weight", index)), date: date(item.date) || "1970-01-01", value: number(item.value || item.weight) }; }).filter((item) => item.value > 0)],
+    sleep: array(read(storage, "hc_sleep", [])).map((raw, index) => { const item = record(raw); return { id: text(item.id, uid("sleep", index, item.date)), date: date(item.date) || "1970-01-01", value: item.durationMins ? number(item.durationMins) / 60 : number(item.value || item.duration), quality: number(item.quality) || undefined }; }).filter((item) => item.value > 0),
+    workouts: array(read(storage, "hc_workouts", [])).map((raw, index) => { const item = record(raw); return { id: text(item.id, uid("workout", index, item.date)), date: date(item.date) || "1970-01-01", title: text(item.title || item.type, "Training session"), durationMinutes: Math.max(1, number(item.durationMinutes || item.duration, 1)), exercises: workoutExercises(item.exercises), notes: text(item.notes) || undefined }; }),
+    cardio: array(read(storage, "hc_cardio", [])).map((raw, index) => { const item = record(raw); const distance = number(item.distance); return { id: text(item.garminId || item.id, uid("cardio", index, item.date)), date: date(item.date) || "1970-01-01", type: text(item.type, "Activity"), durationMinutes: Math.max(1, number(item.durationMinutes || item.duration, 1)), distance: distance ? (item.distUnit === "km" ? distance / 1.609344 : distance) : undefined, calories: number(item.calories) || undefined, notes: text(item.notes) || undefined, source: item.garminId || item.source === "garmin" ? "garmin" : "manual" }; }),
+    habits: legacyHabits(storage), plans: legacyPlans(read(storage, "hc_custom_plans", [])), manualMaxes: Object.fromEntries(Object.entries(record(read(storage, "hc_manual_maxes", {}))).map(([key, value]) => [key, Math.max(0, number(value))])), integrations: {}, migratedAt: sourceKeys.length ? new Date().toISOString() : undefined,
   };
-  return { state, migrated: sourceKeys.length > 0, sourceKeys };
+  const active = record(read(storage, "hc_active_plan", {})); let activePlan = state.plans.find((plan) => plan.name === active.name); if (!activePlan && active.name && Object.keys(record(active.days)).length) { activePlan = legacyPlans([active])[0]; state.plans.push(activePlan); } if (activePlan) state.activePlanId = activePlan.id;
+  return { state: stateSchema.parse(state) as MettlefieldStateV1, migrated: sourceKeys.length > 0, sourceKeys };
 }

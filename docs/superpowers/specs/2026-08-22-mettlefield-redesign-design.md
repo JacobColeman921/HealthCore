@@ -36,7 +36,7 @@ This is the smallest deployment change, but it preserves the 8,000-line monolith
 
 ### Static React/Vite rebuild
 
-This is the selected approach. It keeps GitHub Pages, local browser storage, optional user-supplied API keys, and the existing no-account model. React provides stable component and state boundaries. TypeScript and tests protect data migration and health calculations. Vite keeps the deployed output static.
+This is the selected approach. It keeps GitHub Pages, local browser storage, and the existing no-account model. Legacy API keys are neither migrated nor exported. React provides stable component and state boundaries. TypeScript and tests protect data migration and health calculations. Vite keeps the deployed output static.
 
 ### Full hosted product
 
@@ -236,4 +236,3 @@ Tests capture current behavior, then document any intentional correction. Values
 ## Portfolio outcome
 
 The repository and portfolio will present Mettlefield as a product case study, not a feature list. The story covers the original problem, the monolith audit, information-architecture decisions, local-data migration, exercise-media integration, accessibility, responsive testing, and before/after evidence. Claims about users or outcomes remain absent until real research supplies them.
-

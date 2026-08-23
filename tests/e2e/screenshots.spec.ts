@@ -36,31 +36,31 @@ test("capture review screens", async ({ page }, testInfo) => {
   await page.addInitScript((value) => localStorage.setItem("mettlefield_state_v1", JSON.stringify(value)), seed);
   const suffix = testInfo.project.name === "mobile" ? "mobile" : "desktop";
 
-  await page.goto("today");
+  await page.goto("#/today");
   await page.getByRole("heading", { name: /^Good day/ }).waitFor();
   await page.screenshot({ path: `docs/qa/screenshots/today-${suffix}.png`, fullPage: false });
 
-  await page.goto("log?view=ideas");
+  await page.goto("#/log?view=ideas");
   await page.getByRole("heading", { name: "Meals that fit the job" }).waitFor();
   await page.screenshot({ path: `docs/qa/screenshots/food-ideas-${suffix}.png`, fullPage: false });
 
-  await page.getByRole("tab", { name: "Diary" }).click();
+  await page.getByRole("button", { name: "Diary", exact: true }).click();
   await page.getByRole("button", { name: "Add food" }).click();
   await page.getByPlaceholder("Chicken breast, Greek yogurt, Big Mac").fill("Greek yogurt");
   await page.getByRole("button", { name: /Add Greek Yogurt/ }).first().waitFor();
   await page.getByPlaceholder("Chicken breast, Greek yogurt, Big Mac").evaluate((element) => element.scrollIntoView({ block: "center" }));
   await page.screenshot({ path: `docs/qa/screenshots/food-search-${suffix}.png`, fullPage: false });
 
-  await page.goto("train");
+  await page.goto("#/train");
   await page.getByPlaceholder("Search 400 exercises").waitFor();
   await page.screenshot({ path: `docs/qa/screenshots/train-${suffix}.png`, fullPage: false });
 
-  await page.goto("trends");
-  await page.getByRole("tab", { name: "Weekly report" }).click();
+  await page.goto("#/trends");
+  await page.getByRole("button", { name: "Weekly report" }).click();
   await page.getByRole("button", { name: "Print report" }).waitFor();
   await page.screenshot({ path: `docs/qa/screenshots/weekly-report-${suffix}.png`, fullPage: false });
 
-  await page.goto("settings");
+  await page.goto("#/settings");
   await page.getByRole("heading", { name: "Profile and targets" }).waitFor();
   await page.screenshot({ path: `docs/qa/screenshots/settings-${suffix}.png`, fullPage: false });
 });

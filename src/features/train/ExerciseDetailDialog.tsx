@@ -41,7 +41,7 @@ export function ExerciseDetailDialog({ exercise, onClose, onAdd }: { exercise: E
         <div><span className="section-kicker">{exercise.bodyPart.replaceAll("_", " ")}</span><h2 id="exercise-title">{exercise.name}</h2></div>
         <button className="icon-button" aria-label="Close exercise" onClick={onClose}><X aria-hidden="true" /></button>
       </header>
-      <div className="pose-strip">{exercise.images.map((image, index) => <img key={image} src={image} alt={`${exercise.name} ${index === 0 ? "starting" : "finishing"} position`} />)}</div>
+      <div className="pose-strip">{exercise.images.map((image, index) => <img key={image} src={image} alt={`${exercise.name} ${index === 0 ? "starting" : "finishing"} position`} onError={(event) => { event.currentTarget.hidden = true; }} />)}<span className="pose-fallback">Movement images unavailable</span></div>
       <p>{exercise.description}</p>
       <dl className="detail-facts">
         <div><dt>Equipment</dt><dd>{exercise.equipment.replaceAll("_", " ")}</dd></div>

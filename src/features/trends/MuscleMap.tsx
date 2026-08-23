@@ -2,7 +2,7 @@ import { aggregateMuscleVolume } from "../../domain/training";
 import type { WorkoutSession } from "../../domain/types";
 
 const regions = ["chest", "back", "shoulders", "biceps", "triceps", "quadriceps", "hamstrings", "glutes", "calves", "core"];
-const aliases: Record<string, string[]> = { chest: ["pectoralis"], back: ["latissimus", "trapezius", "rhomboid"], shoulders: ["deltoid"], biceps: ["biceps"], triceps: ["triceps"], quadriceps: ["quadriceps", "vastus"], hamstrings: ["hamstring"], glutes: ["glute"], calves: ["calf", "gastrocnemius", "soleus"], core: ["abdominis", "oblique", "core"] };
+const aliases: Record<string, string[]> = { chest: ["pectoralis"], back: ["back", "latissimus", "trapezius", "rhomboid"], shoulders: ["deltoid"], biceps: ["biceps"], triceps: ["triceps"], quadriceps: ["quadriceps", "vastus"], hamstrings: ["hamstring"], glutes: ["glute"], calves: ["calf", "gastrocnemius", "soleus"], core: ["abdominis", "oblique", "core"] };
 
 export function MuscleMap({ workouts }: { workouts: WorkoutSession[] }) {
   const raw = aggregateMuscleVolume(workouts); const totals = Object.fromEntries(regions.map((region) => [region, Object.entries(raw).filter(([muscle]) => aliases[region].some((alias) => muscle.includes(alias))).reduce((sum, [, value]) => sum + value, 0)])); const max = Math.max(1, ...Object.values(totals));
