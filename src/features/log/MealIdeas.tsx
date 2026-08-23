@@ -1,0 +1,18 @@
+import { useMemo, useState } from "react";
+import { Check, Clock, MagnifyingGlass, ShoppingCartSimple } from "@phosphor-icons/react";
+import mealPlans from "../../data/meal-ideas.json";
+import type { Meal } from "../../domain/types";
+import { id, todayKey } from "../../lib/date";
+import { useMettlefieldStore } from "../../store/useMettlefieldStore";
+
+interface MealIdea { name: string; category: string; calories: number; protein: number; carbs: number; fat: number; prepTime: string; difficulty: string; store?: string; walmart: string[]; steps: string; }
+interface MealPlan { label: string; description: string; meals: MealIdea[]; }
+const plans = mealPlans as Record<string, MealPlan>;
+const categories = ["all", "breakfast", "lunch", "dinner", "snack"];
+
+export function MealIdeas({ date }: { date: string }) {
+  const goal = useMettlefieldStore((state) => state.profile.goal || "recomp"); const addFood = useMettlefieldStore((state) => state.addFood); const [category, setCategory] = useState("all"); const [query, setQuery] = useState(""); const [logged, setLogged] = useState(""); const plan = plans[goal] || plans.recomp;
+  const meals = useMemo(() => plan.meals.filter((meal) => (category === "all" || meal.category === category) && (!query || [meal.name, meal.store, ...meal.walmart].join(" ").toLowerCase().includes(query.toLowerCase()))), [plan, category, query]);
+  function log(meal: MealIdea) { const slot = `${meal.category[0].toUpperCase()}${meal.category.slice(1)}` as Meal; addFood({ id: id(), date: date || todayKey(), meal: slot, name: meal.name, serving: "1 meal", calories: meal.calories, protein: meal.protein, carbs: meal.carbs, fat: meal.fat }); setLogged(meal.name); }
+  return <div className="meal-ideas"><section className="meal-intro"><div><span className="section-kicker">{plan.label}</span><h2>Meals that fit the job</h2><p>{plan.description} Each idea includes a shopping list and can be logged in one step.</p></div><div><strong>{plan.meals.length}</strong><span>ideas for this goal</span></div></section>{logged && <div className="inline-notice" role="status"><Check aria-hidden="true" /> {logged} added to {date}.</div>}<div className="idea-tools"><label className="search-field"><MagnifyingGlass aria-hidden="true" /><span className="sr-only">Search meal ideas</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search meals or ingredients" /></label><div className="category-pills">{categories.map((item) => <button className={category === item ? "active" : ""} onClick={() => setCategory(item)} key={item}>{item === "all" ? "All meals" : item}</button>)}</div></div><div className="idea-grid">{meals.map((meal) => <article className="idea-card" key={meal.name}><header><div><span>{meal.category}</span><h3>{meal.name}</h3></div><div className="prep"><Clock aria-hidden="true" /> {meal.prepTime}</div></header><div className="idea-macros"><span><strong>{meal.calories}</strong> kcal</span><span><strong>{meal.protein}</strong> protein</span><span><strong>{meal.carbs}</strong> carbs</span><span><strong>{meal.fat}</strong> fat</span></div><p className="idea-steps">{meal.steps}</p><details><summary><ShoppingCartSimple aria-hidden="true" /> Shopping list {meal.store && <small>{meal.store}</small>}</summary><ul>{meal.walmart.map((item) => <li key={item}>{item}</li>)}</ul></details><button className="idea-log" onClick={() => log(meal)}>Add to diary</button></article>)}</div>{!meals.length && <div className="empty-state"><strong>No matching meals</strong><p>Try another ingredient or broaden the meal category.</p></div>}</div>;
+}

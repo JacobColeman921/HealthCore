@@ -3,14 +3,14 @@ import { MemoryRouter } from "react-router-dom";
 import { App } from "./App";
 
 describe("application shell", () => {
-  it("renders the daily route and five product destinations", () => {
+  it("renders the daily route and five product destinations", async () => {
     render(
       <MemoryRouter initialEntries={["/today"]}>
         <App />
       </MemoryRouter>,
     );
 
-    expect(screen.getByRole("heading", { name: "Today" })).toBeInTheDocument();
+    expect(await screen.findByRole("heading", { name: "Good day" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Today" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Log" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Train" })).toBeInTheDocument();

@@ -1,0 +1,5754 @@
+[
+  {
+    "id": "legacy-food-1",
+    "name": "McDonald's Big Mac",
+    "calories": 550,
+    "protein": 25,
+    "carbs": 45,
+    "fat": 30
+  },
+  {
+    "id": "legacy-food-2",
+    "name": "McDonald's McDouble",
+    "calories": 390,
+    "protein": 22,
+    "carbs": 34,
+    "fat": 19
+  },
+  {
+    "id": "legacy-food-3",
+    "name": "McDonald's Quarter Pounder",
+    "calories": 510,
+    "protein": 30,
+    "carbs": 42,
+    "fat": 26
+  },
+  {
+    "id": "legacy-food-4",
+    "name": "McDonald's Filet-O-Fish",
+    "calories": 390,
+    "protein": 16,
+    "carbs": 39,
+    "fat": 19
+  },
+  {
+    "id": "legacy-food-5",
+    "name": "McDonald's McChicken",
+    "calories": 400,
+    "protein": 14,
+    "carbs": 40,
+    "fat": 21
+  },
+  {
+    "id": "legacy-food-6",
+    "name": "McDonald's French Fries (Medium)",
+    "calories": 320,
+    "protein": 4,
+    "carbs": 43,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-7",
+    "name": "McDonald's French Fries (Large)",
+    "calories": 490,
+    "protein": 6,
+    "carbs": 66,
+    "fat": 23
+  },
+  {
+    "id": "legacy-food-8",
+    "name": "McDonald's Chicken McNuggets (10pc)",
+    "calories": 440,
+    "protein": 26,
+    "carbs": 27,
+    "fat": 27
+  },
+  {
+    "id": "legacy-food-9",
+    "name": "McDonald's Egg McMuffin",
+    "calories": 310,
+    "protein": 17,
+    "carbs": 30,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-10",
+    "name": "McDonald's Sausage Biscuit",
+    "calories": 460,
+    "protein": 14,
+    "carbs": 38,
+    "fat": 28
+  },
+  {
+    "id": "legacy-food-11",
+    "name": "McDonald's Hotcakes (3)",
+    "calories": 350,
+    "protein": 8,
+    "carbs": 67,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-12",
+    "name": "McDonald's Vanilla Shake (Medium)",
+    "calories": 530,
+    "protein": 12,
+    "carbs": 81,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-13",
+    "name": "Burger King Whopper",
+    "calories": 660,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 40
+  },
+  {
+    "id": "legacy-food-14",
+    "name": "Burger King Whopper Jr",
+    "calories": 310,
+    "protein": 16,
+    "carbs": 32,
+    "fat": 17
+  },
+  {
+    "id": "legacy-food-15",
+    "name": "Burger King Cheeseburger",
+    "calories": 290,
+    "protein": 15,
+    "carbs": 28,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-16",
+    "name": "Burger King French Fries (Medium)",
+    "calories": 380,
+    "protein": 4,
+    "carbs": 53,
+    "fat": 17
+  },
+  {
+    "id": "legacy-food-17",
+    "name": "Burger King Chicken Sandwich",
+    "calories": 660,
+    "protein": 36,
+    "carbs": 55,
+    "fat": 34
+  },
+  {
+    "id": "legacy-food-18",
+    "name": "Burger King Onion Rings (Medium)",
+    "calories": 320,
+    "protein": 4,
+    "carbs": 40,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-19",
+    "name": "Chick-fil-A Chicken Sandwich",
+    "calories": 440,
+    "protein": 28,
+    "carbs": 40,
+    "fat": 19
+  },
+  {
+    "id": "legacy-food-20",
+    "name": "Chick-fil-A Deluxe Sandwich",
+    "calories": 500,
+    "protein": 32,
+    "carbs": 43,
+    "fat": 22
+  },
+  {
+    "id": "legacy-food-21",
+    "name": "Chick-fil-A Nuggets (8pc)",
+    "calories": 250,
+    "protein": 26,
+    "carbs": 11,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-22",
+    "name": "Chick-fil-A Waffle Fries (Medium)",
+    "calories": 420,
+    "protein": 5,
+    "carbs": 57,
+    "fat": 19
+  },
+  {
+    "id": "legacy-food-23",
+    "name": "Chick-fil-A Grilled Chicken Sandwich",
+    "calories": 320,
+    "protein": 29,
+    "carbs": 34,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-24",
+    "name": "Subway Turkey Breast (6in)",
+    "calories": 280,
+    "protein": 18,
+    "carbs": 45,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-25",
+    "name": "Subway Italian BMT (6in)",
+    "calories": 410,
+    "protein": 22,
+    "carbs": 44,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-26",
+    "name": "Subway Tuna (6in)",
+    "calories": 380,
+    "protein": 17,
+    "carbs": 44,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-27",
+    "name": "Subway Rotisserie Chicken (6in)",
+    "calories": 350,
+    "protein": 32,
+    "carbs": 45,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-28",
+    "name": "Subway Veggie Delite (6in)",
+    "calories": 190,
+    "protein": 8,
+    "carbs": 38,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-29",
+    "name": "Wendy's Dave's Single",
+    "calories": 570,
+    "protein": 30,
+    "carbs": 40,
+    "fat": 34
+  },
+  {
+    "id": "legacy-food-30",
+    "name": "Wendy's Jr Cheeseburger",
+    "calories": 280,
+    "protein": 16,
+    "carbs": 26,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-31",
+    "name": "Wendy's Spicy Chicken Sandwich",
+    "calories": 500,
+    "protein": 28,
+    "carbs": 51,
+    "fat": 22
+  },
+  {
+    "id": "legacy-food-32",
+    "name": "Wendy's Frosty (Small)",
+    "calories": 340,
+    "protein": 9,
+    "carbs": 56,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-33",
+    "name": "Wendy's French Fries (Medium)",
+    "calories": 320,
+    "protein": 5,
+    "carbs": 43,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-34",
+    "name": "Taco Bell Crunchy Taco",
+    "calories": 170,
+    "protein": 8,
+    "carbs": 13,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-35",
+    "name": "Taco Bell Soft Taco",
+    "calories": 180,
+    "protein": 9,
+    "carbs": 19,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-36",
+    "name": "Taco Bell Burrito Supreme",
+    "calories": 390,
+    "protein": 16,
+    "carbs": 51,
+    "fat": 17
+  },
+  {
+    "id": "legacy-food-37",
+    "name": "Taco Bell Bean Burrito",
+    "calories": 350,
+    "protein": 13,
+    "carbs": 53,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-38",
+    "name": "Taco Bell Chalupa Supreme",
+    "calories": 350,
+    "protein": 14,
+    "carbs": 32,
+    "fat": 19
+  },
+  {
+    "id": "legacy-food-39",
+    "name": "Taco Bell Doritos Locos Taco",
+    "calories": 170,
+    "protein": 8,
+    "carbs": 13,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-40",
+    "name": "Taco Bell Mexican Pizza",
+    "calories": 540,
+    "protein": 20,
+    "carbs": 46,
+    "fat": 31
+  },
+  {
+    "id": "legacy-food-41",
+    "name": "Pizza Hut Pepperoni Pizza (1 slice)",
+    "calories": 270,
+    "protein": 12,
+    "carbs": 30,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-42",
+    "name": "Pizza Hut Cheese Pizza (1 slice)",
+    "calories": 220,
+    "protein": 10,
+    "carbs": 28,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-43",
+    "name": "Dominos Pepperoni Pizza (1 slice)",
+    "calories": 200,
+    "protein": 9,
+    "carbs": 24,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-44",
+    "name": "DiGiorno Pepperoni Pizza (1 slice)",
+    "calories": 310,
+    "protein": 14,
+    "carbs": 36,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-45",
+    "name": "Chicken Fried Rice (1 cup)",
+    "calories": 330,
+    "protein": 14,
+    "carbs": 55,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-46",
+    "name": "General Tso's Chicken (1 cup)",
+    "calories": 430,
+    "protein": 24,
+    "carbs": 50,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-47",
+    "name": "Beef and Broccoli (1 cup)",
+    "calories": 280,
+    "protein": 20,
+    "carbs": 15,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-48",
+    "name": "Egg Roll (1 piece)",
+    "calories": 220,
+    "protein": 6,
+    "carbs": 24,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-49",
+    "name": "Fried Rice with Shrimp (1 cup)",
+    "calories": 320,
+    "protein": 16,
+    "carbs": 50,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-50",
+    "name": "Lo Mein (1 cup)",
+    "calories": 310,
+    "protein": 12,
+    "carbs": 40,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-51",
+    "name": "Wonton Soup (1 cup)",
+    "calories": 70,
+    "protein": 5,
+    "carbs": 8,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-52",
+    "name": "Spaghetti with Meat Sauce (1 cup)",
+    "calories": 330,
+    "protein": 18,
+    "carbs": 42,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-53",
+    "name": "Fettuccine Alfredo (1 cup)",
+    "calories": 450,
+    "protein": 14,
+    "carbs": 45,
+    "fat": 25
+  },
+  {
+    "id": "legacy-food-54",
+    "name": "Lasagna (1 piece)",
+    "calories": 360,
+    "protein": 20,
+    "carbs": 35,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-55",
+    "name": "Chicken Parmesan",
+    "calories": 500,
+    "protein": 45,
+    "carbs": 25,
+    "fat": 24
+  },
+  {
+    "id": "legacy-food-56",
+    "name": "Meatballs in Sauce (3 large)",
+    "calories": 360,
+    "protein": 22,
+    "carbs": 18,
+    "fat": 22
+  },
+  {
+    "id": "legacy-food-57",
+    "name": "Cheese Ravioli (1 cup)",
+    "calories": 290,
+    "protein": 13,
+    "carbs": 39,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-58",
+    "name": "Chicken Breast (4oz cooked)",
+    "calories": 185,
+    "protein": 35,
+    "carbs": 0,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-59",
+    "name": "Chicken Thigh (4oz cooked)",
+    "calories": 210,
+    "protein": 28,
+    "carbs": 0,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-60",
+    "name": "Ground Beef 80/20 (4oz cooked)",
+    "calories": 310,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 25
+  },
+  {
+    "id": "legacy-food-61",
+    "name": "Ground Beef 90/10 (4oz cooked)",
+    "calories": 200,
+    "protein": 24,
+    "carbs": 0,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-62",
+    "name": "Salmon (4oz cooked)",
+    "calories": 235,
+    "protein": 25,
+    "carbs": 0,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-63",
+    "name": "Tuna (canned in water, 3oz)",
+    "calories": 100,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-64",
+    "name": "Tilapia (4oz cooked)",
+    "calories": 145,
+    "protein": 30,
+    "carbs": 0,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-65",
+    "name": "Shrimp (4oz cooked)",
+    "calories": 120,
+    "protein": 23,
+    "carbs": 2,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-66",
+    "name": "Steak Sirloin (4oz cooked)",
+    "calories": 230,
+    "protein": 28,
+    "carbs": 0,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-67",
+    "name": "Pork Tenderloin (4oz cooked)",
+    "calories": 185,
+    "protein": 28,
+    "carbs": 0,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-68",
+    "name": "Turkey Breast (4oz cooked)",
+    "calories": 175,
+    "protein": 34,
+    "carbs": 0,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-69",
+    "name": "Lamb Chop (4oz cooked)",
+    "calories": 280,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 19
+  },
+  {
+    "id": "legacy-food-70",
+    "name": "Bacon (3 strips)",
+    "calories": 130,
+    "protein": 9,
+    "carbs": 0,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-71",
+    "name": "Ham (3oz)",
+    "calories": 130,
+    "protein": 17,
+    "carbs": 3,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-72",
+    "name": "Deli Turkey (2oz)",
+    "calories": 50,
+    "protein": 10,
+    "carbs": 1,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-73",
+    "name": "Hot Dog (1 beef)",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 2,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-74",
+    "name": "Sausage Link (2 links)",
+    "calories": 170,
+    "protein": 8,
+    "carbs": 1,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-75",
+    "name": "Egg (1 large)",
+    "calories": 70,
+    "protein": 6,
+    "carbs": 0,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-76",
+    "name": "Egg White (1 large)",
+    "calories": 17,
+    "protein": 4,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-77",
+    "name": "Whole Milk (1 cup)",
+    "calories": 150,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-78",
+    "name": "2% Milk (1 cup)",
+    "calories": 120,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-79",
+    "name": "Skim Milk (1 cup)",
+    "calories": 80,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-80",
+    "name": "Greek Yogurt Plain (1 cup)",
+    "calories": 170,
+    "protein": 17,
+    "carbs": 9,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-81",
+    "name": "Greek Yogurt Non-fat (1 cup)",
+    "calories": 130,
+    "protein": 22,
+    "carbs": 9,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-82",
+    "name": "Regular Yogurt (1 cup)",
+    "calories": 150,
+    "protein": 8,
+    "carbs": 17,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-83",
+    "name": "Cottage Cheese (1 cup)",
+    "calories": 220,
+    "protein": 25,
+    "carbs": 8,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-84",
+    "name": "Cheddar Cheese (1oz)",
+    "calories": 115,
+    "protein": 7,
+    "carbs": 0,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-85",
+    "name": "Mozzarella (1oz)",
+    "calories": 85,
+    "protein": 6,
+    "carbs": 1,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-86",
+    "name": "Parmesan (1oz)",
+    "calories": 110,
+    "protein": 10,
+    "carbs": 1,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-87",
+    "name": "American Cheese (1 slice)",
+    "calories": 65,
+    "protein": 4,
+    "carbs": 1,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-88",
+    "name": "Butter (1 tbsp)",
+    "calories": 100,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-89",
+    "name": "Cream Cheese (2 tbsp)",
+    "calories": 100,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-90",
+    "name": "Sour Cream (2 tbsp)",
+    "calories": 60,
+    "protein": 1,
+    "carbs": 2,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-91",
+    "name": "Whey Protein Shake (1 scoop)",
+    "calories": 120,
+    "protein": 24,
+    "carbs": 4,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-92",
+    "name": "Casein Protein (1 scoop)",
+    "calories": 120,
+    "protein": 24,
+    "carbs": 4,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-93",
+    "name": "Premier Protein Shake",
+    "calories": 160,
+    "protein": 30,
+    "carbs": 5,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-94",
+    "name": "Fit Crunch Protein Bar",
+    "calories": 190,
+    "protein": 16,
+    "carbs": 24,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-95",
+    "name": "Quest Bar",
+    "calories": 200,
+    "protein": 20,
+    "carbs": 21,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-96",
+    "name": "Clif Bar",
+    "calories": 240,
+    "protein": 10,
+    "carbs": 44,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-97",
+    "name": "Kind Bar",
+    "calories": 200,
+    "protein": 6,
+    "carbs": 20,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-98",
+    "name": "Muscle Milk (1 bottle)",
+    "calories": 160,
+    "protein": 25,
+    "carbs": 7,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-99",
+    "name": "White Rice (1 cup cooked)",
+    "calories": 200,
+    "protein": 4,
+    "carbs": 45,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-100",
+    "name": "Brown Rice (1 cup cooked)",
+    "calories": 215,
+    "protein": 5,
+    "carbs": 45,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-101",
+    "name": "Oatmeal (1 cup cooked)",
+    "calories": 165,
+    "protein": 6,
+    "carbs": 28,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-102",
+    "name": "Instant Oatmeal (1 packet)",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 24,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-103",
+    "name": "White Bread (1 slice)",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 15,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-104",
+    "name": "Whole Wheat Bread (1 slice)",
+    "calories": 90,
+    "protein": 4,
+    "carbs": 15,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-105",
+    "name": "Bagel (1 plain)",
+    "calories": 270,
+    "protein": 11,
+    "carbs": 53,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-106",
+    "name": "English Muffin (1)",
+    "calories": 135,
+    "protein": 5,
+    "carbs": 26,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-107",
+    "name": "Tortilla Flour (1 medium)",
+    "calories": 150,
+    "protein": 4,
+    "carbs": 27,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-108",
+    "name": "Tortilla Corn (1 small)",
+    "calories": 55,
+    "protein": 1,
+    "carbs": 12,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-109",
+    "name": "Pasta (1 cup cooked)",
+    "calories": 220,
+    "protein": 8,
+    "carbs": 43,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-110",
+    "name": "Quinoa (1 cup cooked)",
+    "calories": 220,
+    "protein": 8,
+    "carbs": 39,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-111",
+    "name": "Granola (1/2 cup)",
+    "calories": 300,
+    "protein": 7,
+    "carbs": 48,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-112",
+    "name": "Corn (1 cup)",
+    "calories": 130,
+    "protein": 5,
+    "carbs": 27,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-113",
+    "name": "Potato Baked (medium)",
+    "calories": 160,
+    "protein": 4,
+    "carbs": 37,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-114",
+    "name": "Sweet Potato (medium)",
+    "calories": 105,
+    "protein": 2,
+    "carbs": 24,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-115",
+    "name": "Apple (medium)",
+    "calories": 95,
+    "protein": 0,
+    "carbs": 25,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-116",
+    "name": "Banana (medium)",
+    "calories": 105,
+    "protein": 1,
+    "carbs": 27,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-117",
+    "name": "Orange (medium)",
+    "calories": 62,
+    "protein": 1,
+    "carbs": 15,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-118",
+    "name": "Strawberries (1 cup)",
+    "calories": 50,
+    "protein": 1,
+    "carbs": 12,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-119",
+    "name": "Blueberries (1 cup)",
+    "calories": 85,
+    "protein": 1,
+    "carbs": 21,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-120",
+    "name": "Grapes (1 cup)",
+    "calories": 100,
+    "protein": 1,
+    "carbs": 27,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-121",
+    "name": "Mango (1 cup)",
+    "calories": 100,
+    "protein": 1,
+    "carbs": 25,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-122",
+    "name": "Pineapple (1 cup)",
+    "calories": 80,
+    "protein": 1,
+    "carbs": 22,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-123",
+    "name": "Watermelon (2 cups)",
+    "calories": 90,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-124",
+    "name": "Peach (medium)",
+    "calories": 60,
+    "protein": 1,
+    "carbs": 14,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-125",
+    "name": "Avocado (half)",
+    "calories": 120,
+    "protein": 2,
+    "carbs": 6,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-126",
+    "name": "Broccoli (1 cup cooked)",
+    "calories": 55,
+    "protein": 4,
+    "carbs": 11,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-127",
+    "name": "Spinach (1 cup raw)",
+    "calories": 7,
+    "protein": 1,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-128",
+    "name": "Spinach (1 cup cooked)",
+    "calories": 40,
+    "protein": 5,
+    "carbs": 7,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-129",
+    "name": "Kale (1 cup raw)",
+    "calories": 35,
+    "protein": 2,
+    "carbs": 7,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-130",
+    "name": "Green Beans (1 cup cooked)",
+    "calories": 45,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-131",
+    "name": "Asparagus (1 cup cooked)",
+    "calories": 40,
+    "protein": 4,
+    "carbs": 8,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-132",
+    "name": "Zucchini (1 cup cooked)",
+    "calories": 30,
+    "protein": 2,
+    "carbs": 6,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-133",
+    "name": "Bell Pepper (1 cup raw)",
+    "calories": 25,
+    "protein": 1,
+    "carbs": 6,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-134",
+    "name": "Cucumber (1 cup sliced)",
+    "calories": 15,
+    "protein": 1,
+    "carbs": 3,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-135",
+    "name": "Celery (1 cup chopped)",
+    "calories": 15,
+    "protein": 1,
+    "carbs": 3,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-136",
+    "name": "Tomato (medium)",
+    "calories": 25,
+    "protein": 1,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-137",
+    "name": "Lettuce Romaine (1 cup)",
+    "calories": 8,
+    "protein": 1,
+    "carbs": 2,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-138",
+    "name": "Carrots (1 cup raw)",
+    "calories": 50,
+    "protein": 1,
+    "carbs": 12,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-139",
+    "name": "Mushrooms (1 cup)",
+    "calories": 15,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-140",
+    "name": "Cauliflower (1 cup cooked)",
+    "calories": 25,
+    "protein": 2,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-141",
+    "name": "Brussels Sprouts (1 cup cooked)",
+    "calories": 60,
+    "protein": 4,
+    "carbs": 12,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-142",
+    "name": "Edamame (1 cup)",
+    "calories": 190,
+    "protein": 17,
+    "carbs": 15,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-143",
+    "name": "Black Beans (1 cup cooked)",
+    "calories": 225,
+    "protein": 15,
+    "carbs": 41,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-144",
+    "name": "Chickpeas (1 cup cooked)",
+    "calories": 270,
+    "protein": 15,
+    "carbs": 45,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-145",
+    "name": "Lentils (1 cup cooked)",
+    "calories": 230,
+    "protein": 18,
+    "carbs": 40,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-146",
+    "name": "Kidney Beans (1 cup cooked)",
+    "calories": 215,
+    "protein": 13,
+    "carbs": 39,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-147",
+    "name": "Pinto Beans (1 cup cooked)",
+    "calories": 245,
+    "protein": 15,
+    "carbs": 45,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-148",
+    "name": "Tofu Firm (4oz)",
+    "calories": 90,
+    "protein": 10,
+    "carbs": 2,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-149",
+    "name": "Tempeh (4oz)",
+    "calories": 220,
+    "protein": 21,
+    "carbs": 10,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-150",
+    "name": "Almonds (1oz/23 nuts)",
+    "calories": 165,
+    "protein": 6,
+    "carbs": 6,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-151",
+    "name": "Walnuts (1oz)",
+    "calories": 185,
+    "protein": 4,
+    "carbs": 4,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-152",
+    "name": "Peanuts (1oz)",
+    "calories": 160,
+    "protein": 7,
+    "carbs": 5,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-153",
+    "name": "Cashews (1oz)",
+    "calories": 157,
+    "protein": 5,
+    "carbs": 9,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-154",
+    "name": "Peanut Butter (2 tbsp)",
+    "calories": 190,
+    "protein": 8,
+    "carbs": 6,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-155",
+    "name": "Almond Butter (2 tbsp)",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 6,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-156",
+    "name": "Chia Seeds (1 tbsp)",
+    "calories": 60,
+    "protein": 2,
+    "carbs": 5,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-157",
+    "name": "Flax Seeds (1 tbsp)",
+    "calories": 37,
+    "protein": 1,
+    "carbs": 2,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-158",
+    "name": "Olive Oil (1 tbsp)",
+    "calories": 120,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-159",
+    "name": "Coconut Oil (1 tbsp)",
+    "calories": 120,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-160",
+    "name": "Mayo (1 tbsp)",
+    "calories": 90,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-161",
+    "name": "Ketchup (1 tbsp)",
+    "calories": 20,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-162",
+    "name": "BBQ Sauce (2 tbsp)",
+    "calories": 60,
+    "protein": 0,
+    "carbs": 14,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-163",
+    "name": "Ranch Dressing (2 tbsp)",
+    "calories": 140,
+    "protein": 1,
+    "carbs": 2,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-164",
+    "name": "Italian Dressing (2 tbsp)",
+    "calories": 80,
+    "protein": 0,
+    "carbs": 3,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-165",
+    "name": "Soy Sauce (1 tbsp)",
+    "calories": 10,
+    "protein": 1,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-166",
+    "name": "Hot Sauce (1 tsp)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-167",
+    "name": "Mustard (1 tsp)",
+    "calories": 5,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-168",
+    "name": "Honey (1 tbsp)",
+    "calories": 60,
+    "protein": 0,
+    "carbs": 17,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-169",
+    "name": "Maple Syrup (1 tbsp)",
+    "calories": 50,
+    "protein": 0,
+    "carbs": 13,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-170",
+    "name": "Orange Juice (8oz)",
+    "calories": 110,
+    "protein": 2,
+    "carbs": 26,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-171",
+    "name": "Apple Juice (8oz)",
+    "calories": 120,
+    "protein": 0,
+    "carbs": 30,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-172",
+    "name": "Whole Milk (8oz)",
+    "calories": 150,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-173",
+    "name": "Coffee Black (8oz)",
+    "calories": 2,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-174",
+    "name": "Coffee with Cream (8oz)",
+    "calories": 30,
+    "protein": 1,
+    "carbs": 1,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-175",
+    "name": "Latte (12oz)",
+    "calories": 190,
+    "protein": 10,
+    "carbs": 22,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-176",
+    "name": "Coca-Cola (12oz)",
+    "calories": 140,
+    "protein": 0,
+    "carbs": 39,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-177",
+    "name": "Diet Coke (12oz)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-178",
+    "name": "Gatorade (12oz)",
+    "calories": 80,
+    "protein": 0,
+    "carbs": 21,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-179",
+    "name": "Protein Shake Homemade (16oz)",
+    "calories": 280,
+    "protein": 30,
+    "carbs": 20,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-180",
+    "name": "Red Wine (5oz)",
+    "calories": 125,
+    "protein": 0,
+    "carbs": 4,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-181",
+    "name": "Beer Regular (12oz)",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 13,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-182",
+    "name": "Beer Light (12oz)",
+    "calories": 100,
+    "protein": 1,
+    "carbs": 6,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-183",
+    "name": "Pancakes (2 medium)",
+    "calories": 180,
+    "protein": 4,
+    "carbs": 28,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-184",
+    "name": "Waffles (1 large)",
+    "calories": 220,
+    "protein": 6,
+    "carbs": 25,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-185",
+    "name": "French Toast (1 slice)",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 18,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-186",
+    "name": "Cereal Corn Flakes (1 cup)",
+    "calories": 100,
+    "protein": 2,
+    "carbs": 24,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-187",
+    "name": "Cereal Cheerios (1 cup)",
+    "calories": 100,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-188",
+    "name": "Granola with Milk (1 cup)",
+    "calories": 350,
+    "protein": 10,
+    "carbs": 55,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-189",
+    "name": "Scrambled Eggs (2 eggs)",
+    "calories": 180,
+    "protein": 12,
+    "carbs": 2,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-190",
+    "name": "Omelette with Cheese (2 eggs)",
+    "calories": 250,
+    "protein": 18,
+    "carbs": 2,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-191",
+    "name": "Bagel with Cream Cheese",
+    "calories": 370,
+    "protein": 13,
+    "carbs": 55,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-192",
+    "name": "Toast with Peanut Butter",
+    "calories": 300,
+    "protein": 11,
+    "carbs": 34,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-193",
+    "name": "Acai Bowl",
+    "calories": 350,
+    "protein": 6,
+    "carbs": 60,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-194",
+    "name": "Smoothie Green (16oz)",
+    "calories": 200,
+    "protein": 5,
+    "carbs": 40,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-195",
+    "name": "Smoothie Berry (16oz)",
+    "calories": 220,
+    "protein": 4,
+    "carbs": 45,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-196",
+    "name": "Caesar Salad (2 cups)",
+    "calories": 350,
+    "protein": 8,
+    "carbs": 20,
+    "fat": 28
+  },
+  {
+    "id": "legacy-food-197",
+    "name": "Garden Salad (2 cups)",
+    "calories": 50,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-198",
+    "name": "Greek Salad (2 cups)",
+    "calories": 220,
+    "protein": 5,
+    "carbs": 15,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-199",
+    "name": "Chicken Caesar Salad",
+    "calories": 430,
+    "protein": 35,
+    "carbs": 20,
+    "fat": 26
+  },
+  {
+    "id": "legacy-food-200",
+    "name": "Cobb Salad",
+    "calories": 500,
+    "protein": 35,
+    "carbs": 12,
+    "fat": 36
+  },
+  {
+    "id": "legacy-food-201",
+    "name": "Tomato Soup (1 cup)",
+    "calories": 85,
+    "protein": 2,
+    "carbs": 17,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-202",
+    "name": "Chicken Noodle Soup (1 cup)",
+    "calories": 75,
+    "protein": 4,
+    "carbs": 9,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-203",
+    "name": "Minestrone (1 cup)",
+    "calories": 100,
+    "protein": 5,
+    "carbs": 14,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-204",
+    "name": "Chili with Beans (1 cup)",
+    "calories": 290,
+    "protein": 20,
+    "carbs": 30,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-205",
+    "name": "Clam Chowder (1 cup)",
+    "calories": 190,
+    "protein": 10,
+    "carbs": 18,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-206",
+    "name": "Potato Chips (1oz)",
+    "calories": 155,
+    "protein": 2,
+    "carbs": 15,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-207",
+    "name": "Pretzels (1oz)",
+    "calories": 110,
+    "protein": 3,
+    "carbs": 23,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-208",
+    "name": "Popcorn (3 cups)",
+    "calories": 90,
+    "protein": 3,
+    "carbs": 18,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-209",
+    "name": "Rice Cakes (2 plain)",
+    "calories": 70,
+    "protein": 1,
+    "carbs": 15,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-210",
+    "name": "Crackers Graham (2)",
+    "calories": 60,
+    "protein": 1,
+    "carbs": 11,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-211",
+    "name": "Crackers Wheat Thin (16)",
+    "calories": 140,
+    "protein": 2,
+    "carbs": 21,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-212",
+    "name": "Dark Chocolate (1oz)",
+    "calories": 170,
+    "protein": 2,
+    "carbs": 13,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-213",
+    "name": "Milk Chocolate (1oz)",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 17,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-214",
+    "name": "Protein Chips (1oz)",
+    "calories": 130,
+    "protein": 14,
+    "carbs": 8,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-215",
+    "name": "Beef Jerky (1oz)",
+    "calories": 80,
+    "protein": 13,
+    "carbs": 4,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-216",
+    "name": "String Cheese (1 stick)",
+    "calories": 80,
+    "protein": 6,
+    "carbs": 0,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-217",
+    "name": "Hard Boiled Egg",
+    "calories": 70,
+    "protein": 6,
+    "carbs": 1,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-218",
+    "name": "Hummus (2 tbsp)",
+    "calories": 50,
+    "protein": 2,
+    "carbs": 4,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-219",
+    "name": "Guacamole (2 tbsp)",
+    "calories": 45,
+    "protein": 0,
+    "carbs": 2,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-220",
+    "name": "Edamame (1/2 cup)",
+    "calories": 95,
+    "protein": 8,
+    "carbs": 7,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-221",
+    "name": "Grilled Chicken and Rice",
+    "calories": 420,
+    "protein": 42,
+    "carbs": 45,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-222",
+    "name": "Chicken and Broccoli",
+    "calories": 290,
+    "protein": 40,
+    "carbs": 12,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-223",
+    "name": "Steak and Potato",
+    "calories": 450,
+    "protein": 35,
+    "carbs": 37,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-224",
+    "name": "Salmon and Asparagus",
+    "calories": 320,
+    "protein": 32,
+    "carbs": 8,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-225",
+    "name": "Turkey and Sweet Potato",
+    "calories": 340,
+    "protein": 35,
+    "carbs": 35,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-226",
+    "name": "Shrimp Stir Fry (1 cup)",
+    "calories": 220,
+    "protein": 22,
+    "carbs": 15,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-227",
+    "name": "Burrito Bowl (chicken)",
+    "calories": 540,
+    "protein": 38,
+    "carbs": 65,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-228",
+    "name": "Buddha Bowl",
+    "calories": 450,
+    "protein": 18,
+    "carbs": 55,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-229",
+    "name": "Meal Prep Box (chicken rice veg)",
+    "calories": 480,
+    "protein": 40,
+    "carbs": 50,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-230",
+    "name": "Overnight Oats (1 cup)",
+    "calories": 350,
+    "protein": 14,
+    "carbs": 55,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-231",
+    "name": "Chipotle Burrito (chicken)",
+    "calories": 870,
+    "protein": 51,
+    "carbs": 96,
+    "fat": 27
+  },
+  {
+    "id": "legacy-food-232",
+    "name": "Chipotle Bowl (chicken no rice)",
+    "calories": 490,
+    "protein": 42,
+    "carbs": 40,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-233",
+    "name": "Panda Express Orange Chicken (1 serving)",
+    "calories": 380,
+    "protein": 15,
+    "carbs": 43,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-234",
+    "name": "Panda Express Broccoli Beef",
+    "calories": 130,
+    "protein": 9,
+    "carbs": 13,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-235",
+    "name": "Olive Garden Chicken Alfredo",
+    "calories": 1080,
+    "protein": 45,
+    "carbs": 96,
+    "fat": 53
+  },
+  {
+    "id": "legacy-food-236",
+    "name": "Applebee's Grilled Chicken",
+    "calories": 430,
+    "protein": 50,
+    "carbs": 30,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-237",
+    "name": "Cheesecake Factory Pasta Carbonara",
+    "calories": 1190,
+    "protein": 44,
+    "carbs": 114,
+    "fat": 62
+  },
+  {
+    "id": "legacy-food-238",
+    "name": "Cheesecake (1 slice)",
+    "calories": 400,
+    "protein": 6,
+    "carbs": 36,
+    "fat": 26
+  },
+  {
+    "id": "legacy-food-239",
+    "name": "Ice Cream Vanilla (1/2 cup)",
+    "calories": 140,
+    "protein": 2,
+    "carbs": 17,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-240",
+    "name": "Chocolate Ice Cream (1/2 cup)",
+    "calories": 145,
+    "protein": 3,
+    "carbs": 19,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-241",
+    "name": "Cookie Chocolate Chip (1 large)",
+    "calories": 220,
+    "protein": 2,
+    "carbs": 30,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-242",
+    "name": "Brownie (1 square)",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 27,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-243",
+    "name": "Donut Glazed (1)",
+    "calories": 260,
+    "protein": 3,
+    "carbs": 31,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-244",
+    "name": "Muffin Blueberry (1 large)",
+    "calories": 470,
+    "protein": 6,
+    "carbs": 72,
+    "fat": 17
+  },
+  {
+    "id": "legacy-food-245",
+    "name": "Banana Bread (1 slice)",
+    "calories": 200,
+    "protein": 3,
+    "carbs": 33,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-246",
+    "name": "Starbucks Latte (Venti, 2% milk)",
+    "calories": 250,
+    "protein": 13,
+    "carbs": 30,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-247",
+    "name": "Starbucks Frappuccino (Venti)",
+    "calories": 440,
+    "protein": 5,
+    "carbs": 71,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-248",
+    "name": "Starbucks Cappuccino (Grande)",
+    "calories": 120,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-249",
+    "name": "Starbucks Cold Brew (Grande)",
+    "calories": 5,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-250",
+    "name": "Starbucks Egg Bites (2)",
+    "calories": 300,
+    "protein": 19,
+    "carbs": 13,
+    "fat": 19
+  },
+  {
+    "id": "legacy-food-251",
+    "name": "Starbucks Sandwich Turkey",
+    "calories": 230,
+    "protein": 13,
+    "carbs": 30,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-252",
+    "name": "Quest Bar Chocolate Chip Cookie Dough",
+    "calories": 190,
+    "protein": 21,
+    "carbs": 22,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-253",
+    "name": "Quest Bar Double Chocolate Chunk",
+    "calories": 180,
+    "protein": 20,
+    "carbs": 22,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-254",
+    "name": "Quest Bar Cookies and Cream",
+    "calories": 180,
+    "protein": 21,
+    "carbs": 22,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-255",
+    "name": "Quest Bar Peanut Butter",
+    "calories": 210,
+    "protein": 21,
+    "carbs": 21,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-256",
+    "name": "Quest Bar Birthday Cake",
+    "calories": 190,
+    "protein": 21,
+    "carbs": 23,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-257",
+    "name": "Quest Bar Blueberry Muffin",
+    "calories": 190,
+    "protein": 20,
+    "carbs": 22,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-258",
+    "name": "Quest Bar S'mores",
+    "calories": 180,
+    "protein": 20,
+    "carbs": 25,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-259",
+    "name": "Quest Bar White Chocolate Raspberry",
+    "calories": 200,
+    "protein": 21,
+    "carbs": 24,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-260",
+    "name": "RX Bar Chocolate Sea Salt",
+    "calories": 210,
+    "protein": 12,
+    "carbs": 24,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-261",
+    "name": "RX Bar Blueberry",
+    "calories": 210,
+    "protein": 12,
+    "carbs": 24,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-262",
+    "name": "RX Bar Peanut Butter",
+    "calories": 210,
+    "protein": 12,
+    "carbs": 24,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-263",
+    "name": "RX Bar Coconut Chocolate",
+    "calories": 210,
+    "protein": 12,
+    "carbs": 24,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-264",
+    "name": "KIND Bar Dark Chocolate Nuts & Sea Salt",
+    "calories": 200,
+    "protein": 6,
+    "carbs": 20,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-265",
+    "name": "KIND Bar Peanut Butter Dark Chocolate",
+    "calories": 200,
+    "protein": 7,
+    "carbs": 18,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-266",
+    "name": "KIND Bar Almond & Coconut",
+    "calories": 200,
+    "protein": 4,
+    "carbs": 18,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-267",
+    "name": "KIND Bar Oats & Honey",
+    "calories": 200,
+    "protein": 7,
+    "carbs": 29,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-268",
+    "name": "Clif Bar Chocolate Chip",
+    "calories": 240,
+    "protein": 10,
+    "carbs": 44,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-269",
+    "name": "Clif Bar White Chocolate Macadamia",
+    "calories": 240,
+    "protein": 10,
+    "carbs": 43,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-270",
+    "name": "Clif Bar Peanut Butter",
+    "calories": 240,
+    "protein": 11,
+    "carbs": 42,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-271",
+    "name": "Clif Bar Blueberry Crisp",
+    "calories": 240,
+    "protein": 10,
+    "carbs": 44,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-272",
+    "name": "Clif Builder Bar Chocolate",
+    "calories": 280,
+    "protein": 20,
+    "carbs": 30,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-273",
+    "name": "Clif Builder Bar Peanut Butter",
+    "calories": 290,
+    "protein": 20,
+    "carbs": 30,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-274",
+    "name": "Premier Protein Shake Chocolate",
+    "calories": 160,
+    "protein": 30,
+    "carbs": 5,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-275",
+    "name": "Premier Protein Shake Vanilla",
+    "calories": 160,
+    "protein": 30,
+    "carbs": 5,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-276",
+    "name": "Premier Protein Shake Caramel",
+    "calories": 160,
+    "protein": 30,
+    "carbs": 6,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-277",
+    "name": "Premier Protein Shake Strawberries & Cream",
+    "calories": 160,
+    "protein": 30,
+    "carbs": 6,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-278",
+    "name": "Premier Protein Shake Cookies & Cream",
+    "calories": 160,
+    "protein": 30,
+    "carbs": 6,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-279",
+    "name": "Premier Protein Shake Banana",
+    "calories": 160,
+    "protein": 30,
+    "carbs": 6,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-280",
+    "name": "Premier Protein Shake Peaches & Cream",
+    "calories": 160,
+    "protein": 30,
+    "carbs": 6,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-281",
+    "name": "Muscle Milk Genuine Chocolate",
+    "calories": 160,
+    "protein": 25,
+    "carbs": 7,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-282",
+    "name": "Muscle Milk Genuine Vanilla",
+    "calories": 160,
+    "protein": 25,
+    "carbs": 7,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-283",
+    "name": "Muscle Milk Pro Series 40g Protein",
+    "calories": 280,
+    "protein": 40,
+    "carbs": 8,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-284",
+    "name": "Ensure Original Chocolate",
+    "calories": 250,
+    "protein": 9,
+    "carbs": 40,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-285",
+    "name": "Ensure Plus Vanilla",
+    "calories": 350,
+    "protein": 13,
+    "carbs": 44,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-286",
+    "name": "Ensure High Protein Chocolate",
+    "calories": 160,
+    "protein": 16,
+    "carbs": 22,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-287",
+    "name": "Boost High Protein Vanilla",
+    "calories": 240,
+    "protein": 20,
+    "carbs": 33,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-288",
+    "name": "Orgain Organic Protein Shake Chocolate",
+    "calories": 255,
+    "protein": 26,
+    "carbs": 24,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-289",
+    "name": "Core Power Elite 42g Chocolate",
+    "calories": 230,
+    "protein": 42,
+    "carbs": 13,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-290",
+    "name": "Fairlife Nutrition Plan Chocolate",
+    "calories": 150,
+    "protein": 30,
+    "carbs": 7,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-291",
+    "name": "Fit Crunch Protein Bar Chocolate Peanut Butter",
+    "calories": 190,
+    "protein": 16,
+    "carbs": 24,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-292",
+    "name": "Fit Crunch Protein Bar Chocolate Chip",
+    "calories": 190,
+    "protein": 16,
+    "carbs": 24,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-293",
+    "name": "One Bar Birthday Cake",
+    "calories": 220,
+    "protein": 20,
+    "carbs": 23,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-294",
+    "name": "One Bar Chocolate Brownie",
+    "calories": 220,
+    "protein": 20,
+    "carbs": 22,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-295",
+    "name": "One Bar Peanut Butter Pie",
+    "calories": 220,
+    "protein": 20,
+    "carbs": 22,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-296",
+    "name": "Built Bar Chocolate Mint",
+    "calories": 130,
+    "protein": 17,
+    "carbs": 14,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-297",
+    "name": "Built Bar Coconut",
+    "calories": 130,
+    "protein": 17,
+    "carbs": 14,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-298",
+    "name": "Nature Valley Protein Bar Dark Chocolate Peanut Butter",
+    "calories": 190,
+    "protein": 10,
+    "carbs": 19,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-299",
+    "name": "Nature Valley Crunchy Oats & Honey (2 bars)",
+    "calories": 190,
+    "protein": 4,
+    "carbs": 28,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-300",
+    "name": "Nature Valley Sweet & Salty Peanut",
+    "calories": 190,
+    "protein": 6,
+    "carbs": 24,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-301",
+    "name": "Larabar Peanut Butter Chocolate Chip",
+    "calories": 230,
+    "protein": 6,
+    "carbs": 27,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-302",
+    "name": "Larabar Apple Pie",
+    "calories": 200,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-303",
+    "name": "Perfect Bar Dark Chocolate Chip",
+    "calories": 320,
+    "protein": 15,
+    "carbs": 26,
+    "fat": 17
+  },
+  {
+    "id": "legacy-food-304",
+    "name": "Kellogg's Special K Original",
+    "calories": 120,
+    "protein": 6,
+    "carbs": 23,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-305",
+    "name": "Kellogg's Special K Protein",
+    "calories": 180,
+    "protein": 15,
+    "carbs": 31,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-306",
+    "name": "Kellogg's Frosted Flakes",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 36,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-307",
+    "name": "Kellogg's Corn Flakes",
+    "calories": 100,
+    "protein": 2,
+    "carbs": 24,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-308",
+    "name": "Kellogg's Raisin Bran",
+    "calories": 190,
+    "protein": 5,
+    "carbs": 46,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-309",
+    "name": "Kellogg's Froot Loops",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 34,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-310",
+    "name": "Kellogg's Rice Krispies",
+    "calories": 130,
+    "protein": 2,
+    "carbs": 29,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-311",
+    "name": "Kellogg's Eggo Waffles (2)",
+    "calories": 190,
+    "protein": 4,
+    "carbs": 30,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-312",
+    "name": "General Mills Cheerios",
+    "calories": 100,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-313",
+    "name": "General Mills Honey Nut Cheerios",
+    "calories": 150,
+    "protein": 3,
+    "carbs": 33,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-314",
+    "name": "General Mills Lucky Charms",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 32,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-315",
+    "name": "General Mills Cinnamon Toast Crunch",
+    "calories": 170,
+    "protein": 2,
+    "carbs": 33,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-316",
+    "name": "General Mills Cocoa Puffs",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 34,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-317",
+    "name": "General Mills Total Whole Grain",
+    "calories": 150,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-318",
+    "name": "Quaker Oats Old Fashioned (1/2 cup dry)",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 27,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-319",
+    "name": "Quaker Instant Oatmeal Maple Brown Sugar",
+    "calories": 160,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-320",
+    "name": "Quaker Instant Oatmeal Original",
+    "calories": 100,
+    "protein": 4,
+    "carbs": 19,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-321",
+    "name": "Quaker Chewy Granola Bar Chocolate Chip",
+    "calories": 100,
+    "protein": 1,
+    "carbs": 18,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-322",
+    "name": "Post Honey Bunches of Oats",
+    "calories": 160,
+    "protein": 3,
+    "carbs": 33,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-323",
+    "name": "Post Grape Nuts",
+    "calories": 200,
+    "protein": 7,
+    "carbs": 47,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-324",
+    "name": "Quaker Life Cereal",
+    "calories": 120,
+    "protein": 3,
+    "carbs": 25,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-325",
+    "name": "Dave's Killer Bread 21 Whole Grains (1 slice)",
+    "calories": 110,
+    "protein": 5,
+    "carbs": 22,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-326",
+    "name": "Dave's Killer Bread Good Seed (1 slice)",
+    "calories": 100,
+    "protein": 4,
+    "carbs": 18,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-327",
+    "name": "Sara Lee Classic White Bread (1 slice)",
+    "calories": 70,
+    "protein": 2,
+    "carbs": 14,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-328",
+    "name": "Pepperidge Farm Farmhouse Sourdough (1 slice)",
+    "calories": 120,
+    "protein": 4,
+    "carbs": 23,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-329",
+    "name": "Nature's Own 100% Whole Wheat (1 slice)",
+    "calories": 80,
+    "protein": 4,
+    "carbs": 14,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-330",
+    "name": "Oroweat Whole Wheat (1 slice)",
+    "calories": 90,
+    "protein": 4,
+    "carbs": 16,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-331",
+    "name": "Thomas' English Muffin Original",
+    "calories": 135,
+    "protein": 5,
+    "carbs": 26,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-332",
+    "name": "Thomas' Everything Bagel",
+    "calories": 270,
+    "protein": 10,
+    "carbs": 54,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-333",
+    "name": "Trader Joe's Sprouted Bread (1 slice)",
+    "calories": 80,
+    "protein": 4,
+    "carbs": 15,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-334",
+    "name": "Mission Flour Tortilla Soft Taco (1)",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 24,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-335",
+    "name": "Old El Paso Flour Tortilla (1)",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 24,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-336",
+    "name": "La Tortilla Factory Low-Carb Tortilla",
+    "calories": 60,
+    "protein": 7,
+    "carbs": 13,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-337",
+    "name": "Amy's Organic Mac & Cheese",
+    "calories": 400,
+    "protein": 16,
+    "carbs": 48,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-338",
+    "name": "Amy's Veggie Burrito",
+    "calories": 300,
+    "protein": 9,
+    "carbs": 50,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-339",
+    "name": "Stouffer's Lasagna with Meat Sauce",
+    "calories": 370,
+    "protein": 20,
+    "carbs": 39,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-340",
+    "name": "Stouffer's Mac & Cheese",
+    "calories": 360,
+    "protein": 14,
+    "carbs": 43,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-341",
+    "name": "Stouffer's Chicken Pot Pie",
+    "calories": 740,
+    "protein": 24,
+    "carbs": 64,
+    "fat": 42
+  },
+  {
+    "id": "legacy-food-342",
+    "name": "Lean Cuisine Herb Roasted Chicken",
+    "calories": 170,
+    "protein": 18,
+    "carbs": 20,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-343",
+    "name": "Lean Cuisine Chicken Enchilada",
+    "calories": 280,
+    "protein": 16,
+    "carbs": 43,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-344",
+    "name": "Lean Cuisine Pizza Margherita",
+    "calories": 330,
+    "protein": 15,
+    "carbs": 51,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-345",
+    "name": "Healthy Choice Simply Steamers Chicken",
+    "calories": 170,
+    "protein": 19,
+    "carbs": 20,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-346",
+    "name": "Healthy Choice Power Bowls Chicken Fajita",
+    "calories": 310,
+    "protein": 26,
+    "carbs": 38,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-347",
+    "name": "Marie Callender's Chicken Pot Pie",
+    "calories": 530,
+    "protein": 16,
+    "carbs": 50,
+    "fat": 29
+  },
+  {
+    "id": "legacy-food-348",
+    "name": "Birds Eye Steamfresh Broccoli (1 cup)",
+    "calories": 30,
+    "protein": 3,
+    "carbs": 6,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-349",
+    "name": "Birds Eye Steamfresh Corn (1 cup)",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 18,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-350",
+    "name": "Green Giant Cauliflower Mashed",
+    "calories": 50,
+    "protein": 2,
+    "carbs": 9,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-351",
+    "name": "Jimmy Dean Sausage Egg Cheese Biscuit",
+    "calories": 430,
+    "protein": 15,
+    "carbs": 37,
+    "fat": 25
+  },
+  {
+    "id": "legacy-food-352",
+    "name": "Jimmy Dean Sausage Egg Cheese Croissant",
+    "calories": 440,
+    "protein": 16,
+    "carbs": 36,
+    "fat": 28
+  },
+  {
+    "id": "legacy-food-353",
+    "name": "Hot Pocket Pepperoni Pizza",
+    "calories": 300,
+    "protein": 13,
+    "carbs": 37,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-354",
+    "name": "Hot Pocket Ham & Cheddar",
+    "calories": 310,
+    "protein": 13,
+    "carbs": 40,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-355",
+    "name": "DiGiorno Rising Crust Pepperoni Pizza (1/6)",
+    "calories": 310,
+    "protein": 14,
+    "carbs": 37,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-356",
+    "name": "Red Baron Classic Crust Pepperoni (1/4)",
+    "calories": 380,
+    "protein": 15,
+    "carbs": 39,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-357",
+    "name": "Totino's Party Pizza Pepperoni (1/2)",
+    "calories": 330,
+    "protein": 14,
+    "carbs": 36,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-358",
+    "name": "Banquet Frozen Chicken Nuggets (6pc)",
+    "calories": 270,
+    "protein": 13,
+    "carbs": 19,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-359",
+    "name": "Tyson Frozen Chicken Strips (3oz)",
+    "calories": 160,
+    "protein": 20,
+    "carbs": 10,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-360",
+    "name": "Tyson Grilled Chicken Strips (3oz)",
+    "calories": 110,
+    "protein": 22,
+    "carbs": 2,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-361",
+    "name": "Chobani Plain Greek Yogurt (5.3oz)",
+    "calories": 80,
+    "protein": 14,
+    "carbs": 6,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-362",
+    "name": "Chobani Vanilla Greek Yogurt",
+    "calories": 120,
+    "protein": 10,
+    "carbs": 17,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-363",
+    "name": "Chobani Strawberry Greek Yogurt",
+    "calories": 130,
+    "protein": 10,
+    "carbs": 19,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-364",
+    "name": "Chobani Zero Sugar Vanilla",
+    "calories": 60,
+    "protein": 11,
+    "carbs": 8,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-365",
+    "name": "Fage Total 0% Plain Greek Yogurt (7oz)",
+    "calories": 100,
+    "protein": 18,
+    "carbs": 7,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-366",
+    "name": "Fage Total 2% Plain Greek Yogurt",
+    "calories": 130,
+    "protein": 17,
+    "carbs": 8,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-367",
+    "name": "Dannon Light & Fit Vanilla Greek",
+    "calories": 80,
+    "protein": 12,
+    "carbs": 9,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-368",
+    "name": "Dannon Activia Strawberry",
+    "calories": 90,
+    "protein": 4,
+    "carbs": 18,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-369",
+    "name": "Siggi's Plain 0% Skyr",
+    "calories": 100,
+    "protein": 18,
+    "carbs": 8,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-370",
+    "name": "Oikos Triple Zero Vanilla",
+    "calories": 120,
+    "protein": 15,
+    "carbs": 14,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-371",
+    "name": "Yoplait Original Strawberry",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 27,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-372",
+    "name": "Great Value Greek Yogurt Vanilla (Walmart)",
+    "calories": 120,
+    "protein": 10,
+    "carbs": 16,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-373",
+    "name": "Kraft Singles American Cheese (1 slice)",
+    "calories": 60,
+    "protein": 3,
+    "carbs": 2,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-374",
+    "name": "Sargento Sliced Cheddar (1 slice)",
+    "calories": 80,
+    "protein": 5,
+    "carbs": 0,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-375",
+    "name": "Sargento Sliced Mozzarella (1 slice)",
+    "calories": 70,
+    "protein": 5,
+    "carbs": 1,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-376",
+    "name": "Philadelphia Cream Cheese Original (1oz)",
+    "calories": 100,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-377",
+    "name": "Philadelphia Cream Cheese 1/3 Less Fat (1oz)",
+    "calories": 70,
+    "protein": 3,
+    "carbs": 2,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-378",
+    "name": "Land O Lakes Butter (1 tbsp)",
+    "calories": 100,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-379",
+    "name": "Country Crock Margarine (1 tbsp)",
+    "calories": 70,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-380",
+    "name": "Fairlife 2% Milk (1 cup)",
+    "calories": 120,
+    "protein": 13,
+    "carbs": 12,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-381",
+    "name": "Horizon Organic Whole Milk (1 cup)",
+    "calories": 150,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-382",
+    "name": "Silk Almond Milk Original (1 cup)",
+    "calories": 60,
+    "protein": 1,
+    "carbs": 8,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-383",
+    "name": "Silk Oat Milk Original (1 cup)",
+    "calories": 90,
+    "protein": 2,
+    "carbs": 16,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-384",
+    "name": "Oatly Oat Milk (1 cup)",
+    "calories": 120,
+    "protein": 3,
+    "carbs": 16,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-385",
+    "name": "Lactaid Whole Milk (1 cup)",
+    "calories": 150,
+    "protein": 8,
+    "carbs": 13,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-386",
+    "name": "Daisy Sour Cream (2 tbsp)",
+    "calories": 60,
+    "protein": 1,
+    "carbs": 2,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-387",
+    "name": "Daisy Cottage Cheese 2% (1/2 cup)",
+    "calories": 90,
+    "protein": 13,
+    "carbs": 4,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-388",
+    "name": "Breakstone's Cottage Cheese (1/2 cup)",
+    "calories": 110,
+    "protein": 13,
+    "carbs": 5,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-389",
+    "name": "Pete & Gerry's Organic Eggs (1 large)",
+    "calories": 70,
+    "protein": 6,
+    "carbs": 0,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-390",
+    "name": "Vital Farms Pasture Raised Eggs (1 large)",
+    "calories": 70,
+    "protein": 6,
+    "carbs": 0,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-391",
+    "name": "Oscar Mayer Turkey Bologna (1 slice)",
+    "calories": 50,
+    "protein": 5,
+    "carbs": 2,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-392",
+    "name": "Oscar Mayer Classic Beef Hot Dogs (1)",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 2,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-393",
+    "name": "Oscar Mayer Turkey Hot Dogs (1)",
+    "calories": 100,
+    "protein": 8,
+    "carbs": 4,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-394",
+    "name": "Ball Park Beef Franks (1)",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 3,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-395",
+    "name": "Hormel Natural Choice Turkey Breast (2oz)",
+    "calories": 60,
+    "protein": 9,
+    "carbs": 1,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-396",
+    "name": "Boar's Head Turkey Breast (2oz)",
+    "calories": 60,
+    "protein": 11,
+    "carbs": 1,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-397",
+    "name": "Boar's Head Honey Ham (2oz)",
+    "calories": 60,
+    "protein": 10,
+    "carbs": 3,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-398",
+    "name": "Johnsonville Brats (1 link)",
+    "calories": 270,
+    "protein": 12,
+    "carbs": 3,
+    "fat": 23
+  },
+  {
+    "id": "legacy-food-399",
+    "name": "Jimmy Dean Pork Sausage Links (3)",
+    "calories": 130,
+    "protein": 8,
+    "carbs": 1,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-400",
+    "name": "Hillshire Farm Lit'l Smokies (5)",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 3,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-401",
+    "name": "Slim Jim Original (1)",
+    "calories": 150,
+    "protein": 6,
+    "carbs": 3,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-402",
+    "name": "SPAM Classic (2oz)",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 2,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-403",
+    "name": "StarKist Tuna in Water (2.6oz pouch)",
+    "calories": 70,
+    "protein": 16,
+    "carbs": 0,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-404",
+    "name": "StarKist Chunk Light Tuna (3oz)",
+    "calories": 70,
+    "protein": 16,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-405",
+    "name": "Bumble Bee Pink Salmon (2oz)",
+    "calories": 60,
+    "protein": 10,
+    "carbs": 0,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-406",
+    "name": "Perdue Short Cuts Chicken Breast (3oz)",
+    "calories": 100,
+    "protein": 19,
+    "carbs": 2,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-407",
+    "name": "Lay's Classic Chips (1oz)",
+    "calories": 160,
+    "protein": 2,
+    "carbs": 15,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-408",
+    "name": "Lay's Baked! Original (1oz)",
+    "calories": 120,
+    "protein": 2,
+    "carbs": 23,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-409",
+    "name": "Doritos Nacho Cheese (1oz)",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 18,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-410",
+    "name": "Doritos Cool Ranch (1oz)",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 18,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-411",
+    "name": "Cheetos Crunchy (1oz)",
+    "calories": 160,
+    "protein": 2,
+    "carbs": 15,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-412",
+    "name": "Cheetos Puffs (1oz)",
+    "calories": 160,
+    "protein": 2,
+    "carbs": 15,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-413",
+    "name": "Pringles Original (15 chips)",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 16,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-414",
+    "name": "Pringles Sour Cream & Onion (15 chips)",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 16,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-415",
+    "name": "Ruffles Original (1oz)",
+    "calories": 160,
+    "protein": 2,
+    "carbs": 15,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-416",
+    "name": "Fritos Original (1oz)",
+    "calories": 160,
+    "protein": 2,
+    "carbs": 16,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-417",
+    "name": "Goldfish Cheddar (55 pieces)",
+    "calories": 140,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-418",
+    "name": "Triscuits Original (6)",
+    "calories": 120,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-419",
+    "name": "Wheat Thins Original (16)",
+    "calories": 140,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-420",
+    "name": "Ritz Crackers (5)",
+    "calories": 80,
+    "protein": 1,
+    "carbs": 10,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-421",
+    "name": "Cheez-It Original (27)",
+    "calories": 150,
+    "protein": 3,
+    "carbs": 17,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-422",
+    "name": "Sun Chips Harvest Cheddar (1oz)",
+    "calories": 140,
+    "protein": 2,
+    "carbs": 19,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-423",
+    "name": "Pita Chips Sea Salt (1oz)",
+    "calories": 130,
+    "protein": 3,
+    "carbs": 19,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-424",
+    "name": "Skinny Pop Original Popcorn (1oz)",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 16,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-425",
+    "name": "Boom Chicka Pop Sea Salt (2 cups)",
+    "calories": 120,
+    "protein": 2,
+    "carbs": 19,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-426",
+    "name": "Act II Butter Microwave Popcorn (3 cups)",
+    "calories": 130,
+    "protein": 3,
+    "carbs": 15,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-427",
+    "name": "Orville Redenbacher's SmartPop (3.5 cups)",
+    "calories": 100,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-428",
+    "name": "Snyder's Pretzels Rounds (1oz)",
+    "calories": 110,
+    "protein": 3,
+    "carbs": 22,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-429",
+    "name": "Snyder's Honey Mustard Pretzels (1oz)",
+    "calories": 130,
+    "protein": 3,
+    "carbs": 19,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-430",
+    "name": "Bugles Original (1.5oz)",
+    "calories": 160,
+    "protein": 1,
+    "carbs": 18,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-431",
+    "name": "RXBAR Kids Bar Mixed Berry",
+    "calories": 110,
+    "protein": 7,
+    "carbs": 17,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-432",
+    "name": "Annie's Cheddar Bunnies (50 pieces)",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 19,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-433",
+    "name": "Veggie Straws (38 pieces)",
+    "calories": 130,
+    "protein": 1,
+    "carbs": 17,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-434",
+    "name": "PopCorners Sea Salt (1oz)",
+    "calories": 120,
+    "protein": 2,
+    "carbs": 20,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-435",
+    "name": "Beef Jerky Old Trapper (1oz)",
+    "calories": 80,
+    "protein": 14,
+    "carbs": 3,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-436",
+    "name": "Jack Link's Beef Jerky (1oz)",
+    "calories": 80,
+    "protein": 11,
+    "carbs": 5,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-437",
+    "name": "Jack Link's Turkey Jerky (1oz)",
+    "calories": 70,
+    "protein": 11,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-438",
+    "name": "Welch's Fruit Snacks (1 pouch)",
+    "calories": 80,
+    "protein": 0,
+    "carbs": 19,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-439",
+    "name": "Mott's Applesauce Unsweetened (1 cup)",
+    "calories": 50,
+    "protein": 0,
+    "carbs": 14,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-440",
+    "name": "GoGo SqueeZ Applesauce (1 pouch)",
+    "calories": 60,
+    "protein": 0,
+    "carbs": 14,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-441",
+    "name": "Snickers Bar (1.86oz)",
+    "calories": 250,
+    "protein": 4,
+    "carbs": 33,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-442",
+    "name": "Reese's Peanut Butter Cups (2 cups)",
+    "calories": 210,
+    "protein": 5,
+    "carbs": 24,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-443",
+    "name": "M&Ms Milk Chocolate (1oz)",
+    "calories": 140,
+    "protein": 2,
+    "carbs": 20,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-444",
+    "name": "M&Ms Peanut (1.74oz)",
+    "calories": 250,
+    "protein": 5,
+    "carbs": 30,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-445",
+    "name": "Kit Kat (1.5oz bar)",
+    "calories": 210,
+    "protein": 3,
+    "carbs": 27,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-446",
+    "name": "Twix (1 pack/2 bars)",
+    "calories": 250,
+    "protein": 2,
+    "carbs": 37,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-447",
+    "name": "Milky Way (1.84oz)",
+    "calories": 240,
+    "protein": 2,
+    "carbs": 37,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-448",
+    "name": "3 Musketeers (1.92oz)",
+    "calories": 240,
+    "protein": 2,
+    "carbs": 46,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-449",
+    "name": "Starburst Original (8 pieces)",
+    "calories": 160,
+    "protein": 0,
+    "carbs": 38,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-450",
+    "name": "Skittles Original (1oz)",
+    "calories": 110,
+    "protein": 0,
+    "carbs": 25,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-451",
+    "name": "Nerds Rope (1 rope)",
+    "calories": 90,
+    "protein": 0,
+    "carbs": 22,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-452",
+    "name": "Haribo Gummy Bears (17 pieces)",
+    "calories": 130,
+    "protein": 2,
+    "carbs": 30,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-453",
+    "name": "Trolli Sour Worms (1oz)",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 22,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-454",
+    "name": "Hershey's Milk Chocolate Bar (1.55oz)",
+    "calories": 220,
+    "protein": 3,
+    "carbs": 28,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-455",
+    "name": "Hershey's Dark Chocolate (1.45oz)",
+    "calories": 190,
+    "protein": 2,
+    "carbs": 24,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-456",
+    "name": "Hershey's Kisses (9 pieces)",
+    "calories": 200,
+    "protein": 3,
+    "carbs": 24,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-457",
+    "name": "York Peppermint Pattie (1.4oz)",
+    "calories": 140,
+    "protein": 1,
+    "carbs": 30,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-458",
+    "name": "Butterfinger (1.9oz)",
+    "calories": 270,
+    "protein": 4,
+    "carbs": 43,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-459",
+    "name": "Sour Patch Kids (16 pieces)",
+    "calories": 110,
+    "protein": 0,
+    "carbs": 28,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-460",
+    "name": "Coca-Cola Classic (12oz can)",
+    "calories": 140,
+    "protein": 0,
+    "carbs": 39,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-461",
+    "name": "Coca-Cola Zero Sugar (12oz)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-463",
+    "name": "Pepsi (12oz)",
+    "calories": 150,
+    "protein": 0,
+    "carbs": 41,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-464",
+    "name": "Pepsi Zero Sugar (12oz)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-465",
+    "name": "Mountain Dew (12oz)",
+    "calories": 170,
+    "protein": 0,
+    "carbs": 46,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-466",
+    "name": "Dr Pepper (12oz)",
+    "calories": 150,
+    "protein": 0,
+    "carbs": 40,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-467",
+    "name": "Sprite (12oz)",
+    "calories": 140,
+    "protein": 0,
+    "carbs": 38,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-468",
+    "name": "Red Bull Energy (8.4oz)",
+    "calories": 110,
+    "protein": 1,
+    "carbs": 28,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-469",
+    "name": "Monster Energy Original (16oz)",
+    "calories": 210,
+    "protein": 0,
+    "carbs": 54,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-470",
+    "name": "Monster Energy Zero Ultra (16oz)",
+    "calories": 10,
+    "protein": 0,
+    "carbs": 3,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-471",
+    "name": "Celsius Energy Drink (12oz)",
+    "calories": 10,
+    "protein": 0,
+    "carbs": 2,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-472",
+    "name": "Bang Energy (16oz)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-473",
+    "name": "Gatorade Thirst Quencher Fruit Punch (12oz)",
+    "calories": 80,
+    "protein": 0,
+    "carbs": 21,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-474",
+    "name": "Gatorade Zero (12oz)",
+    "calories": 10,
+    "protein": 0,
+    "carbs": 2,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-475",
+    "name": "Powerade Fruit Punch (12oz)",
+    "calories": 80,
+    "protein": 0,
+    "carbs": 21,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-476",
+    "name": "Body Armor Tropical Punch (12oz)",
+    "calories": 70,
+    "protein": 0,
+    "carbs": 18,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-477",
+    "name": "Liquid IV Lemon Lime (1 packet)",
+    "calories": 45,
+    "protein": 0,
+    "carbs": 11,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-478",
+    "name": "Hydrant Rapid Hydration Citrus (1 packet)",
+    "calories": 35,
+    "protein": 0,
+    "carbs": 9,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-479",
+    "name": "Prime Hydration Tropical Punch (16.9oz)",
+    "calories": 25,
+    "protein": 2,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-480",
+    "name": "Sparkling Ice Black Raspberry",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-481",
+    "name": "La Croix Lime (12oz)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-482",
+    "name": "Bubly Strawberry Sparkling (12oz)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-483",
+    "name": "Gold Peak Sweet Tea (18.5oz)",
+    "calories": 160,
+    "protein": 0,
+    "carbs": 42,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-484",
+    "name": "Arizona Iced Tea Green Tea with Honey (16oz)",
+    "calories": 70,
+    "protein": 0,
+    "carbs": 17,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-485",
+    "name": "Snapple Peach Tea (16oz)",
+    "calories": 130,
+    "protein": 0,
+    "carbs": 33,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-486",
+    "name": "Starbucks Bottled Frappuccino Mocha (13.7oz)",
+    "calories": 290,
+    "protein": 9,
+    "carbs": 47,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-487",
+    "name": "Starbucks Cold Brew (11oz black)",
+    "calories": 10,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-488",
+    "name": "Dunkin' Bottled Coffee Caramel (13.7oz)",
+    "calories": 230,
+    "protein": 9,
+    "carbs": 38,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-489",
+    "name": "Tropicana OJ Original (8oz)",
+    "calories": 110,
+    "protein": 2,
+    "carbs": 26,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-490",
+    "name": "Minute Maid OJ (12oz)",
+    "calories": 170,
+    "protein": 2,
+    "carbs": 39,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-491",
+    "name": "Welch's Grape Juice (8oz)",
+    "calories": 150,
+    "protein": 0,
+    "carbs": 38,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-492",
+    "name": "Ocean Spray Cranberry Juice (8oz)",
+    "calories": 120,
+    "protein": 0,
+    "carbs": 31,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-493",
+    "name": "Heinz Ketchup (1 tbsp)",
+    "calories": 20,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-494",
+    "name": "French's Yellow Mustard (1 tsp)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-495",
+    "name": "Hellmann's Mayonnaise (1 tbsp)",
+    "calories": 90,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-496",
+    "name": "Hellmann's Light Mayo (1 tbsp)",
+    "calories": 35,
+    "protein": 0,
+    "carbs": 2,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-497",
+    "name": "Miracle Whip (1 tbsp)",
+    "calories": 35,
+    "protein": 0,
+    "carbs": 4,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-498",
+    "name": "Hidden Valley Ranch (2 tbsp)",
+    "calories": 140,
+    "protein": 1,
+    "carbs": 1,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-499",
+    "name": "Ken's Steak House Italian (2 tbsp)",
+    "calories": 90,
+    "protein": 0,
+    "carbs": 3,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-500",
+    "name": "Wishbone French Dressing (2 tbsp)",
+    "calories": 90,
+    "protein": 0,
+    "carbs": 11,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-501",
+    "name": "Kraft Thousand Island (2 tbsp)",
+    "calories": 110,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-502",
+    "name": "Soy Sauce Kikkoman (1 tbsp)",
+    "calories": 10,
+    "protein": 1,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-503",
+    "name": "Teriyaki Sauce Kikkoman (1 tbsp)",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-504",
+    "name": "Frank's RedHot (1 tsp)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-505",
+    "name": "Tabasco (1 tsp)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-506",
+    "name": "Sriracha (1 tsp)",
+    "calories": 5,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-507",
+    "name": "Sweet Baby Ray's BBQ Sauce (2 tbsp)",
+    "calories": 70,
+    "protein": 0,
+    "carbs": 17,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-508",
+    "name": "Stubb's BBQ Sauce (2 tbsp)",
+    "calories": 25,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-509",
+    "name": "Heinz 57 Steak Sauce (1 tbsp)",
+    "calories": 15,
+    "protein": 0,
+    "carbs": 4,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-510",
+    "name": "A1 Original Steak Sauce (1 tbsp)",
+    "calories": 15,
+    "protein": 0,
+    "carbs": 3,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-511",
+    "name": "Pace Chunky Salsa (2 tbsp)",
+    "calories": 10,
+    "protein": 0,
+    "carbs": 2,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-512",
+    "name": "Tostitos Salsa Mild (2 tbsp)",
+    "calories": 10,
+    "protein": 0,
+    "carbs": 2,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-513",
+    "name": "Rao's Marinara Sauce (1/2 cup)",
+    "calories": 100,
+    "protein": 2,
+    "carbs": 9,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-514",
+    "name": "Classico Tomato Basil (1/2 cup)",
+    "calories": 60,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-515",
+    "name": "Ragu Old World Style (1/2 cup)",
+    "calories": 80,
+    "protein": 2,
+    "carbs": 13,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-516",
+    "name": "Jif Peanut Butter Creamy (2 tbsp)",
+    "calories": 190,
+    "protein": 7,
+    "carbs": 7,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-517",
+    "name": "Skippy Peanut Butter Creamy (2 tbsp)",
+    "calories": 190,
+    "protein": 7,
+    "carbs": 7,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-518",
+    "name": "Nutella (2 tbsp)",
+    "calories": 200,
+    "protein": 2,
+    "carbs": 23,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-519",
+    "name": "Campbell's Chicken Noodle Soup (1 cup)",
+    "calories": 60,
+    "protein": 3,
+    "carbs": 8,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-520",
+    "name": "Campbell's Tomato Soup made w/ milk (1 cup)",
+    "calories": 130,
+    "protein": 5,
+    "carbs": 24,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-521",
+    "name": "Progresso Chicken Noodle (1 cup)",
+    "calories": 100,
+    "protein": 8,
+    "carbs": 15,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-522",
+    "name": "Progresso Lentil Soup (1 cup)",
+    "calories": 180,
+    "protein": 11,
+    "carbs": 29,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-523",
+    "name": "Amy's Lentil Soup (1 cup)",
+    "calories": 180,
+    "protein": 11,
+    "carbs": 29,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-524",
+    "name": "Bush's Best Baked Beans (1/2 cup)",
+    "calories": 140,
+    "protein": 6,
+    "carbs": 29,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-525",
+    "name": "Del Monte Green Beans (1/2 cup)",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-526",
+    "name": "Del Monte Corn (1/2 cup)",
+    "calories": 60,
+    "protein": 2,
+    "carbs": 13,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-527",
+    "name": "Del Monte Diced Tomatoes (1/2 cup)",
+    "calories": 25,
+    "protein": 1,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-528",
+    "name": "Hunt's Tomato Paste (2 tbsp)",
+    "calories": 30,
+    "protein": 1,
+    "carbs": 6,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-529",
+    "name": "Rotel Diced Tomatoes & Green Chilies (1/2 cup)",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-530",
+    "name": "Swanson Chicken Broth (1 cup)",
+    "calories": 15,
+    "protein": 2,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-531",
+    "name": "Pacific Foods Chicken Bone Broth (1 cup)",
+    "calories": 45,
+    "protein": 10,
+    "carbs": 0,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-532",
+    "name": "Quaker Rice Cakes Plain (1)",
+    "calories": 35,
+    "protein": 1,
+    "carbs": 7,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-533",
+    "name": "Planters Mixed Nuts (1oz)",
+    "calories": 170,
+    "protein": 5,
+    "carbs": 6,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-534",
+    "name": "Planters Dry Roasted Peanuts (1oz)",
+    "calories": 170,
+    "protein": 7,
+    "carbs": 7,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-535",
+    "name": "Blue Diamond Almonds (1oz)",
+    "calories": 160,
+    "protein": 6,
+    "carbs": 6,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-536",
+    "name": "Wonderful Pistachios Roasted (1oz)",
+    "calories": 160,
+    "protein": 6,
+    "carbs": 8,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-537",
+    "name": "Great Value Chicken Breast Canned (3oz)",
+    "calories": 90,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-538",
+    "name": "Kraft Mac & Cheese Original (prepared, 1 cup)",
+    "calories": 350,
+    "protein": 10,
+    "carbs": 49,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-539",
+    "name": "Annie's Mac & Cheese (prepared, 1 cup)",
+    "calories": 340,
+    "protein": 12,
+    "carbs": 47,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-540",
+    "name": "Breyers Natural Vanilla Ice Cream (2/3 cup)",
+    "calories": 130,
+    "protein": 3,
+    "carbs": 17,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-541",
+    "name": "Häagen-Dazs Vanilla (2/3 cup)",
+    "calories": 260,
+    "protein": 5,
+    "carbs": 23,
+    "fat": 17
+  },
+  {
+    "id": "legacy-food-542",
+    "name": "Ben & Jerry's Cherry Garcia (2/3 cup)",
+    "calories": 290,
+    "protein": 5,
+    "carbs": 34,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-543",
+    "name": "Halo Top Vanilla Bean (2/3 cup)",
+    "calories": 100,
+    "protein": 7,
+    "carbs": 20,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-544",
+    "name": "Talenti Gelato Sea Salt Caramel (2/3 cup)",
+    "calories": 310,
+    "protein": 6,
+    "carbs": 39,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-545",
+    "name": "Good Humor Ice Cream Sandwich",
+    "calories": 160,
+    "protein": 2,
+    "carbs": 29,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-546",
+    "name": "Outshine Strawberry Fruit Bar",
+    "calories": 60,
+    "protein": 0,
+    "carbs": 15,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-547",
+    "name": "Dole Fruit Bar Strawberry",
+    "calories": 80,
+    "protein": 0,
+    "carbs": 20,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-548",
+    "name": "Pillsbury Grands Biscuits (1)",
+    "calories": 180,
+    "protein": 4,
+    "carbs": 25,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-549",
+    "name": "Pillsbury Cinnamon Rolls (1 roll with icing)",
+    "calories": 140,
+    "protein": 2,
+    "carbs": 24,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-550",
+    "name": "Great Value (Walmart) Whole Grain Bread (1 slice)",
+    "calories": 80,
+    "protein": 4,
+    "carbs": 15,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-551",
+    "name": "Great Value (Walmart) 2% Milk (1 cup)",
+    "calories": 120,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-552",
+    "name": "Panera Bread Mac & Cheese (regular)",
+    "calories": 980,
+    "protein": 32,
+    "carbs": 105,
+    "fat": 46
+  },
+  {
+    "id": "legacy-food-553",
+    "name": "Panera Turkey Sandwich (whole)",
+    "calories": 700,
+    "protein": 46,
+    "carbs": 72,
+    "fat": 22
+  },
+  {
+    "id": "legacy-food-554",
+    "name": "Panera Fuji Apple Salad with Chicken",
+    "calories": 570,
+    "protein": 37,
+    "carbs": 57,
+    "fat": 22
+  },
+  {
+    "id": "legacy-food-555",
+    "name": "Panera Broccoli Cheddar Soup (bowl)",
+    "calories": 360,
+    "protein": 12,
+    "carbs": 32,
+    "fat": 22
+  },
+  {
+    "id": "legacy-food-556",
+    "name": "Chipotle Burrito Bowl Chicken",
+    "calories": 490,
+    "protein": 42,
+    "carbs": 40,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-557",
+    "name": "Chipotle Burrito Steak",
+    "calories": 760,
+    "protein": 43,
+    "carbs": 80,
+    "fat": 24
+  },
+  {
+    "id": "legacy-food-558",
+    "name": "Chipotle Tacos Chicken (3)",
+    "calories": 470,
+    "protein": 32,
+    "carbs": 52,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-559",
+    "name": "Starbucks Spinach Feta Wrap",
+    "calories": 290,
+    "protein": 19,
+    "carbs": 33,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-560",
+    "name": "Starbucks Impossible Breakfast Sandwich",
+    "calories": 430,
+    "protein": 26,
+    "carbs": 52,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-561",
+    "name": "Starbucks Pumpkin Spice Latte (Grande 2% milk)",
+    "calories": 380,
+    "protein": 14,
+    "carbs": 52,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-562",
+    "name": "Dunkin' Glazed Donut",
+    "calories": 260,
+    "protein": 4,
+    "carbs": 33,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-563",
+    "name": "Dunkin' Bacon Egg Cheese Croissant",
+    "calories": 480,
+    "protein": 19,
+    "carbs": 37,
+    "fat": 30
+  },
+  {
+    "id": "legacy-food-564",
+    "name": "Dunkin' Medium Hot Coffee with Cream & Sugar",
+    "calories": 90,
+    "protein": 2,
+    "carbs": 14,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-565",
+    "name": "Chick-fil-A Hash Browns",
+    "calories": 240,
+    "protein": 2,
+    "carbs": 29,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-566",
+    "name": "Chick-fil-A Cobb Salad with Grilled Chicken",
+    "calories": 500,
+    "protein": 42,
+    "carbs": 22,
+    "fat": 27
+  },
+  {
+    "id": "legacy-food-567",
+    "name": "Chick-fil-A Mac & Cheese (medium)",
+    "calories": 440,
+    "protein": 17,
+    "carbs": 46,
+    "fat": 21
+  },
+  {
+    "id": "legacy-food-568",
+    "name": "Olive Garden Soup Minestrone (bowl)",
+    "calories": 100,
+    "protein": 5,
+    "carbs": 16,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-569",
+    "name": "Olive Garden Unlimited Breadstick (1)",
+    "calories": 140,
+    "protein": 5,
+    "carbs": 25,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-570",
+    "name": "Texas Roadhouse 6oz Sirloin",
+    "calories": 250,
+    "protein": 34,
+    "carbs": 2,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-571",
+    "name": "IHOP Buttermilk Pancakes (3)",
+    "calories": 490,
+    "protein": 10,
+    "carbs": 90,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-572",
+    "name": "Denny's Grand Slam",
+    "calories": 780,
+    "protein": 42,
+    "carbs": 62,
+    "fat": 40
+  },
+  {
+    "id": "legacy-food-573",
+    "name": "Five Guys Cheeseburger",
+    "calories": 840,
+    "protein": 43,
+    "carbs": 40,
+    "fat": 55
+  },
+  {
+    "id": "legacy-food-574",
+    "name": "Five Guys Little Fries",
+    "calories": 530,
+    "protein": 8,
+    "carbs": 68,
+    "fat": 23
+  },
+  {
+    "id": "legacy-food-575",
+    "name": "In-N-Out Double Double",
+    "calories": 670,
+    "protein": 37,
+    "carbs": 41,
+    "fat": 41
+  },
+  {
+    "id": "legacy-food-576",
+    "name": "Shake Shack ShackBurger",
+    "calories": 530,
+    "protein": 30,
+    "carbs": 40,
+    "fat": 28
+  },
+  {
+    "id": "legacy-food-577",
+    "name": "Whataburger Original (1/4lb)",
+    "calories": 620,
+    "protein": 30,
+    "carbs": 58,
+    "fat": 30
+  },
+  {
+    "id": "legacy-food-578",
+    "name": "Sonic Cheeseburger",
+    "calories": 640,
+    "protein": 27,
+    "carbs": 53,
+    "fat": 38
+  },
+  {
+    "id": "legacy-food-579",
+    "name": "Jack in the Box Jumbo Jack",
+    "calories": 600,
+    "protein": 25,
+    "carbs": 56,
+    "fat": 32
+  },
+  {
+    "id": "legacy-food-580",
+    "name": "Carl's Jr. Famous Star",
+    "calories": 660,
+    "protein": 27,
+    "carbs": 50,
+    "fat": 41
+  },
+  {
+    "id": "legacy-food-581",
+    "name": "Del Taco Bean & Cheese Burrito",
+    "calories": 430,
+    "protein": 16,
+    "carbs": 64,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-582",
+    "name": "Wingstop Classic Buffalo Wings (6pc)",
+    "calories": 540,
+    "protein": 41,
+    "carbs": 4,
+    "fat": 40
+  },
+  {
+    "id": "legacy-food-583",
+    "name": "Buffalo Wild Wings Traditional Medium (6pc)",
+    "calories": 430,
+    "protein": 46,
+    "carbs": 5,
+    "fat": 27
+  },
+  {
+    "id": "legacy-food-584",
+    "name": "Great Value Instant Oatmeal Maple Brown Sugar",
+    "calories": 160,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-585",
+    "name": "Great Value Creamy Peanut Butter (2 tbsp)",
+    "calories": 190,
+    "protein": 7,
+    "carbs": 7,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-586",
+    "name": "Great Value Chicken Broth (1 cup)",
+    "calories": 5,
+    "protein": 1,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-587",
+    "name": "Great Value Tuna in Water (2.6oz)",
+    "calories": 70,
+    "protein": 16,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-588",
+    "name": "Great Value Canned Corn (1/2 cup)",
+    "calories": 60,
+    "protein": 2,
+    "carbs": 14,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-589",
+    "name": "Great Value Greek Yogurt Plain 0% (5.3oz)",
+    "calories": 80,
+    "protein": 15,
+    "carbs": 6,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-590",
+    "name": "Great Value Frozen Broccoli (1 cup)",
+    "calories": 30,
+    "protein": 3,
+    "carbs": 6,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-591",
+    "name": "Great Value White Rice (1/4 cup dry)",
+    "calories": 160,
+    "protein": 4,
+    "carbs": 36,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-592",
+    "name": "Great Value Whole Wheat Spaghetti (2oz dry)",
+    "calories": 200,
+    "protein": 7,
+    "carbs": 40,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-593",
+    "name": "Great Value Salted Butter (1 tbsp)",
+    "calories": 100,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-594",
+    "name": "Great Value Shredded Mozzarella (1/4 cup)",
+    "calories": 80,
+    "protein": 7,
+    "carbs": 1,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-595",
+    "name": "Trader Joe's Mandarin Orange Chicken (3oz)",
+    "calories": 210,
+    "protein": 13,
+    "carbs": 25,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-596",
+    "name": "Trader Joe's Turkey Meatballs (4 pieces)",
+    "calories": 170,
+    "protein": 14,
+    "carbs": 8,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-597",
+    "name": "Trader Joe's Cauliflower Gnocchi (1 cup)",
+    "calories": 140,
+    "protein": 3,
+    "carbs": 32,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-598",
+    "name": "Trader Joe's Everything But the Bagel Seasoning",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-599",
+    "name": "Trader Joe's Peanut Butter Cups (3 pieces)",
+    "calories": 200,
+    "protein": 4,
+    "carbs": 22,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-600",
+    "name": "Trader Joe's Cookie Butter (1 tbsp)",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 11,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-601",
+    "name": "Kirkland Signature Protein Bar Chocolate Chip",
+    "calories": 190,
+    "protein": 21,
+    "carbs": 22,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-602",
+    "name": "Kirkland Signature Chicken Breast (3oz)",
+    "calories": 120,
+    "protein": 24,
+    "carbs": 0,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-603",
+    "name": "Kirkland Signature Salmon (3oz)",
+    "calories": 150,
+    "protein": 23,
+    "carbs": 0,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-604",
+    "name": "Kirkland Signature Almond Butter (2 tbsp)",
+    "calories": 190,
+    "protein": 7,
+    "carbs": 7,
+    "fat": 17
+  },
+  {
+    "id": "legacy-food-605",
+    "name": "Kirkland Signature Mixed Nuts (1oz)",
+    "calories": 170,
+    "protein": 5,
+    "carbs": 7,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-606",
+    "name": "Kirkland Signature Greek Yogurt Plain (3/4 cup)",
+    "calories": 120,
+    "protein": 20,
+    "carbs": 9,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-607",
+    "name": "Kirkland Signature Frozen Burger Patty (4oz cooked)",
+    "calories": 270,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 20
+  },
+  {
+    "id": "legacy-food-608",
+    "name": "Good & Gather Organic Baby Carrots (3oz)",
+    "calories": 35,
+    "protein": 1,
+    "carbs": 8,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-609",
+    "name": "Good & Gather Chicken Breast Boneless (3oz cooked)",
+    "calories": 140,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-610",
+    "name": "Good & Gather Organic Whole Milk (1 cup)",
+    "calories": 150,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-611",
+    "name": "Good & Gather Hummus Classic (2 tbsp)",
+    "calories": 60,
+    "protein": 2,
+    "carbs": 5,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-612",
+    "name": "Good & Gather Veggie Chips (1oz)",
+    "calories": 130,
+    "protein": 2,
+    "carbs": 20,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-613",
+    "name": "Kashi Go Waffles Honey Oat (2)",
+    "calories": 170,
+    "protein": 9,
+    "carbs": 30,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-614",
+    "name": "Van's Blueberry Waffles (2)",
+    "calories": 200,
+    "protein": 4,
+    "carbs": 38,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-615",
+    "name": "Eggo Homestyle Waffles (2)",
+    "calories": 190,
+    "protein": 4,
+    "carbs": 30,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-616",
+    "name": "Jimmy Dean D-lights Turkey Sausage Bowl",
+    "calories": 230,
+    "protein": 17,
+    "carbs": 27,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-617",
+    "name": "Amy's Breakfast Burrito",
+    "calories": 280,
+    "protein": 10,
+    "carbs": 42,
+    "fat": 8
+  },
+  {
+    "id": "legacy-food-618",
+    "name": "SlimFast Original Shake Chocolate",
+    "calories": 180,
+    "protein": 10,
+    "carbs": 24,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-619",
+    "name": "SlimFast Keto Fat Bomb Bar Chocolate Caramel",
+    "calories": 190,
+    "protein": 3,
+    "carbs": 14,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-620",
+    "name": "Atkins Bar Chocolate Caramel Mousse Bar",
+    "calories": 150,
+    "protein": 12,
+    "carbs": 15,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-621",
+    "name": "Atkins Shake Dark Chocolate Royale",
+    "calories": 160,
+    "protein": 15,
+    "carbs": 5,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-622",
+    "name": "Keto Chow Chocolate (1 serving)",
+    "calories": 410,
+    "protein": 35,
+    "carbs": 5,
+    "fat": 28
+  },
+  {
+    "id": "legacy-food-623",
+    "name": "Soylent Meal Replacement Cacao (1 bottle)",
+    "calories": 400,
+    "protein": 20,
+    "carbs": 36,
+    "fat": 21
+  },
+  {
+    "id": "legacy-food-624",
+    "name": "Herbalife Formula 1 Shake (2 scoops, mixed with skim milk)",
+    "calories": 180,
+    "protein": 18,
+    "carbs": 24,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-627",
+    "name": "Agave Nectar (1 tbsp)",
+    "calories": 60,
+    "protein": 0,
+    "carbs": 16,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-628",
+    "name": "Sugar White (1 tsp)",
+    "calories": 15,
+    "protein": 0,
+    "carbs": 4,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-629",
+    "name": "Brown Sugar (1 tsp)",
+    "calories": 15,
+    "protein": 0,
+    "carbs": 4,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-630",
+    "name": "Splenda (1 packet)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-631",
+    "name": "Stevia (1 packet)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-632",
+    "name": "Olive Oil Spray (1 second)",
+    "calories": 7,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-633",
+    "name": "PAM Cooking Spray (1/3 second spray)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-635",
+    "name": "Avocado Oil (1 tbsp)",
+    "calories": 120,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-636",
+    "name": "Apple Cider Vinegar (1 tbsp)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-637",
+    "name": "Balsamic Vinegar (1 tbsp)",
+    "calories": 14,
+    "protein": 0,
+    "carbs": 3,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-638",
+    "name": "Lemon Juice (1 tbsp)",
+    "calories": 4,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-639",
+    "name": "Garlic (1 clove)",
+    "calories": 5,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-640",
+    "name": "Egg Large Whole",
+    "calories": 70,
+    "protein": 6,
+    "carbs": 0,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-641",
+    "name": "Egg White Large",
+    "calories": 17,
+    "protein": 4,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-645",
+    "name": "Heavy Cream 2 tbsp",
+    "calories": 100,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-646",
+    "name": "Cream Cheese 1 oz",
+    "calories": 99,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-647",
+    "name": "Swiss Cheese 1 oz",
+    "calories": 111,
+    "protein": 8,
+    "carbs": 1,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-648",
+    "name": "Feta Cheese 1 oz",
+    "calories": 75,
+    "protein": 4,
+    "carbs": 1,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-649",
+    "name": "Ricotta Part Skim 1/4 cup",
+    "calories": 80,
+    "protein": 7,
+    "carbs": 3,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-650",
+    "name": "Chicken Breast Cooked 3oz",
+    "calories": 140,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-651",
+    "name": "Chicken Thigh Skinless 3oz",
+    "calories": 180,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-652",
+    "name": "Ground Turkey 93/7 3oz",
+    "calories": 180,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-653",
+    "name": "Ground Turkey 99/1 3oz",
+    "calories": 120,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-654",
+    "name": "Ground Beef 80/20 3oz",
+    "calories": 230,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-655",
+    "name": "Ground Beef 93/7 3oz",
+    "calories": 160,
+    "protein": 24,
+    "carbs": 0,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-656",
+    "name": "Sirloin Steak 3oz",
+    "calories": 160,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-657",
+    "name": "Ribeye Steak 3oz",
+    "calories": 210,
+    "protein": 23,
+    "carbs": 0,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-658",
+    "name": "Salmon Atlantic 3oz",
+    "calories": 175,
+    "protein": 19,
+    "carbs": 0,
+    "fat": 11
+  },
+  {
+    "id": "legacy-food-659",
+    "name": "Tuna Light in Water 3oz",
+    "calories": 100,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-660",
+    "name": "Shrimp Cooked 3oz",
+    "calories": 84,
+    "protein": 18,
+    "carbs": 0,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-661",
+    "name": "Tilapia Cooked 3oz",
+    "calories": 109,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-662",
+    "name": "Pork Tenderloin 3oz",
+    "calories": 125,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-663",
+    "name": "Bacon Cooked 3 strips",
+    "calories": 130,
+    "protein": 10,
+    "carbs": 0,
+    "fat": 10
+  },
+  {
+    "id": "legacy-food-664",
+    "name": "Ham Deli 2oz",
+    "calories": 70,
+    "protein": 10,
+    "carbs": 2,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-665",
+    "name": "Turkey Breast Deli 2oz",
+    "calories": 50,
+    "protein": 11,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-666",
+    "name": "Tofu Firm 1/2 cup",
+    "calories": 94,
+    "protein": 10,
+    "carbs": 2,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-667",
+    "name": "Tempeh 3oz",
+    "calories": 162,
+    "protein": 15,
+    "carbs": 9,
+    "fat": 9
+  },
+  {
+    "id": "legacy-food-668",
+    "name": "Edamame Shelled 1/2 cup",
+    "calories": 100,
+    "protein": 9,
+    "carbs": 8,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-669",
+    "name": "Black Beans Cooked 1/2 cup",
+    "calories": 114,
+    "protein": 8,
+    "carbs": 20,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-670",
+    "name": "Chickpeas Cooked 1/2 cup",
+    "calories": 134,
+    "protein": 7,
+    "carbs": 22,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-671",
+    "name": "Lentils Cooked 1/2 cup",
+    "calories": 115,
+    "protein": 9,
+    "carbs": 20,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-672",
+    "name": "White Rice Cooked 1 cup",
+    "calories": 206,
+    "protein": 4,
+    "carbs": 45,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-673",
+    "name": "Brown Rice Cooked 1 cup",
+    "calories": 216,
+    "protein": 5,
+    "carbs": 45,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-674",
+    "name": "Oats Dry 1/2 cup",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 27,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-675",
+    "name": "Pasta Cooked 1 cup",
+    "calories": 220,
+    "protein": 8,
+    "carbs": 43,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-676",
+    "name": "Whole Wheat Pasta 1 cup",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 37,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-677",
+    "name": "Quinoa Cooked 1 cup",
+    "calories": 222,
+    "protein": 8,
+    "carbs": 39,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-680",
+    "name": "Bagel Plain 1 whole",
+    "calories": 270,
+    "protein": 10,
+    "carbs": 53,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-681",
+    "name": "Tortilla Flour 10 inch",
+    "calories": 210,
+    "protein": 5,
+    "carbs": 35,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-682",
+    "name": "Tortilla Corn 6 inch",
+    "calories": 60,
+    "protein": 1,
+    "carbs": 13,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-688",
+    "name": "Raspberries 1 cup",
+    "calories": 64,
+    "protein": 1,
+    "carbs": 15,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-689",
+    "name": "Blackberries 1 cup",
+    "calories": 62,
+    "protein": 2,
+    "carbs": 14,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-691",
+    "name": "Watermelon 1 cup",
+    "calories": 46,
+    "protein": 1,
+    "carbs": 11,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-695",
+    "name": "Cherries Sweet 1 cup",
+    "calories": 97,
+    "protein": 2,
+    "carbs": 25,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-696",
+    "name": "Lemon 1 medium",
+    "calories": 17,
+    "protein": 1,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-697",
+    "name": "Broccoli Cooked 1 cup",
+    "calories": 55,
+    "protein": 4,
+    "carbs": 11,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-698",
+    "name": "Spinach Raw 2 cups",
+    "calories": 14,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-699",
+    "name": "Spinach Cooked 1 cup",
+    "calories": 41,
+    "protein": 5,
+    "carbs": 7,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-700",
+    "name": "Kale Raw 1 cup",
+    "calories": 34,
+    "protein": 2,
+    "carbs": 7,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-701",
+    "name": "Sweet Potato Baked Medium",
+    "calories": 112,
+    "protein": 2,
+    "carbs": 26,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-702",
+    "name": "Russet Potato Baked Medium",
+    "calories": 164,
+    "protein": 5,
+    "carbs": 37,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-703",
+    "name": "Green Beans Cooked 1 cup",
+    "calories": 44,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-704",
+    "name": "Carrots Raw 1 cup",
+    "calories": 52,
+    "protein": 1,
+    "carbs": 12,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-705",
+    "name": "Bell Pepper Red 1 cup",
+    "calories": 46,
+    "protein": 2,
+    "carbs": 9,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-706",
+    "name": "Corn Cooked 1 cup",
+    "calories": 132,
+    "protein": 5,
+    "carbs": 29,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-707",
+    "name": "Zucchini Cooked 1 cup",
+    "calories": 27,
+    "protein": 2,
+    "carbs": 5,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-708",
+    "name": "Asparagus Cooked 1 cup",
+    "calories": 40,
+    "protein": 4,
+    "carbs": 8,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-709",
+    "name": "Brussels Sprouts 1 cup",
+    "calories": 56,
+    "protein": 4,
+    "carbs": 11,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-710",
+    "name": "Mushrooms White Cooked 1 cup",
+    "calories": 44,
+    "protein": 3,
+    "carbs": 8,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-714",
+    "name": "Pistachios 1oz 49 nuts",
+    "calories": 159,
+    "protein": 6,
+    "carbs": 8,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-715",
+    "name": "Pumpkin Seeds 1oz",
+    "calories": 151,
+    "protein": 7,
+    "carbs": 5,
+    "fat": 13
+  },
+  {
+    "id": "legacy-food-716",
+    "name": "Sunflower Seeds 1oz",
+    "calories": 165,
+    "protein": 5,
+    "carbs": 6,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-718",
+    "name": "Hemp Seeds 3 tbsp",
+    "calories": 166,
+    "protein": 10,
+    "carbs": 3,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-719",
+    "name": "Tahini 2 tbsp",
+    "calories": 178,
+    "protein": 5,
+    "carbs": 6,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-720",
+    "name": "ON Gold Standard Whey 1 scoop",
+    "calories": 120,
+    "protein": 24,
+    "carbs": 3,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-721",
+    "name": "Dymatize ISO100 1 scoop",
+    "calories": 110,
+    "protein": 25,
+    "carbs": 2,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-722",
+    "name": "Isopure Zero Carb 1 scoop",
+    "calories": 110,
+    "protein": 25,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-723",
+    "name": "BSN Syntha-6 1 scoop",
+    "calories": 200,
+    "protein": 22,
+    "carbs": 14,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-727",
+    "name": "Canola Oil 1 tbsp",
+    "calories": 124,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 14
+  },
+  {
+    "id": "legacy-food-728",
+    "name": "Rice and Beans 1 cup",
+    "calories": 210,
+    "protein": 8,
+    "carbs": 40,
+    "fat": 2
+  },
+  {
+    "id": "legacy-food-729",
+    "name": "Tuna Salad with Mayo 3oz",
+    "calories": 220,
+    "protein": 18,
+    "carbs": 1,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-730",
+    "name": "Chicken Salad with Mayo 3oz",
+    "calories": 230,
+    "protein": 19,
+    "carbs": 1,
+    "fat": 16
+  },
+  {
+    "id": "legacy-food-731",
+    "name": "Oatmeal with Berries 1 cup",
+    "calories": 210,
+    "protein": 7,
+    "carbs": 40,
+    "fat": 4
+  },
+  {
+    "id": "legacy-food-732",
+    "name": "Protein Oatmeal with Powder",
+    "calories": 290,
+    "protein": 28,
+    "carbs": 34,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-733",
+    "name": "Greek Yogurt with Fruit 1 cup",
+    "calories": 200,
+    "protein": 15,
+    "carbs": 28,
+    "fat": 0
+  },
+  {
+    "id": "legacy-food-734",
+    "name": "Chicken Breast and Rice Meal",
+    "calories": 390,
+    "protein": 40,
+    "carbs": 43,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-735",
+    "name": "Egg White Omelette 3 whites",
+    "calories": 100,
+    "protein": 22,
+    "carbs": 2,
+    "fat": 1
+  },
+  {
+    "id": "legacy-food-736",
+    "name": "Turkey Burger Cooked 4oz",
+    "calories": 160,
+    "protein": 28,
+    "carbs": 0,
+    "fat": 5
+  },
+  {
+    "id": "legacy-food-737",
+    "name": "Salmon Filet 4oz Cooked",
+    "calories": 234,
+    "protein": 25,
+    "carbs": 0,
+    "fat": 15
+  },
+  {
+    "id": "legacy-food-738",
+    "name": "Chipotle Chicken Burrito No Extras",
+    "calories": 490,
+    "protein": 42,
+    "carbs": 40,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-739",
+    "name": "Chipotle Steak Bowl Brown Rice",
+    "calories": 560,
+    "protein": 38,
+    "carbs": 55,
+    "fat": 18
+  },
+  {
+    "id": "legacy-food-743",
+    "name": "Subway Turkey 6 inch No Mayo",
+    "calories": 280,
+    "protein": 18,
+    "carbs": 45,
+    "fat": 3
+  },
+  {
+    "id": "legacy-food-744",
+    "name": "Starbucks Tall Latte 2% Milk",
+    "calories": 150,
+    "protein": 10,
+    "carbs": 18,
+    "fat": 6
+  },
+  {
+    "id": "legacy-food-745",
+    "name": "Chick-fil-A Grilled Sandwich",
+    "calories": 320,
+    "protein": 29,
+    "carbs": 34,
+    "fat": 7
+  },
+  {
+    "id": "legacy-food-746",
+    "name": "Chick-fil-A 8pc Nuggets",
+    "calories": 260,
+    "protein": 26,
+    "carbs": 11,
+    "fat": 12
+  },
+  {
+    "id": "legacy-food-747",
+    "name": "Panera Broccoli Cheddar Soup Cup",
+    "calories": 230,
+    "protein": 9,
+    "carbs": 20,
+    "fat": 14
+  }
+]

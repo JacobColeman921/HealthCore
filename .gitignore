@@ -2,6 +2,7 @@
 *.log
 healthcore_data.json
 .worktrees/
+docs/qa/playwright-results/
 node_modules/
 dist/
 playwright-report/

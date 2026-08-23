@@ -1,0 +1,1036 @@
+{
+  "weight_loss": {
+    "label": "Weight loss",
+    "color": "var(--cal)",
+    "description": "Higher-protein meals that make a lower calorie target easier to manage.",
+    "meals": [
+      {
+        "name": "Egg White & Veggie Scramble",
+        "category": "breakfast",
+        "calories": 280,
+        "protein": 30,
+        "carbs": 12,
+        "fat": 8,
+        "difficulty": "Easy",
+        "prepTime": "10 min",
+        "store": "Walmart",
+        "walmart": [
+          "Great Value 100% Liquid Egg Whites (32oz carton)",
+          "Birds Eye Steamfresh Mixed Peppers & Onions (10oz)",
+          "Kraft Shredded Mozzarella (8oz bag)"
+        ],
+        "steps": "Microwave veggies 3 min. Pour ¾ cup egg whites into a non-stick pan over medium heat. Add drained veggies, scramble until set. Top with 2 tbsp shredded cheese.",
+        "tip": "Liquid egg whites save time and are virtually zero fat. One bag of frozen peppers gives you 4-5 breakfast servings."
+      },
+      {
+        "name": "Chobani Zero Sugar Protein Bowl",
+        "category": "breakfast",
+        "calories": 220,
+        "protein": 28,
+        "carbs": 22,
+        "fat": 2,
+        "difficulty": "Easy",
+        "prepTime": "3 min",
+        "store": "Target / Walmart",
+        "walmart": [
+          "Chobani Zero Sugar Plain Greek Yogurt (5.3oz)",
+          "Good & Gather Frozen Mixed Berries (Target, 12oz)",
+          "Nature Valley Protein Granola (¼ cup)"
+        ],
+        "steps": "Thaw ½ cup berries in microwave 60 sec. Top yogurt with berries and granola.",
+        "tip": "Chobani Zero Sugar has 15g protein with 0g sugar - one of the best cutting breakfast options."
+      },
+      {
+        "name": "Dave's Killer Toast with Turkey",
+        "category": "breakfast",
+        "calories": 320,
+        "protein": 28,
+        "carbs": 30,
+        "fat": 7,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Walmart / Whole Foods",
+        "walmart": [
+          "Dave's Killer Bread 21 Whole Grains (1 slice)",
+          "Boar's Head Turkey Breast Deli (3oz)",
+          "Philadelphia 1/3 Less Fat Cream Cheese (2 tbsp)",
+          "Roma Tomato (sliced)"
+        ],
+        "steps": "Toast bread. Spread cream cheese, layer turkey and tomato slices.",
+        "tip": "Dave's bread has 5g protein per slice - more than most breads. Add a sprinkle of everything bagel seasoning for extra flavor."
+      },
+      {
+        "name": "Premier Protein Pancakes",
+        "category": "breakfast",
+        "calories": 340,
+        "protein": 35,
+        "carbs": 30,
+        "fat": 6,
+        "difficulty": "Medium",
+        "prepTime": "15 min",
+        "store": "Walmart",
+        "walmart": [
+          "Premier Protein Shake Vanilla (11oz)",
+          "Kodiak Cakes Power Cakes Mix (2/3 cup dry)",
+          "Egg (1 whole)",
+          "PAM Cooking Spray"
+        ],
+        "steps": "Mix Kodiak mix with 1 egg and the Premier Protein shake (use as the liquid). Cook on griddle over medium heat, 2-3 min per side.",
+        "tip": "This swap replaces all the water/milk in Kodiak cakes with a protein shake, doubling the protein content."
+      },
+      {
+        "name": "Kirkland Egg White Bites",
+        "category": "breakfast",
+        "calories": 260,
+        "protein": 32,
+        "carbs": 6,
+        "fat": 10,
+        "difficulty": "Easy",
+        "prepTime": "2 min",
+        "store": "Costco",
+        "walmart": [
+          "Kirkland Signature Egg Bites (Costco, 1 serving = 2 bites)",
+          "Fresh Salsa (2 tbsp)"
+        ],
+        "steps": "Microwave egg bites 60-90 seconds per package instructions. Serve with salsa.",
+        "tip": "Costco sells these in 24-count packs at about $0.75 per pair - the cheapest high-protein grab-and-go breakfast available."
+      },
+      {
+        "name": "Siggi's Skyr with Chia & Almond Butter",
+        "category": "breakfast",
+        "calories": 310,
+        "protein": 26,
+        "carbs": 20,
+        "fat": 12,
+        "difficulty": "Easy",
+        "prepTime": "2 min",
+        "store": "Whole Foods / Target",
+        "walmart": [
+          "Siggi's Plain 0% Skyr (5.3oz)",
+          "Barlean's Chia Seeds (1 tbsp)",
+          "Justin's Almond Butter (1 tbsp packet)"
+        ],
+        "steps": "Mix chia seeds into skyr, drizzle almond butter on top.",
+        "tip": "Siggi's has nearly twice the protein of regular yogurt. Chia seeds add fiber that keeps you full for hours."
+      },
+      {
+        "name": "Tuna Lettuce Wraps",
+        "category": "lunch",
+        "calories": 310,
+        "protein": 38,
+        "carbs": 8,
+        "fat": 12,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Walmart",
+        "walmart": [
+          "StarKist Tuna Pouches in Water (2×2.6oz)",
+          "Hellmann's Light Mayo (1 tbsp)",
+          "Romaine Hearts (Great Value brand)",
+          "Pace Chunky Salsa (2 tbsp)",
+          "Celery stalk (diced)"
+        ],
+        "steps": "Mix tuna with mayo and diced celery. Scoop into romaine leaves. Top with salsa.",
+        "tip": "Tuna pouches are the best protein-per-dollar food in the store - 22g protein for under $1.50."
+      },
+      {
+        "name": "Trader Joe's Protein Bowl",
+        "category": "lunch",
+        "calories": 420,
+        "protein": 40,
+        "carbs": 35,
+        "fat": 12,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Trader Joe's",
+        "walmart": [
+          "TJ's Grilled Chicken Strips (from frozen section, 3oz)",
+          "TJ's Harvest Grains Blend (1/2 cup cooked)",
+          "TJ's Cruciferous Crunch Collection (1 cup)",
+          "TJ's Green Goddess Dressing (2 tbsp)"
+        ],
+        "steps": "Microwave chicken and grains. Toss with raw Cruciferous Crunch. Drizzle dressing.",
+        "tip": "Trader Joe's Harvest Grains Blend is a mix of Israeli couscous, red quinoa, and orzo - more interesting than plain rice."
+      },
+      {
+        "name": "Costco Chicken Breast Meal Prep",
+        "category": "lunch",
+        "calories": 440,
+        "protein": 45,
+        "carbs": 40,
+        "fat": 8,
+        "difficulty": "Medium",
+        "prepTime": "30 min",
+        "store": "Costco",
+        "walmart": [
+          "Kirkland Boneless Skinless Chicken Breast (buy in bulk, use 5oz per serving)",
+          "Kirkland Organic Brown Rice Pouches (microwave, 1/2 pouch)",
+          "Kirkland Broccoli Florets (frozen, 1 cup)"
+        ],
+        "steps": "Season chicken with salt, pepper, garlic powder. Bake at 400°F 22 min. Microwave rice pouch and broccoli. Meal prep 4 servings at once.",
+        "tip": "Costco chicken breast is usually $3.50/lb - the cheapest source of quality protein. Prep Sunday, eat Mon-Thu."
+      },
+      {
+        "name": "Good & Gather Salad Kit + Chicken",
+        "category": "lunch",
+        "calories": 380,
+        "protein": 36,
+        "carbs": 22,
+        "fat": 16,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Target",
+        "walmart": [
+          "Good & Gather Asian Chopped Salad Kit (Target)",
+          "Tyson Grilled & Ready Chicken Strips (3oz)"
+        ],
+        "steps": "Prepare salad kit per package. Top with grilled chicken strips.",
+        "tip": "Target Good & Gather salad kits come with dressing and toppings already included - zero prep beyond opening the bag."
+      },
+      {
+        "name": "Whole Foods Hot Bar Protein Bowl",
+        "category": "lunch",
+        "calories": 490,
+        "protein": 42,
+        "carbs": 38,
+        "fat": 14,
+        "difficulty": "Easy",
+        "prepTime": "0 min",
+        "store": "Whole Foods",
+        "walmart": [
+          "Whole Foods Hot Bar: Grilled Salmon or Rotisserie Chicken (4oz)",
+          "Whole Foods Hot Bar: Roasted Vegetables (1/2 cup)",
+          "Whole Foods Prepared: Wild Rice Pilaf (1/2 cup)",
+          "Whole Foods Olive Bar: 5-6 olives"
+        ],
+        "steps": "Pick your protein, vegetables, and grain from the hot bar. Done.",
+        "tip": "The Whole Foods hot bar charges by weight - fill with high-protein, low-carb items like grilled fish and roasted veggies for best value."
+      },
+      {
+        "name": "Sheet Pan Lemon Herb Salmon",
+        "category": "dinner",
+        "calories": 430,
+        "protein": 42,
+        "carbs": 18,
+        "fat": 20,
+        "difficulty": "Medium",
+        "prepTime": "25 min",
+        "store": "Costco / Whole Foods",
+        "walmart": [
+          "Kirkland Wild Alaskan Sockeye Salmon (Costco, 5oz fillet)",
+          "365 by WFM Asparagus (Whole Foods)",
+          "Olive oil (1 tbsp)",
+          "Lemon (1/2)",
+          "Garlic cloves (2)"
+        ],
+        "steps": "Preheat oven to 400°F. Place salmon and asparagus on sheet pan. Drizzle with olive oil, lemon, minced garlic. Roast 15-18 min.",
+        "tip": "Costco sells 3lb bags of individually portioned wild salmon - thaw what you need, keep the rest frozen for $7-9/lb."
+      },
+      {
+        "name": "Trader Joe's Turkey Meatball Bowl",
+        "category": "dinner",
+        "calories": 450,
+        "protein": 38,
+        "carbs": 40,
+        "fat": 14,
+        "difficulty": "Easy",
+        "prepTime": "15 min",
+        "store": "Trader Joe's",
+        "walmart": [
+          "TJ's Lean Turkey Meatballs (frozen, 4 meatballs)",
+          "TJ's Organic Marinara Sauce (1/2 cup)",
+          "TJ's Cauliflower Gnocchi (1 cup)",
+          "Parmigiano Reggiano (1 tbsp grated)"
+        ],
+        "steps": "Cook cauliflower gnocchi in skillet per package. Warm meatballs and marinara. Combine, top with cheese.",
+        "tip": "TJ's cauliflower gnocchi cuts carbs in half vs regular pasta gnocchi. The turkey meatballs are 6g protein each."
+      },
+      {
+        "name": "Ground Turkey Stuffed Peppers",
+        "category": "dinner",
+        "calories": 410,
+        "protein": 38,
+        "carbs": 28,
+        "fat": 14,
+        "difficulty": "Medium",
+        "prepTime": "35 min",
+        "store": "Walmart",
+        "walmart": [
+          "Jennie-O Ground Turkey 93/7 (1/2 lb)",
+          "Bell Peppers (3 whole, any color)",
+          "Great Value Instant Brown Rice (1/2 cup dry)",
+          "Hunt's Tomato Sauce (1/2 cup)",
+          "Taco seasoning (1 packet)",
+          "Kraft Mexican Blend Shredded Cheese (1/4 cup)"
+        ],
+        "steps": "Cook turkey with taco seasoning. Mix with cooked rice and half the tomato sauce. Halve peppers, remove seeds, fill with turkey mixture. Top with cheese. Bake 400°F 20 min.",
+        "tip": "Make 6 pepper halves at once - the leftovers reheat perfectly for lunch the next 2 days."
+      },
+      {
+        "name": "Banza Chickpea Pasta with Turkey",
+        "category": "dinner",
+        "calories": 470,
+        "protein": 44,
+        "carbs": 42,
+        "fat": 10,
+        "difficulty": "Medium",
+        "prepTime": "20 min",
+        "store": "Target / Whole Foods",
+        "walmart": [
+          "Banza Chickpea Penne (2oz dry = ~1 cup cooked)",
+          "Ground Turkey 93/7 (4oz)",
+          "Rao's Marinara Sauce (1/3 cup)",
+          "Spinach (1 cup, wilted in)",
+          "Garlic (2 cloves)"
+        ],
+        "steps": "Cook Banza pasta per package (slightly al dente). Brown turkey with garlic. Add marinara and spinach until wilted. Toss with pasta.",
+        "tip": "Banza pasta has 14g protein per serving vs 7g for regular pasta. Combined with turkey this is 44g protein in a bowl that feels like comfort food."
+      },
+      {
+        "name": "Quest Bar + Apple",
+        "category": "snack",
+        "calories": 285,
+        "protein": 21,
+        "carbs": 46,
+        "fat": 8,
+        "difficulty": "Easy",
+        "prepTime": "0 min",
+        "store": "Walmart / Target",
+        "walmart": [
+          "Quest Bar (any flavor, Walmart or Target)",
+          "Apple (medium)"
+        ],
+        "steps": "Grab and go.",
+        "tip": "Quest bars have 14g fiber which slows digestion and keeps you full on a cut. The apple adds natural sugar for energy."
+      },
+      {
+        "name": "Cottage Cheese & Veggie Plate",
+        "category": "snack",
+        "calories": 160,
+        "protein": 20,
+        "carbs": 12,
+        "fat": 3,
+        "difficulty": "Easy",
+        "prepTime": "3 min",
+        "store": "Walmart",
+        "walmart": [
+          "Daisy 2% Cottage Cheese (1/2 cup)",
+          "Great Value Baby Carrots (1oz)",
+          "Cucumber (1/2, sliced)",
+          "Trader Joe's Everything But the Bagel Seasoning (or Walmart store brand)"
+        ],
+        "steps": "Slice cucumber. Arrange with carrots and cottage cheese on a plate. Shake seasoning on cottage cheese.",
+        "tip": "Cottage cheese is one of the highest protein-per-calorie dairy foods available. 13g protein for 90 calories."
+      },
+      {
+        "name": "RX Bar + String Cheese",
+        "category": "snack",
+        "calories": 290,
+        "protein": 19,
+        "carbs": 31,
+        "fat": 12,
+        "difficulty": "Easy",
+        "prepTime": "0 min",
+        "store": "Target / Whole Foods",
+        "walmart": [
+          "RX Bar Chocolate Sea Salt (Target or Whole Foods)",
+          "Sargento Natural String Cheese (1 stick)"
+        ],
+        "steps": "Eat both.",
+        "tip": "RX Bars have zero grams of added sugar - all sweetness comes from dates. String cheese adds easy protein and fat."
+      },
+      {
+        "name": "Kirkland Protein Bar",
+        "category": "snack",
+        "calories": 190,
+        "protein": 21,
+        "carbs": 22,
+        "fat": 7,
+        "difficulty": "Easy",
+        "prepTime": "0 min",
+        "store": "Costco",
+        "walmart": [
+          "Kirkland Signature Protein Bar (Costco, any flavor)"
+        ],
+        "steps": "Open and eat.",
+        "tip": "Costco protein bars are $1.10 each vs $2.50+ at stores - same macros as Quest or ONE bars. Best value protein bar available."
+      }
+    ]
+  },
+  "muscle_gain": {
+    "label": "Muscle gain",
+    "color": "var(--prot)",
+    "description": "Substantial meals with enough protein and energy to support a gaining phase.",
+    "meals": [
+      {
+        "name": "Kodiak Power Waffles with Nut Butter",
+        "category": "breakfast",
+        "calories": 680,
+        "protein": 38,
+        "carbs": 72,
+        "fat": 22,
+        "difficulty": "Easy",
+        "prepTime": "10 min",
+        "store": "Target / Walmart",
+        "walmart": [
+          "Kodiak Cakes Power Waffles Frozen (2 waffles)",
+          "Justin's Classic Almond Butter (2 tbsp)",
+          "Banana (1 medium)",
+          "Kirkland 100% Pure Maple Syrup (1 tbsp, optional)"
+        ],
+        "steps": "Toast Kodiak waffles. Top with almond butter, sliced banana, and maple syrup.",
+        "tip": "Kodiak waffles have 14g protein for 2 waffles before any toppings. This is one of the best-tasting bulking breakfasts."
+      },
+      {
+        "name": "5-Egg Breakfast Scramble",
+        "category": "breakfast",
+        "calories": 590,
+        "protein": 42,
+        "carbs": 22,
+        "fat": 32,
+        "difficulty": "Easy",
+        "prepTime": "12 min",
+        "store": "Costco / Whole Foods",
+        "walmart": [
+          "Vital Farms Pasture Raised Eggs (Costco or WFM, 3 whole)",
+          "Egg Whites from carton (2 whites extra)",
+          "Kirkland Shredded Cheddar Cheese (1/4 cup)",
+          "Avocado (1/2)",
+          "Dave's Killer Bread (1 slice, toasted)"
+        ],
+        "steps": "Scramble 3 whole eggs + 2 egg whites together. Cook on medium with butter. Add cheese at the end. Serve with sliced avocado and toast.",
+        "tip": "Whole eggs contain cholesterol and fat - both needed for testosterone production. Don't skip the yolks when bulking."
+      },
+      {
+        "name": "Mass Builder Smoothie",
+        "category": "breakfast",
+        "calories": 720,
+        "protein": 45,
+        "carbs": 80,
+        "fat": 20,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Costco / Walmart",
+        "walmart": [
+          "Fairlife Whole Milk (1 cup, Costco)",
+          "Optimum Nutrition Gold Standard Whey Chocolate (1 scoop)",
+          "Banana (1 large)",
+          "Kirkland Almond Butter (2 tbsp)",
+          "Quaker Old Fashioned Oats (1/2 cup dry)",
+          "Ice cubes"
+        ],
+        "steps": "Blend everything together on high 45 seconds.",
+        "tip": "This is approximately 700+ calories in one glass. For hard gainers who struggle to eat enough, this is the answer."
+      },
+      {
+        "name": "Overnight Oats Mass Build",
+        "category": "breakfast",
+        "calories": 620,
+        "protein": 34,
+        "carbs": 78,
+        "fat": 18,
+        "difficulty": "Easy",
+        "prepTime": "5 min (night before)",
+        "store": "Costco / Walmart",
+        "walmart": [
+          "Kirkland Organic Rolled Oats (1 cup dry)",
+          "Fairlife 2% Milk (1 cup)",
+          "Chobani Plain Greek Yogurt (1/2 cup)",
+          "Kirkland Honey (1 tbsp)",
+          "Chia Seeds (1 tbsp)",
+          "Trader Joe's Peanut Butter Granola (1/4 cup topping)"
+        ],
+        "steps": "Combine oats, milk, yogurt, honey, and chia in a mason jar. Stir well. Refrigerate overnight. Add granola topping in the morning.",
+        "tip": "Prep 5 jars on Sunday. Your entire week of bulking breakfasts is done in 20 minutes."
+      },
+      {
+        "name": "Costco Rotisserie Chicken Rice Bowl",
+        "category": "lunch",
+        "calories": 780,
+        "protein": 58,
+        "carbs": 72,
+        "fat": 24,
+        "difficulty": "Easy",
+        "prepTime": "10 min",
+        "store": "Costco",
+        "walmart": [
+          "Costco Rotisserie Chicken (2 cups pulled, white + dark)",
+          "Kirkland Organic Brown Rice Pouches (1 full pouch)",
+          "Avocado (1/2)",
+          "Trader Joe's Cilantro Salsa (3 tbsp)",
+          "Lime (1/2)"
+        ],
+        "steps": "Microwave rice pouch 90 sec. Shred rotisserie chicken. Combine in bowl with sliced avocado, salsa, and lime squeeze.",
+        "tip": "Costco's $5 rotisserie chicken provides 5-6 meals. The dark meat adds healthy fat for bulking. Best calorie-to-dollar ratio in the store."
+      },
+      {
+        "name": "Trader Joe's Burrito Bowl Build",
+        "category": "lunch",
+        "calories": 720,
+        "protein": 48,
+        "carbs": 68,
+        "fat": 22,
+        "difficulty": "Easy",
+        "prepTime": "15 min",
+        "store": "Trader Joe's",
+        "walmart": [
+          "TJ's Organic Black Beans (1/2 cup, canned)",
+          "TJ's Frozen Brown Rice (1 cup, microwaved)",
+          "TJ's Chicken Breast Strips (3oz)",
+          "TJ's Corn & Chile Tomato-less Salsa (3 tbsp)",
+          "TJ's Shredded Mexican Cheese (1/4 cup)",
+          "TJ's Avocado's Number Guacamole (2 tbsp)"
+        ],
+        "steps": "Warm chicken, beans, and rice separately (microwave). Assemble in bowl with salsa, cheese, and guac on top.",
+        "tip": "Trader Joe's has every component of this bowl pre-made and ready in under 15 min. Their guacamole in individual cups is the cleanest ingredient list available."
+      },
+      {
+        "name": "Big Muscle Mac & Cheese Bowl",
+        "category": "lunch",
+        "calories": 680,
+        "protein": 50,
+        "carbs": 55,
+        "fat": 24,
+        "difficulty": "Medium",
+        "prepTime": "20 min",
+        "store": "Walmart",
+        "walmart": [
+          "Banza Chickpea Mac & Cheese (1 box)",
+          "Ground Turkey 93/7 (5oz, cooked)",
+          "Great Value Frozen Broccoli Florets (1 cup)",
+          "Parmesan (1 tbsp)"
+        ],
+        "steps": "Cook Banza mac per box. Brown turkey in a pan. Microwave broccoli 3 min. Mix everything in one bowl with parmesan.",
+        "tip": "Banza mac has 26g protein per box before adding turkey. This hits 50g protein while feeling like comfort food."
+      },
+      {
+        "name": "Whole Foods Grain Bowl",
+        "category": "lunch",
+        "calories": 650,
+        "protein": 42,
+        "carbs": 62,
+        "fat": 22,
+        "difficulty": "Easy",
+        "prepTime": "0 min",
+        "store": "Whole Foods",
+        "walmart": [
+          "WFM Hot Bar: Grilled Chicken or Salmon (5oz)",
+          "WFM Prepared Foods: Farro or Wild Rice (3/4 cup)",
+          "WFM Hot Bar: Roasted Root Vegetables (1/2 cup)",
+          "WFM Salad Bar: Sunflower Seeds (1 tbsp)",
+          "WFM Olive Bar: Green Olives (5-6)"
+        ],
+        "steps": "Build your bowl from the hot bar and prepared foods section.",
+        "tip": "Ask the hot bar staff for the highest-protein options. Salmon, whole grain farro, and roasted veggies is a textbook bulking meal."
+      },
+      {
+        "name": "Ground Beef & Sweet Potato Power Meal",
+        "category": "dinner",
+        "calories": 720,
+        "protein": 48,
+        "carbs": 58,
+        "fat": 28,
+        "difficulty": "Medium",
+        "prepTime": "30 min",
+        "store": "Walmart",
+        "walmart": [
+          "Great Value 80/20 Ground Beef (6oz)",
+          "Sweet Potato (2 medium)",
+          "Kraft Mexican Blend Cheese (1/4 cup)",
+          "Daisy Sour Cream (2 tbsp)",
+          "Green Onions",
+          "Garlic powder, onion powder, cumin"
+        ],
+        "steps": "Microwave sweet potatoes 8 min until soft. Brown ground beef with spices. Split potatoes open, top with beef, cheese, sour cream, and green onion.",
+        "tip": "Sweet potatoes digest slowly - better pre-workout energy than white rice. 80/20 beef adds the healthy fats needed during a bulk."
+      },
+      {
+        "name": "Costco Salmon Pasta",
+        "category": "dinner",
+        "calories": 780,
+        "protein": 52,
+        "carbs": 72,
+        "fat": 26,
+        "difficulty": "Medium",
+        "prepTime": "25 min",
+        "store": "Costco",
+        "walmart": [
+          "Kirkland Wild Salmon (5oz fillet)",
+          "Barilla Protein+ Pasta (3oz dry)",
+          "Kirkland Extra Virgin Olive Oil (2 tbsp)",
+          "Kirkland Roasted Garlic (2 tsp)",
+          "Cherry Tomatoes (1/2 cup, halved)",
+          "Baby Spinach (2 cups)",
+          "Lemon"
+        ],
+        "steps": "Cook pasta. Season and pan-sear salmon 4 min per side. Wilt spinach and tomatoes in olive oil with garlic in the same pan. Toss with pasta, flake salmon over the top.",
+        "tip": "Barilla Protein+ has 10g protein per serving vs 7g regular pasta. Kirkland olive oil is highest quality for a low price."
+      },
+      {
+        "name": "Trader Joe's Steak & Rice Bowl",
+        "category": "dinner",
+        "calories": 750,
+        "protein": 50,
+        "carbs": 65,
+        "fat": 26,
+        "difficulty": "Medium",
+        "prepTime": "20 min",
+        "store": "Trader Joe's",
+        "walmart": [
+          "TJ's Fully Cooked Beef Sirloin (or marinate TJ's Sirloin Steak Tips)",
+          "TJ's Frozen Jasmine Rice (1.5 cups cooked)",
+          "TJ's Asparagus (1 bunch)",
+          "TJ's Soyaki Sauce (2 tbsp)",
+          "Sesame seeds"
+        ],
+        "steps": "Cook steak per instructions. Microwave rice. Roast asparagus at 425°F 12 min. Assemble bowl with Soyaki drizzle and sesame seeds.",
+        "tip": "TJ's Soyaki is their best-selling sauce - teriyaki-style with just 8 ingredients. Transforms plain steak into a restaurant-quality meal."
+      },
+      {
+        "name": "Mass Gainer Shake",
+        "category": "snack",
+        "calories": 740,
+        "protein": 46,
+        "carbs": 82,
+        "fat": 22,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Costco / Walmart",
+        "walmart": [
+          "Fairlife Whole Milk (1.5 cups, Costco)",
+          "Kirkland Almond Butter (2.5 tbsp)",
+          "Banana (1 large)",
+          "Quaker Oats (1/2 cup)",
+          "ON Gold Standard Whey Chocolate (1 scoop)"
+        ],
+        "steps": "Blend all together until smooth.",
+        "tip": "This is a real mass gainer shake - 740 calories in one glass. Cheaper and cleaner than any store-bought mass gainer."
+      },
+      {
+        "name": "Greek Yogurt Bark (Freezer Snack)",
+        "category": "snack",
+        "calories": 310,
+        "protein": 24,
+        "carbs": 32,
+        "fat": 8,
+        "difficulty": "Easy",
+        "prepTime": "5 min + 2hr freeze",
+        "store": "Trader Joe's",
+        "walmart": [
+          "TJ's Plain Greek Yogurt (1 cup)",
+          "TJ's Dark Chocolate Chips (2 tbsp)",
+          "TJ's Honey (1 tbsp)",
+          "TJ's Mixed Berries (1/4 cup)"
+        ],
+        "steps": "Mix honey into yogurt. Spread onto parchment-lined baking sheet (1/2 inch thick). Top with berries and chocolate chips. Freeze 2+ hours. Break into pieces.",
+        "tip": "Make one batch Sunday, gives you 3-4 snacks throughout the week. High protein, feels like dessert."
+      },
+      {
+        "name": "Kirkland Mixed Nuts + Jerky",
+        "category": "snack",
+        "calories": 340,
+        "protein": 22,
+        "carbs": 12,
+        "fat": 24,
+        "difficulty": "Easy",
+        "prepTime": "0 min",
+        "store": "Costco",
+        "walmart": [
+          "Kirkland Signature Mixed Nuts (1oz, Costco)",
+          "Kirkland Beef Jerky (1oz, Costco)"
+        ],
+        "steps": "Open bags, eat.",
+        "tip": "Costco sells their mixed nuts and jerky in bulk at about half the price of grocery stores. A perfect high-calorie, high-protein portable snack."
+      }
+    ]
+  },
+  "maintenance": {
+    "label": "Maintenance",
+    "color": "var(--carb)",
+    "description": "Balanced meals for steady intake without pushing calories in either direction.",
+    "meals": [
+      {
+        "name": "Avocado Toast with Eggs",
+        "category": "breakfast",
+        "calories": 440,
+        "protein": 22,
+        "carbs": 38,
+        "fat": 22,
+        "difficulty": "Easy",
+        "prepTime": "10 min",
+        "store": "Whole Foods / Trader Joe's",
+        "walmart": [
+          "Dave's Killer Bread (2 slices)",
+          "Avocado (1 ripe)",
+          "Vital Farms Eggs (2 poached or fried)",
+          "Trader Joe's Everything But the Bagel Seasoning",
+          "Red pepper flakes",
+          "Lemon (squeeze)"
+        ],
+        "steps": "Toast bread. Mash avocado with lemon, salt. Spread on toast. Add eggs. Season with EBtB and red pepper.",
+        "tip": "The Everything But the Bagel seasoning from Trader Joe's is the secret to making avocado toast actually taste good. $2 for a jar that lasts months."
+      },
+      {
+        "name": "Bob's Red Mill Overnight Oats",
+        "category": "breakfast",
+        "calories": 420,
+        "protein": 18,
+        "carbs": 62,
+        "fat": 10,
+        "difficulty": "Easy",
+        "prepTime": "5 min (prep night before)",
+        "store": "Whole Foods / Target",
+        "walmart": [
+          "Bob's Red Mill Organic Old Fashioned Oats (1/2 cup)",
+          "Almond Breeze Unsweetened Almond Milk (1 cup)",
+          "Chobani Plain Greek Yogurt (1/4 cup)",
+          "Driscoll's Strawberries (sliced, 1/2 cup)",
+          "Kind Dark Chocolate Nuts & Sea Salt (1/2 bar, crumbled)"
+        ],
+        "steps": "Mix oats, almond milk, yogurt in jar. Refrigerate overnight. Top with berries and crumbled Kind bar before eating.",
+        "tip": "Bob's Red Mill oats are available everywhere and certified gluten-free. The Kind bar topping adds crunch without a lot of sugar."
+      },
+      {
+        "name": "Target Good & Gather Smoothie Bowl",
+        "category": "breakfast",
+        "calories": 390,
+        "protein": 16,
+        "carbs": 58,
+        "fat": 10,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Target",
+        "walmart": [
+          "Good & Gather Organic Acai Smoothie Packs (Target)",
+          "Good & Gather Almond Milk (1/4 cup)",
+          "Good & Gather Frozen Mango (1/4 cup)",
+          "Granola (1/4 cup topping)",
+          "Fresh banana (sliced)"
+        ],
+        "steps": "Blend acai pack with almond milk and mango until thick. Pour in bowl, top with granola and banana.",
+        "tip": "Keep the liquid minimal - you want a thick, spoonable texture, not a drinkable smoothie."
+      },
+      {
+        "name": "Whole Foods Poke Bowl",
+        "category": "lunch",
+        "calories": 520,
+        "protein": 35,
+        "carbs": 55,
+        "fat": 16,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Whole Foods",
+        "walmart": [
+          "WFM Sushi Bar: Ahi Tuna Poke (4oz)",
+          "WFM Prepared Foods: Sushi Rice (3/4 cup)",
+          "WFM Salad Bar: Shredded Carrots, Cucumber, Edamame (1/2 cup total)",
+          "WFM: Sesame Ginger Dressing (2 tbsp)",
+          "WFM: Nori sheets or Crispy Onions (topping)"
+        ],
+        "steps": "Build your bowl with rice on the bottom, poke and veggies on top, drizzle dressing.",
+        "tip": "Whole Foods makes fresh poke daily. Cheaper than a restaurant poke bowl with the same quality."
+      },
+      {
+        "name": "Trader Joe's Mediterranean Plate",
+        "category": "lunch",
+        "calories": 490,
+        "protein": 26,
+        "carbs": 48,
+        "fat": 20,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Trader Joe's",
+        "walmart": [
+          "TJ's Falafel (4 pieces, from frozen)",
+          "TJ's Hummus Original (1/4 cup)",
+          "TJ's Pita Bread (1)",
+          "TJ's Tzatziki Dip (2 tbsp)",
+          "TJ's Persian Cucumber (sliced)",
+          "TJ's Cherry Tomatoes"
+        ],
+        "steps": "Warm falafel per package (oven 375°F 15 min). Warm pita. Plate with hummus, tzatziki, cucumber, and tomatoes.",
+        "tip": "TJ's frozen falafel is shockingly good - crispy on the outside, fluffy inside. This whole meal costs about $5."
+      },
+      {
+        "name": "Costco Quinoa Salad with Chicken",
+        "category": "lunch",
+        "calories": 500,
+        "protein": 38,
+        "carbs": 44,
+        "fat": 16,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Costco",
+        "walmart": [
+          "Kirkland Rotisserie Chicken (4oz pulled)",
+          "Costco Ready Pac Bistro Salad or Pre-Made Quinoa Salad (1 container)",
+          "Kirkland Extra Virgin Olive Oil (1 tsp drizzle)"
+        ],
+        "steps": "Combine rotisserie chicken with the pre-made quinoa salad.",
+        "tip": "Costco sells pre-made quinoa salads in the refrigerated section. Combined with their $5 rotisserie chicken this takes 3 minutes to prepare."
+      },
+      {
+        "name": "Trader Joe's Chicken Tikka Masala",
+        "category": "dinner",
+        "calories": 480,
+        "protein": 30,
+        "carbs": 55,
+        "fat": 14,
+        "difficulty": "Easy",
+        "prepTime": "10 min",
+        "store": "Trader Joe's",
+        "walmart": [
+          "TJ's Chicken Tikka Masala (1 box, frozen or refrigerated)",
+          "TJ's Frozen Brown Rice (1 cup cooked)",
+          "TJ's Baby Spinach (1 cup, stirred in)"
+        ],
+        "steps": "Heat tikka masala per package. Microwave rice. Add spinach to the hot curry to wilt. Serve over rice.",
+        "tip": "TJ's Chicken Tikka Masala is one of the highest-rated frozen meals on the market. Adding spinach boosts iron and nutrients without changing the taste."
+      },
+      {
+        "name": "Sheet Pan Chicken & Veggies",
+        "category": "dinner",
+        "calories": 460,
+        "protein": 42,
+        "carbs": 30,
+        "fat": 18,
+        "difficulty": "Medium",
+        "prepTime": "30 min",
+        "store": "Costco / Walmart",
+        "walmart": [
+          "Kirkland Boneless Skinless Chicken Thighs (5oz, Costco)",
+          "Broccoli Florets (1.5 cups)",
+          "Bell Peppers (2, sliced)",
+          "Sweet Potato (1 medium, cubed)",
+          "Primal Kitchen Avocado Oil Spray",
+          "Italian seasoning, garlic powder"
+        ],
+        "steps": "Preheat oven 425°F. Toss everything in avocado oil spray and seasoning on one large sheet pan. Roast 25-28 min, flipping halfway.",
+        "tip": "Chicken thighs are juicier and cheaper than breasts. At 425°F everything crisps up perfectly without getting soggy."
+      },
+      {
+        "name": "Whole Foods Wild Salmon Bowl",
+        "category": "dinner",
+        "calories": 540,
+        "protein": 38,
+        "carbs": 48,
+        "fat": 20,
+        "difficulty": "Medium",
+        "prepTime": "20 min",
+        "store": "Whole Foods",
+        "walmart": [
+          "365 by WFM Wild Sockeye Salmon (5oz fillet)",
+          "365 by WFM Brown Rice (1 cup cooked)",
+          "WFM Broccolini (1 bunch)",
+          "365 Tamari Sauce (2 tbsp)",
+          "Fresh ginger (1 tsp, grated)",
+          "Sesame seeds"
+        ],
+        "steps": "Cook rice. Pan-sear salmon in sesame oil 4 min per side. Sauté broccolini with tamari and ginger. Build bowl.",
+        "tip": "Wild sockeye salmon from Whole Foods has much higher omega-3 content than farmed Atlantic salmon. Worth the extra cost for the real health benefits."
+      },
+      {
+        "name": "Kind Bar + Cheese",
+        "category": "snack",
+        "calories": 280,
+        "protein": 9,
+        "carbs": 24,
+        "fat": 18,
+        "difficulty": "Easy",
+        "prepTime": "0 min",
+        "store": "Target / Whole Foods",
+        "walmart": [
+          "Kind Dark Chocolate Nuts & Sea Salt (1 bar)",
+          "Organic Valley String Cheese (1 stick)"
+        ],
+        "steps": "Eat both.",
+        "tip": "Kind bars have real recognizable ingredients - you can see every nut. The combination of fiber from the bar and protein from cheese is a perfect maintenance snack."
+      },
+      {
+        "name": "Apple with Trader Joe's Almond Butter",
+        "category": "snack",
+        "calories": 260,
+        "protein": 7,
+        "carbs": 34,
+        "fat": 12,
+        "difficulty": "Easy",
+        "prepTime": "2 min",
+        "store": "Trader Joe's",
+        "walmart": [
+          "Honeycrisp Apple (1 large)",
+          "Trader Joe's Raw Almond Butter (2 tbsp)"
+        ],
+        "steps": "Slice apple, dip in almond butter.",
+        "tip": "TJ's Raw Almond Butter is made from one ingredient and is about $4 - half the price of the same thing at Whole Foods."
+      }
+    ]
+  },
+  "recomp": {
+    "label": "Recomposition",
+    "color": "var(--accent)",
+    "description": "Protein-forward meals that fit a modest calorie target while you train consistently.",
+    "meals": [
+      {
+        "name": "Fage + Protein + Berries",
+        "category": "breakfast",
+        "calories": 320,
+        "protein": 35,
+        "carbs": 28,
+        "fat": 4,
+        "difficulty": "Easy",
+        "prepTime": "3 min",
+        "store": "Costco / Target",
+        "walmart": [
+          "Fage Total 0% Greek Yogurt (7oz, Costco sells 4-packs)",
+          "ON Gold Standard Whey (1/2 scoop stirred in)",
+          "Costco Organic Frozen Blueberries (1/2 cup)",
+          "Walnuts (1 tbsp, chopped)"
+        ],
+        "steps": "Stir half scoop of whey into yogurt until mixed. Top with thawed blueberries and walnuts.",
+        "tip": "Stirring protein powder into Greek yogurt gives you a thick, pudding-like texture with 35g protein. Fage is the thickest Greek yogurt on the market."
+      },
+      {
+        "name": "High-Protein Egg Muffins Meal Prep",
+        "category": "breakfast",
+        "calories": 280,
+        "protein": 30,
+        "carbs": 6,
+        "fat": 14,
+        "difficulty": "Medium",
+        "prepTime": "30 min (makes 12)",
+        "store": "Costco / Walmart",
+        "walmart": [
+          "Kirkland Eggs (6 whole, Costco)",
+          "Great Value Liquid Egg Whites (1/2 cup)",
+          "Hillshire Farm Turkey Sausage (2oz, crumbled)",
+          "Bell Pepper (1/4 cup diced)",
+          "Kirkland Shredded Mozzarella (1/4 cup)",
+          "Salt, pepper, garlic powder"
+        ],
+        "steps": "Preheat 350°F. Whisk eggs and whites. Stir in sausage, peppers, cheese. Pour into greased 12-cup muffin tin. Bake 20-22 min.",
+        "tip": "Makes 12 egg muffins at once. Refrigerate up to 5 days. Microwave 30 sec per muffin. Two muffins = a complete high-protein breakfast."
+      },
+      {
+        "name": "StarKist Tuna + Avocado Bowl",
+        "category": "lunch",
+        "calories": 380,
+        "protein": 40,
+        "carbs": 18,
+        "fat": 16,
+        "difficulty": "Easy",
+        "prepTime": "5 min",
+        "store": "Walmart / Target",
+        "walmart": [
+          "StarKist Tuna Creations BOLD Jalapeño (2.6oz pouch, Target)",
+          "Avocado (1/2, mashed)",
+          "Cherry Tomatoes (1/2 cup)",
+          "Romaine Hearts (2 large leaves)",
+          "Lime juice",
+          "Everything But the Bagel Seasoning"
+        ],
+        "steps": "Mix tuna with mashed avocado and lime. Serve in romaine leaves like boats. Top with tomatoes and seasoning.",
+        "tip": "StarKist Tuna Creations come pre-seasoned - no mayo needed. The jalapeño variety has zero added fat and exceptional flavor."
+      },
+      {
+        "name": "Ground Turkey Zucchini Boats",
+        "category": "lunch",
+        "calories": 390,
+        "protein": 42,
+        "carbs": 18,
+        "fat": 16,
+        "difficulty": "Medium",
+        "prepTime": "35 min",
+        "store": "Walmart / Costco",
+        "walmart": [
+          "Great Value Ground Turkey 99/1 (Walmart, 5oz)",
+          "Zucchini (2 large)",
+          "Hunt's Tomato Sauce (1/4 cup)",
+          "Taco seasoning (1/2 packet)",
+          "Kirkland Mozzarella (2 tbsp)",
+          "Red onion (1/4 cup diced)"
+        ],
+        "steps": "Halve zucchini lengthwise, scoop seeds. Brown turkey with onion and taco seasoning. Fill zucchini, top with tomato sauce and cheese. Bake 400°F 20 min.",
+        "tip": "Replacing taco shells or tortillas with zucchini boats cuts carbs dramatically while adding fiber and potassium."
+      },
+      {
+        "name": "Trader Joe's Shrimp Stir Fry",
+        "category": "dinner",
+        "calories": 410,
+        "protein": 38,
+        "carbs": 36,
+        "fat": 10,
+        "difficulty": "Medium",
+        "prepTime": "15 min",
+        "store": "Trader Joe's",
+        "walmart": [
+          "TJ's Frozen Cooked Shrimp (5oz, thawed)",
+          "TJ's Frozen Asian Vegetable Blend (2 cups)",
+          "TJ's Soyaki Sauce (2 tbsp)",
+          "TJ's Brown Rice (1 cup cooked)",
+          "Garlic (2 cloves)",
+          "Sesame oil (1 tsp)"
+        ],
+        "steps": "Sauté garlic in sesame oil. Add veggies, stir fry 4 min. Add shrimp and Soyaki, toss 2 min. Serve over rice.",
+        "tip": "Shrimp is the highest protein-per-calorie animal protein - 23g protein per 100 calories. TJ's frozen shrimp thaws in 10 min under cold water."
+      },
+      {
+        "name": "Baked Cod & Roasted Cauliflower",
+        "category": "dinner",
+        "calories": 340,
+        "protein": 38,
+        "carbs": 22,
+        "fat": 10,
+        "difficulty": "Medium",
+        "prepTime": "25 min",
+        "store": "Whole Foods / Costco",
+        "walmart": [
+          "Wild Caught Cod Fillet (5oz, WFM fresh counter or Costco frozen)",
+          "Cauliflower Head (1, cut into florets)",
+          "Olive oil (2 tsp)",
+          "Lemon",
+          "Capers (1 tbsp)",
+          "Dill (fresh or dried)",
+          "Garlic powder"
+        ],
+        "steps": "Toss cauliflower in olive oil and garlic powder, roast at 425°F 20 min. Season cod with dill and lemon, bake 400°F 12-15 min. Serve with capers on fish.",
+        "tip": "Cod is the leanest whitefish - almost zero fat with 20g protein per 3oz. Perfect for recomp when you want maximum protein minimum calories."
+      },
+      {
+        "name": "Cottage Cheese Power Bowl",
+        "category": "snack",
+        "calories": 230,
+        "protein": 28,
+        "carbs": 16,
+        "fat": 5,
+        "difficulty": "Easy",
+        "prepTime": "3 min",
+        "store": "Costco",
+        "walmart": [
+          "Daisy 1% Cottage Cheese (3/4 cup)",
+          "Kirkland Frozen Pineapple Chunks (1/4 cup, thawed)",
+          "Walnuts (1 tbsp)",
+          "Cinnamon (pinch)"
+        ],
+        "steps": "Combine cottage cheese with thawed pineapple. Top with walnuts and cinnamon.",
+        "tip": "Cottage cheese before bed is one of the best recomp strategies - casein protein digests slowly over 7-8 hours, feeding muscle repair all night."
+      },
+      {
+        "name": "Kirkland Protein Bar + Coffee",
+        "category": "snack",
+        "calories": 195,
+        "protein": 21,
+        "carbs": 22,
+        "fat": 7,
+        "difficulty": "Easy",
+        "prepTime": "0 min",
+        "store": "Costco",
+        "walmart": [
+          "Kirkland Signature Protein Bar (1, Costco)",
+          "Black Coffee or Americano (any size)"
+        ],
+        "steps": "Eat bar, drink coffee.",
+        "tip": "Combining a protein bar with black coffee before a workout gives you caffeine for performance and amino acids for muscle protein synthesis simultaneously."
+      }
+    ]
+  }
+}

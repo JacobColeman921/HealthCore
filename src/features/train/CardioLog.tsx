@@ -1,0 +1,14 @@
+import { useState, type FormEvent } from "react";
+import { Bicycle, Footprints, Mountains, PersonSimpleRun } from "@phosphor-icons/react";
+import { Button } from "../../components/ui/Button";
+import { Field } from "../../components/ui/Field";
+import { id, todayKey } from "../../lib/date";
+import { useMettlefieldStore } from "../../store/useMettlefieldStore";
+
+const types = ["Walk", "Run", "Cycling", "Hike", "Rowing", "Swimming", "Other"];
+export function CardioLog() {
+  const cardio = useMettlefieldStore((state) => state.cardio); const addCardio = useMettlefieldStore((state) => state.addCardio); const [message, setMessage] = useState("");
+  function submit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); const data = new FormData(event.currentTarget); addCardio({ id: id(), date: String(data.get("date")), type: String(data.get("type")), durationMinutes: Number(data.get("duration")), distance: Number(data.get("distance")) || undefined, calories: Number(data.get("calories")) || undefined, notes: String(data.get("notes") || ""), source: "manual" }); setMessage("Activity saved."); event.currentTarget.reset(); }
+  const minutes = cardio.reduce((sum, item) => sum + item.durationMinutes, 0); const icons = [Footprints, PersonSimpleRun, Bicycle, Mountains];
+  return <div><div className="feature-heading"><div><span className="section-kicker">Cardio and activity</span><h2>Record time on the move</h2><p>Track duration and distance without folding exercise calories into food targets.</p></div><div className="activity-total"><strong>{minutes}</strong><span>minutes recorded</span></div></div>{message && <div className="inline-notice" role="status">{message}</div>}<form className="cardio-form surface" onSubmit={submit}><Field label="Date" name="date" type="date" defaultValue={todayKey()} required /><label className="field"><span>Activity</span><select name="type">{types.map((type) => <option key={type}>{type}</option>)}</select></label><Field label="Minutes" name="duration" type="number" min="1" required /><Field label="Distance" name="distance" type="number" min="0" step="0.01" placeholder="Optional" /><Field label="Calories" name="calories" type="number" min="0" placeholder="Optional" /><Field label="Notes" name="notes" placeholder="Easy pace" /><Button type="submit">Save activity</Button></form><div className="activity-list">{cardio.length ? [...cardio].reverse().map((item, index) => { const Icon = icons[index % icons.length]; return <article key={item.id}><Icon aria-hidden="true" /><div><strong>{item.type}</strong><span>{item.date}{item.source === "garmin" ? " from Garmin" : ""}</span></div><div><b>{item.durationMinutes} min</b><span>{item.distance ? `${item.distance} distance` : item.calories ? `${item.calories} kcal` : "Time only"}</span></div></article>; }) : <p className="muted-copy">No cardio activity has been recorded.</p>}</div></div>;
+}
