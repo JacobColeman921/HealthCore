@@ -7,8 +7,9 @@ test.beforeEach(async ({ page }) => {
   await page.reload();
 });
 
-test("every primary destination and subview renders", async ({ page }) => {
-  await expect(page.getByRole("link", { name: "Consistency home" })).toBeVisible();
+test("every primary destination and subview renders", async ({ page }, testInfo) => {
+  if (testInfo.project.name === "mobile") await expect(page.getByRole("link", { name: "Today", exact: true })).toBeVisible();
+  else await expect(page.getByRole("link", { name: "Consistency home" })).toBeVisible();
   await expect(page).toHaveTitle("Consistency");
   await expect(page.getByRole("heading", { name: /^Good day/ })).toBeVisible();
 
