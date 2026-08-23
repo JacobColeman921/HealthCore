@@ -91,7 +91,51 @@ git add index.html package.json README.md src tests docs
 git commit -m "feat: rename public product to Consistency"
 ```
 
-### Task 2: Integrate and publish the application
+### Task 2: Add transparent goal and nutrition target guidance
+
+**Files:**
+- Modify: `src/domain/nutrition.ts`
+- Modify: `src/domain/nutrition.test.ts`
+- Modify: `src/domain/types.ts`
+- Modify: `src/storage/schema.ts`
+- Modify: `src/storage/migrateLegacyState.ts`
+- Modify: `src/features/settings/SettingsRoute.tsx`
+- Modify: `src/styles/global.css`
+- Modify: `tests/e2e/core-flows.spec.ts`
+
+**Interfaces:**
+- Consumes: the current profile, latest bodyweight record, unit preference, goal, and manually entered targets.
+- Produces: a transparent calorie and protein range with an explicit suggested starting target that never overwrites saved targets until the user applies it.
+
+- [ ] **Step 1: Add failing calculator tests**
+
+Cover Mifflin–St Jeor maintenance estimates, each goal range, the suggested midpoint, the 0.8–1.2 g/lb protein range, unit conversion, and incomplete-input behavior.
+
+- [ ] **Step 2: Implement the pure recommendation domain function**
+
+Return maintenance calories, a goal-specific calorie range, a suggested calorie target, the protein range, and the 1.0 g/lb suggested protein target. Use goal factors of 80–90% for Cut, 105–115% for Build, 95–105% for Maintain, and 95–100% for Recomposition. Keep the existing goal enum values for compatibility.
+
+- [ ] **Step 3: Extend profile compatibility**
+
+Persist age, height in centimeters, sex used by the calorie equation, and activity multiplier. Keep all new fields optional so existing backups and browser records remain valid.
+
+- [ ] **Step 4: Build the Settings target machine**
+
+Use clear goal labels: Cut, Build, Maintain, and Recomposition. Let the user enter bodyweight, height, age, sex for the estimate, and activity level. Use the latest weight record as the starting weight. Show maintenance, calorie range, suggested starting calories, protein range, and suggested protein. Explain the assumptions in plain language.
+
+- [ ] **Step 5: Require explicit application**
+
+The `Apply suggested targets` control updates the editable Calories and Protein fields, but does not persist until `Save profile and targets` is used. Changing an input or goal must not silently replace manual targets.
+
+- [ ] **Step 6: Add browser coverage and verify**
+
+Verify incomplete-input guidance, a complete recommendation, explicit application, manual-value preservation, save/reload persistence, responsive layout, and keyboard-accessible controls. Run unit tests, typecheck, copy check, focused Playwright, and production build.
+
+- [ ] **Step 7: Pause for user review**
+
+Keep the local preview running on Settings and ask the user to inspect the target machine before capturing screenshots or publishing.
+
+### Task 3: Integrate and publish the application
 
 **Files:**
 - Modify: application Git history only
@@ -116,7 +160,7 @@ Push `main` to `origin`, inspect the resulting GitHub Actions run, and wait for 
 
 Confirm the live URL returns 200, the page title is Consistency, the wordmark is visible, the main routes load, meal cards render, and RepDB exercise images load from the published origin.
 
-### Task 3: Capture portfolio-ready application evidence
+### Task 4: Capture portfolio-ready application evidence
 
 **Files:**
 - Modify: `tests/e2e/screenshots.spec.ts`
@@ -152,7 +196,7 @@ git add tests/e2e/screenshots.spec.ts docs/qa/screenshots
 git commit -m "docs: capture Consistency portfolio views"
 ```
 
-### Task 4: Replace the portfolio's HealthCore presentation
+### Task 5: Replace the portfolio's HealthCore presentation
 
 **Files:**
 - Modify: `/Users/jacobcoleman/Desktop/Career/Portfolio/content/projects.ts`
