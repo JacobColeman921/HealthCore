@@ -132,6 +132,7 @@ test("suggested targets require explicit application before they are saved", asy
   await expect(page.getByLabel("Calories")).not.toHaveValue("1900");
   await expect(page.getByLabel("Protein (g)")).toHaveValue("180");
   const appliedCalories = await page.getByLabel("Calories").inputValue();
+  expect(await page.evaluate(() => localStorage.getItem("mettlefield_state_v1"))).toBeNull();
 
   await page.getByRole("button", { name: "Save profile and targets" }).click();
   await expect(page.getByRole("status")).toContainText("saved");
@@ -140,6 +141,10 @@ test("suggested targets require explicit application before they are saved", asy
   await expect(page.getByLabel("Protein (g)")).toHaveValue("180");
   await expect(page.getByLabel("Bodyweight (lb)")).toHaveValue("180");
   await expect(page.getByLabel("Current goal")).toHaveValue("weight_loss");
+  await expect(page.getByLabel("Height (in)")).toHaveValue("70.87");
+  await expect(page.getByLabel("Age")).toHaveValue("30");
+  await expect(page.getByLabel("Sex used for estimate")).toHaveValue("male");
+  await expect(page.getByLabel("Activity level")).toHaveValue("1.55");
 
   await page.getByRole("button", { name: "Save profile and targets" }).click();
   const sameDayWeights = await page.evaluate(() => {
@@ -147,6 +152,15 @@ test("suggested targets require explicit application before they are saved", asy
     return state.weights.filter((item: { date: string; value: number }) => item.value === 180).length;
   });
   expect(sameDayWeights).toBe(1);
+
+  await page.evaluate(() => {
+    const state = JSON.parse(localStorage.getItem("mettlefield_state_v1") || "{}");
+    state.profile.activity = 1.4;
+    localStorage.setItem("mettlefield_state_v1", JSON.stringify(state));
+  });
+  await page.reload();
+  await expect(page.getByLabel("Activity level")).toHaveValue("1.4");
+  await expect(page.getByLabel("Activity level").locator("option:checked")).toHaveText("Saved custom level, ×1.4");
 });
 
 test("representative routes and themes have no serious automated accessibility violations", async ({ page }) => {

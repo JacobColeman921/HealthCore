@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState, type ChangeEvent, type FormEvent 
 import { DownloadSimple, UploadSimple, Warning } from "@phosphor-icons/react";
 import { Button } from "../../components/ui/Button";
 import { Field } from "../../components/ui/Field";
-import { calculateNutritionRecommendation, kilogramsToPounds, poundsToKilograms, type NutritionGoal, type NutritionSex, type WeightUnit } from "../../domain/nutrition";
+import { calculateNutritionRecommendation, kilogramsToPounds, NUTRITION_RECOMMENDATION_BOUNDS, poundsToKilograms, weightsAreEquivalent, type NutritionGoal, type NutritionSex, type WeightUnit } from "../../domain/nutrition";
 import type { Theme } from "../../domain/types";
 import { todayKey } from "../../lib/date";
 import { exportState, importState } from "../../storage/persistence";
@@ -28,6 +28,14 @@ function displayNumber(value?: number) {
   return String(Math.round(value * 100) / 100);
 }
 
+function lowerInputBound(value: number) {
+  return Math.ceil(value * 100) / 100;
+}
+
+function upperInputBound(value: number) {
+  return Math.floor(value * 100) / 100;
+}
+
 export function SettingsRoute() {
   const state = useMettlefieldStore();
   const input = useRef<HTMLInputElement>(null);
@@ -44,6 +52,15 @@ export function SettingsRoute() {
   const [activity, setActivity] = useState(state.profile.activity ? String(state.profile.activity) : "");
   const [calories, setCalories] = useState(String(state.goals.calories));
   const [protein, setProtein] = useState(String(state.goals.protein));
+  const weightBounds = units === "imperial" ? {
+    minimum: lowerInputBound(kilogramsToPounds(NUTRITION_RECOMMENDATION_BOUNDS.weightKg.minimum)),
+    maximum: upperInputBound(kilogramsToPounds(NUTRITION_RECOMMENDATION_BOUNDS.weightKg.maximum)),
+  } : NUTRITION_RECOMMENDATION_BOUNDS.weightKg;
+  const heightBounds = units === "imperial" ? {
+    minimum: lowerInputBound(NUTRITION_RECOMMENDATION_BOUNDS.heightCm.minimum / 2.54),
+    maximum: upperInputBound(NUTRITION_RECOMMENDATION_BOUNDS.heightCm.maximum / 2.54),
+  } : NUTRITION_RECOMMENDATION_BOUNDS.heightCm;
+  const hasCustomActivity = activity !== "" && !activityOptions.some((option) => String(option.value) === activity);
 
   const heightCm = positiveNumber(height) ? (units === "imperial" ? Number(height) * 2.54 : Number(height)) : undefined;
   const recommendation = useMemo(() => calculateNutritionRecommendation({
@@ -93,8 +110,7 @@ export function SettingsRoute() {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const savedWeight = positiveNumber(bodyweight);
-    const unitFactor = units === state.profile.units ? 1 : units === "metric" ? 0.45359237 : 2.20462262;
-    const duplicateToday = savedWeight !== undefined && state.weights.some((record) => record.date === todayKey() && Math.abs(record.value * unitFactor - savedWeight) < 0.01);
+    const duplicateToday = savedWeight !== undefined && state.weights.some((record) => record.date === todayKey() && weightsAreEquivalent(record.value, state.profile.units, savedWeight, units));
 
     state.updateProfile({
       name: String(data.get("name")),
@@ -142,11 +158,11 @@ export function SettingsRoute() {
             <Field label="Name" name="name" defaultValue={state.profile.name} />
             <label className="field"><span>Units</span><select name="units" value={units} onChange={(event) => changeUnits(event.target.value as WeightUnit)}><option value="imperial">Imperial</option><option value="metric">Metric</option></select></label>
             <label className="field"><span>Current goal</span><select name="goal" value={goal} onChange={(event) => setGoal(event.target.value as NutritionGoal)}><option value="weight_loss">Cut</option><option value="muscle_gain">Build</option><option value="maintenance">Maintain</option><option value="recomp">Recomposition</option></select></label>
-            <Field label={`Bodyweight (${units === "imperial" ? "lb" : "kg"})`} name="bodyweight" type="number" min="1" step="0.01" value={bodyweight} onChange={(event) => setBodyweight(event.target.value)} />
-            <Field label={`Height (${units === "imperial" ? "in" : "cm"})`} name="height" type="number" min="1" max={units === "imperial" ? "118.11" : "300"} step="0.01" value={height} onChange={(event) => setHeight(event.target.value)} />
-            <Field label="Age" name="age" type="number" min="1" max="125" value={age} onChange={(event) => setAge(event.target.value)} />
+            <Field label={`Bodyweight (${units === "imperial" ? "lb" : "kg"})`} name="bodyweight" type="number" min={weightBounds.minimum} max={weightBounds.maximum} step="0.01" value={bodyweight} onChange={(event) => setBodyweight(event.target.value)} />
+            <Field label={`Height (${units === "imperial" ? "in" : "cm"})`} name="height" type="number" min={heightBounds.minimum} max={heightBounds.maximum} step="0.01" value={height} onChange={(event) => setHeight(event.target.value)} />
+            <Field label="Age" name="age" type="number" min={NUTRITION_RECOMMENDATION_BOUNDS.age.minimum} max={NUTRITION_RECOMMENDATION_BOUNDS.age.maximum} value={age} onChange={(event) => setAge(event.target.value)} />
             <label className="field"><span>Sex used for estimate</span><select name="sex" value={sex} onChange={(event) => setSex(event.target.value as NutritionSex | "")}><option value="">Select</option><option value="female">Female</option><option value="male">Male</option></select></label>
-            <label className="field"><span>Activity level</span><select name="activity" value={activity} onChange={(event) => setActivity(event.target.value)}><option value="">Select</option>{activityOptions.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
+            <label className="field"><span>Activity level</span><select name="activity" value={activity} onChange={(event) => setActivity(event.target.value)}><option value="">Select</option>{hasCustomActivity && <option value={activity}>Saved custom level, ×{activity}</option>}{activityOptions.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
           </div>
 
           <section className="target-recommendation" aria-live="polite">

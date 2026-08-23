@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { calculateNutritionRecommendation, poundsToKilograms } from "./nutrition";
+import { calculateNutritionRecommendation, estimateTdee, kilogramsToPounds, poundsToKilograms, weightsAreEquivalent } from "./nutrition";
 
 const completeProfile = {
   weight: 180,
@@ -63,5 +63,32 @@ describe("calculateNutritionRecommendation", () => {
     { ...completeProfile, activity: 3.1 },
   ])("returns null when required inputs are incomplete or invalid", (input) => {
     expect(calculateNutritionRecommendation(input)).toBeNull();
+  });
+
+  it.each([
+    { ...completeProfile, age: 17 },
+    { ...completeProfile, age: 101 },
+    { ...completeProfile, heightCm: 119 },
+    { ...completeProfile, heightCm: 231 },
+    { ...completeProfile, weight: kilogramsToPounds(34.9) },
+    { ...completeProfile, weight: kilogramsToPounds(300.1) },
+    { ...completeProfile, weight: 34.9, weightUnit: "metric" as const },
+    { ...completeProfile, weight: 300.1, weightUnit: "metric" as const },
+    { ...completeProfile, activity: 1.19 },
+    { ...completeProfile, activity: 1.91 },
+  ])("rejects values outside the adult planning bounds", (input) => {
+    expect(calculateNutritionRecommendation(input)).toBeNull();
+  });
+
+  it("rejects a nonpositive maintenance estimate", () => {
+    expect(estimateTdee(35, 120, 1000, "female", 1.2)).toBeNull();
+  });
+
+  it("treats a two-decimal unit round trip as the same bodyweight", () => {
+    expect(weightsAreEquivalent(81.65, "metric", 180.01, "imperial")).toBe(true);
+  });
+
+  it("does not merge a meaningful same-day bodyweight change", () => {
+    expect(weightsAreEquivalent(81.65, "metric", 181, "imperial")).toBe(false);
   });
 });
