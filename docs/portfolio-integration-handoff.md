@@ -13,6 +13,18 @@ The portfolio still presents the project as HealthCore and describes the former 
 - Case-study route: retain `/work/healthcore/` to avoid breaking existing links
 - Suggested eyebrow: Personal training and nutrition workspace
 
+### Preliminary name-collision check
+
+Checked on August 22, 2026:
+
+- exact-name web searches did not identify a current fitness application or software product using Mettlefield
+- GitHub's repository search returned no repository named Mettlefield
+- the npm registry returned no Mettlefield package
+- Apple's public software search returned no Mettlefield application
+- exact-name searches of Google Play and public company results returned no relevant product
+
+This is a practical collision screen, not a legal trademark opinion or formal clearance search. Before commercial release, search the USPTO database directly and obtain legal advice if the name will become a registered brand.
+
 ## Evidence-backed project description
 
 Mettlefield is a local-first training and nutrition workspace for planning workouts, logging food and hydration, reviewing recovery, and following changes over time. It keeps personal entries in the browser, works without an account, and supports portable backup and restore.
