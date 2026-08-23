@@ -10,7 +10,9 @@ function sets(prefix: string, weight: number, reps: number) {
   return [0, 1, 2].map((index) => ({ id: `${prefix}-${index}`, reps, weight, completed: true }));
 }
 
-test("capture populated portfolio screens", async ({ page }) => {
+test("capture populated portfolio screens", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name === "mobile", "Portfolio assets use the dedicated desktop capture project.");
+
   const today = dateOffset(0);
   const dates = Array.from({ length: 7 }, (_, index) => dateOffset(index - 6));
   const dailyFoods = dates.flatMap((date, day) => [
@@ -113,4 +115,10 @@ test("capture populated portfolio screens", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Print report" })).toBeVisible();
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({ path: "docs/qa/screenshots/portfolio-weekly-report.png", fullPage: false });
+
+  await page.goto("#/settings");
+  await expect(page.getByRole("heading", { name: "Profile and targets" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Apply suggested targets" })).toBeVisible();
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.screenshot({ path: "docs/qa/screenshots/portfolio-goals.png", fullPage: false });
 });

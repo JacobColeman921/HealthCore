@@ -6,11 +6,13 @@ A personal training and nutrition record.
 
 ![Consistency Today view](docs/qa/screenshots/portfolio-today.png)
 
-| Meal Ideas | Active Workout |
+| Active Workout | Meal Ideas |
 | --- | --- |
-| ![Consistency Meal Ideas view](docs/qa/screenshots/portfolio-meals.png) | ![Consistency Active Workout view](docs/qa/screenshots/portfolio-workout.png) |
+| ![Consistency Active Workout view](docs/qa/screenshots/portfolio-workout.png) | ![Consistency Meal Ideas view](docs/qa/screenshots/portfolio-meals.png) |
 
 ![Consistency Weekly Report view](docs/qa/screenshots/portfolio-weekly-report.png)
+
+![Consistency Goal Settings view](docs/qa/screenshots/portfolio-goals.png)
 
 Consistency is a browser-based record for food, workouts, recovery, and progress. It keeps entries on the current device and does not require an account.
 
