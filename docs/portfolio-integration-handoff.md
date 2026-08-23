@@ -11,7 +11,7 @@ The portfolio still presents the project as HealthCore and describes the former 
 - Display name: Consistency
 - Existing repository and public URL: retain the current HealthCore slug unless the repository itself is renamed later
 - Case-study route: retain `/work/healthcore/` to avoid breaking existing links
-- Suggested eyebrow: Personal training and nutrition workspace
+- Suggested eyebrow: A personal training and nutrition record.
 
 ### Historical Mettlefield working-name screen
 
