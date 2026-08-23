@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "check:copy": "node scripts/check-copy.mjs",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "capture:portfolio": "playwright test --config playwright.portfolio.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "latest",

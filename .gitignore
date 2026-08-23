@@ -3,6 +3,7 @@
 healthcore_data.json
 .worktrees/
 docs/qa/playwright-results/
+docs/qa/portfolio-playwright-results/
 node_modules/
 dist/
 playwright-report/
