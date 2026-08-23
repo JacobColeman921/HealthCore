@@ -111,5 +111,6 @@ test("capture populated portfolio screens", async ({ page }) => {
   await page.goto("#/trends");
   await page.getByRole("button", { name: "Weekly report" }).click();
   await expect(page.getByRole("button", { name: "Print report" })).toBeVisible();
+  await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({ path: "docs/qa/screenshots/portfolio-weekly-report.png", fullPage: false });
 });
