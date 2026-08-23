@@ -1,6 +1,6 @@
 # Brain Wiki source ledger
 
-This ledger separates material that directly shaped Mettlefield from material that was reviewed and left out. The source of truth is the local Brain Wiki under `PersonalAssistantV3/Brain Wiki`.
+This ledger separates material that directly shaped Consistency from material that was reviewed and left out. The source of truth is the local Brain Wiki under `PersonalAssistantV3/Brain Wiki`.
 
 ## Used in the product
 

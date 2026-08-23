@@ -8,7 +8,7 @@ export function App() {
   const storageStatus = useMettlefieldStore((state) => state.storageStatus);
   const recoveryBackup = useMettlefieldStore((state) => state.recoveryBackup);
   const acknowledgeRecovery = useMettlefieldStore((state) => state.acknowledgeRecovery);
-  function downloadRecovery() { if (!recoveryBackup) return; const url = URL.createObjectURL(new Blob([recoveryBackup], { type: "application/json" })); const link = document.createElement("a"); link.href = url; link.download = "mettlefield-recovery-copy.json"; link.click(); URL.revokeObjectURL(url); acknowledgeRecovery(); }
+  function downloadRecovery() { if (!recoveryBackup) return; const url = URL.createObjectURL(new Blob([recoveryBackup], { type: "application/json" })); const link = document.createElement("a"); link.href = url; link.download = "consistency-recovery-copy.json"; link.click(); URL.revokeObjectURL(url); acknowledgeRecovery(); }
   useEffect(() => {
     const media = matchMedia("(prefers-color-scheme: dark)");
     const apply = () => { document.documentElement.dataset.theme = theme === "system" ? (media.matches ? "dark" : "light") : theme; };

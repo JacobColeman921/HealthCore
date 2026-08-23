@@ -1,6 +1,6 @@
 # Portfolio integration handoff
 
-This document records the portfolio changes that should follow visual approval of Mettlefield. It is deliberately kept in the application repository so the portfolio can remain unchanged during review.
+This document records the portfolio changes that should follow visual approval of Consistency. It is deliberately kept in the application repository so the portfolio can remain unchanged during review.
 
 ## Current portfolio mismatch
 
@@ -8,14 +8,14 @@ The portfolio still presents the project as HealthCore and describes the former 
 
 ## Approved-name changes
 
-- Display name: Mettlefield
+- Display name: Consistency
 - Existing repository and public URL: retain the current HealthCore slug unless the repository itself is renamed later
 - Case-study route: retain `/work/healthcore/` to avoid breaking existing links
 - Suggested eyebrow: Personal training and nutrition workspace
 
-### Preliminary name-collision check
+### Historical Mettlefield working-name screen
 
-Checked on August 22, 2026:
+The following preliminary screen was completed for the Mettlefield working name on August 22, 2026:
 
 - exact-name web searches did not identify a current fitness application or software product using Mettlefield
 - GitHub's repository search returned no repository named Mettlefield
@@ -27,7 +27,7 @@ This is a practical collision screen, not a legal trademark opinion or formal cl
 
 ## Evidence-backed project description
 
-Mettlefield is a local-first training and nutrition workspace for planning workouts, logging food and hydration, reviewing recovery, and following changes over time. It keeps personal entries in the browser, works without an account, and supports portable backup and restore.
+Consistency is a personal training and nutrition record for planning workouts, logging food and hydration, reviewing recovery, and following changes over time. It keeps personal entries in the browser, works without an account, and supports portable backup and restore.
 
 The case study may accurately describe:
 
@@ -71,7 +71,7 @@ Capture from a deterministic `mettlefield_state_v1` fixture or allow the built-i
 
 ## Copy constraints
 
-- Use the product name Mettlefield consistently in visible copy, alt text, metadata, tests, and resume content.
+- Use the product name Consistency consistently in visible copy, alt text, metadata, tests, and resume content.
 - Keep the repository URL accurate even if its slug remains HealthCore.
 - Describe local storage plainly; do not call it a private database.
 - Avoid claims such as intelligent, personalized, optimized, comprehensive, or AI-powered.
@@ -79,7 +79,7 @@ Capture from a deterministic `mettlefield_state_v1` fixture or allow the built-i
 
 ## Release order
 
-1. Receive visual approval for the local Mettlefield preview.
+1. Receive visual approval for the local Consistency preview.
 2. Merge the reviewed application branch.
 3. Publish and verify the GitHub Pages application.
 4. Recapture portfolio screenshots from the published build.

@@ -8,6 +8,8 @@ test.beforeEach(async ({ page }) => {
 });
 
 test("every primary destination and subview renders", async ({ page }) => {
+  await expect(page.getByRole("link", { name: "Consistency home" })).toBeVisible();
+  await expect(page).toHaveTitle("Consistency");
   await expect(page.getByRole("heading", { name: /^Good day/ })).toBeVisible();
 
   await page.getByRole("link", { name: "Log", exact: true }).click();

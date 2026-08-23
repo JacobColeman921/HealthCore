@@ -2,6 +2,7 @@
 
 ## Product checks
 
+- The public product name, wordmark, and document title are Consistency.
 - Today retains calories, macros, water, sleep, training context, recent food, meal ideas, and habits.
 - Log includes Diary, Food ideas, and Nutrition.
 - Train includes Workout, Plans, Strength PRs, and Cardio.

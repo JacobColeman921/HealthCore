@@ -1,4 +1,4 @@
-# Mettlefield product redesign
+# Consistency product redesign
 
 ## Status
 
@@ -6,9 +6,9 @@ Approved for autonomous implementation on 2026-08-22. The user asked for the pla
 
 ## Product decision
 
-HealthCore becomes Mettlefield, a private daily log for food, training, recovery, and progress. The name is a working product mark chosen after a preliminary web and app-store collision screen. That screen did not find another health or fitness product using the exact name. It is not a legal trademark opinion.
+HealthCore was redesigned under the working name Mettlefield. Consistency is the approved portfolio-facing name: a personal training and nutrition record for food, workouts, recovery, and progress. The preliminary web and app-store collision screen applied to Mettlefield, not Consistency, and was not a legal trademark opinion.
 
-Mettlefield keeps the useful breadth of HealthCore but changes how the product is organized. The current application exposes nearly every feature as a separate sidebar destination. The redesign organizes the same work around five user goals:
+Consistency keeps the useful breadth of HealthCore but changes how the product is organized. The current application exposes nearly every feature as a separate sidebar destination. The redesign organizes the same work around five user goals:
 
 1. Today: understand the day and act quickly.
 2. Log: record food, water, weight, and sleep.
@@ -68,7 +68,7 @@ Visible copy uses plain sentences. The product contains no emoji, em dash charac
 
 ### Theme
 
-Mettlefield supports light and dark themes from the same semantic tokens and respects the system preference by default.
+Consistency supports light and dark themes from the same semantic tokens and respects the system preference by default.
 
 The light theme uses cold off-white surfaces and charcoal text. The dark theme uses graphite rather than pure black. A deep teal is the only interaction accent. Nutrition categories and status messages may use muted semantic colors when meaning requires them.
 
@@ -235,4 +235,4 @@ Tests capture current behavior, then document any intentional correction. Values
 
 ## Portfolio outcome
 
-The repository and portfolio will present Mettlefield as a product case study, not a feature list. The story covers the original problem, the monolith audit, information-architecture decisions, local-data migration, exercise-media integration, accessibility, responsive testing, and before/after evidence. Claims about users or outcomes remain absent until real research supplies them.
+The repository and portfolio will present Consistency as a product case study, not a feature list. The story covers the original problem, the monolith audit, information-architecture decisions, local-data migration, exercise-media integration, accessibility, responsive testing, and before/after evidence. Claims about users or outcomes remain absent until real research supplies them.

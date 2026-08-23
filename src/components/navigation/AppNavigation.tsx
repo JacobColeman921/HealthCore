@@ -6,5 +6,5 @@ const items = [
 ] as const;
 
 export function AppNavigation() {
-  return <aside className="app-rail"><NavLink to="/today" className="wordmark" aria-label="Mettlefield home"><span className="brand-mark" aria-hidden="true">M</span><span>Mettlefield</span></NavLink><nav aria-label="Primary" className="primary-nav">{items.map(({ label, to, icon: Icon }) => <NavLink key={to} to={to} className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}><Icon size={21} aria-hidden="true" /><span>{label}</span></NavLink>)}</nav><p className="rail-note">Private by default<br />Stored on this device</p></aside>;
+  return <aside className="app-rail"><NavLink to="/today" className="wordmark" aria-label="Consistency home"><span className="brand-mark" aria-hidden="true">C</span><span>Consistency</span></NavLink><nav aria-label="Primary" className="primary-nav">{items.map(({ label, to, icon: Icon }) => <NavLink key={to} to={to} className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}><Icon size={21} aria-hidden="true" /><span>{label}</span></NavLink>)}</nav><p className="rail-note">Private by default<br />Stored on this device</p></aside>;
 }

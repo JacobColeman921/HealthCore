@@ -2,7 +2,7 @@
 
 The redesign keeps the original product's useful workflows while reducing the navigation from a long feature list to five destinations.
 
-| Original HealthCore feature | Mettlefield location | Current behavior |
+| Original HealthCore feature | Consistency location | Current behavior |
 | --- | --- | --- |
 | Dashboard | Today | Daily calorie balance, macros, water, sleep, training status, recent food, habits, and meal-idea shortcut |
 | Food Log | Log, Diary | Search across 719 retained common foods, one-tap catalog logging, manual entry, macro totals, deletion, water, weight, and sleep records |
