@@ -11,7 +11,7 @@ const workoutExercise = z.object({ exerciseId: id, name: id, primaryMuscles: z.a
 
 export const stateSchema = z.object({
   version: z.literal(1),
-  profile: z.object({ name: z.string().max(120), units: z.enum(["imperial", "metric"]), goal: z.enum(["weight_loss", "muscle_gain", "maintenance", "recomp"]).optional(), age: positive.max(125).optional(), heightCm: positive.max(300).optional(), activity: positive.max(3).optional() }),
+  profile: z.object({ name: z.string().max(120), units: z.enum(["imperial", "metric"]), goal: z.enum(["weight_loss", "muscle_gain", "maintenance", "recomp"]).optional(), age: positive.max(125).optional(), heightCm: positive.max(300).optional(), sex: z.enum(["male", "female"]).optional(), activity: positive.max(3).optional() }),
   goals: z.object({ calories: positive, protein: nonnegative, carbs: nonnegative, fat: nonnegative, water: positive, sleep: positive.max(24) }),
   theme: z.enum(["system", "light", "dark"]),
   foods: z.array(z.object({ id, date, meal: z.enum(["Breakfast", "Lunch", "Dinner", "Snack"]), name: id, serving: z.string().max(200), calories: nonnegative, protein: nonnegative, carbs: nonnegative, fat: nonnegative })),

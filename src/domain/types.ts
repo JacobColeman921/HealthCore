@@ -7,6 +7,7 @@ export interface Profile {
   goal?: "weight_loss" | "muscle_gain" | "maintenance" | "recomp";
   age?: number;
   heightCm?: number;
+  sex?: "male" | "female";
   activity?: number;
 }
 

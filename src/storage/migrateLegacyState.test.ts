@@ -3,7 +3,7 @@ import { exportState, importState, loadStateWithStatus, saveState, STORAGE_KEY }
 
 describe("legacy migration", () => {
   it("adapts the original HealthCore storage shapes without deleting them", () => {
-    localStorage.setItem("hc_profile", JSON.stringify({ name: "Jacob", weight_lbs: 181, height_in: 70, activity: "moderate" }));
+    localStorage.setItem("hc_profile", JSON.stringify({ name: "Jacob", weight_lbs: 181, height_in: 70, sex: "male", activity: "moderate" }));
     localStorage.setItem("hc_goals", JSON.stringify({ calories: 2600, water: 96 }));
     localStorage.setItem("hc_entries", JSON.stringify({ "2026-08-22": { water: 80, weight: 181, foods: [{ name: "Greek yogurt", meal: "breakfast", serving: "1 cup", qty: 2, calories: 120, protein: 18, carbs: 8, fat: 0 }] } }));
     localStorage.setItem("hc_sleep", JSON.stringify([{ date: "2026-08-21", durationMins: 450, quality: 82 }]));
@@ -15,6 +15,7 @@ describe("legacy migration", () => {
     const result = migrateLegacyState(localStorage);
     expect(result.migrated).toBe(true);
     expect(result.state.profile.name).toBe("Jacob");
+    expect(result.state.profile.sex).toBe("male");
     expect(result.state.goals.calories).toBe(2600);
     expect(result.state.foods[0]).toMatchObject({ calories: 240, protein: 36, meal: "Breakfast" });
     expect(result.state.water[0].value).toBe(10);

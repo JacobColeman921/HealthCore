@@ -110,6 +110,45 @@ test("an invalid backup cannot replace the current record", async ({ page }) => 
   expect(saved).toBeNull();
 });
 
+test("suggested targets require explicit application before they are saved", async ({ page }) => {
+  await page.goto("#/settings");
+  await expect(page.getByText("Add your bodyweight, height, age, sex, and activity level to see a starting range.")).toBeVisible();
+
+  await page.getByLabel("Calories").fill("1900");
+  await page.getByLabel("Protein (g)").fill("170");
+  await page.getByLabel("Bodyweight (lb)").fill("180");
+  await page.getByLabel("Height (in)").fill("70.87");
+  await page.getByLabel("Age").fill("30");
+  await page.getByLabel("Sex used for estimate").selectOption("male");
+  await page.getByLabel("Activity level").selectOption("1.55");
+  await page.getByLabel("Current goal").selectOption("weight_loss");
+
+  await expect(page.getByText("Suggested starting targets")).toBeVisible();
+  await expect(page.getByText("0.8 to 1.2 g per lb")).toBeVisible();
+  await expect(page.getByLabel("Calories")).toHaveValue("1900");
+  await expect(page.getByLabel("Protein (g)")).toHaveValue("170");
+
+  await page.getByRole("button", { name: "Apply suggested targets" }).click();
+  await expect(page.getByLabel("Calories")).not.toHaveValue("1900");
+  await expect(page.getByLabel("Protein (g)")).toHaveValue("180");
+  const appliedCalories = await page.getByLabel("Calories").inputValue();
+
+  await page.getByRole("button", { name: "Save profile and targets" }).click();
+  await expect(page.getByRole("status")).toContainText("saved");
+  await page.reload();
+  await expect(page.getByLabel("Calories")).toHaveValue(appliedCalories);
+  await expect(page.getByLabel("Protein (g)")).toHaveValue("180");
+  await expect(page.getByLabel("Bodyweight (lb)")).toHaveValue("180");
+  await expect(page.getByLabel("Current goal")).toHaveValue("weight_loss");
+
+  await page.getByRole("button", { name: "Save profile and targets" }).click();
+  const sameDayWeights = await page.evaluate(() => {
+    const state = JSON.parse(localStorage.getItem("mettlefield_state_v1") || "{}");
+    return state.weights.filter((item: { date: string; value: number }) => item.value === 180).length;
+  });
+  expect(sameDayWeights).toBe(1);
+});
+
 test("representative routes and themes have no serious automated accessibility violations", async ({ page }) => {
   for (const theme of ["light", "dark"] as const) for (const path of ["today", "log", "train", "trends", "settings"]) {
     await page.goto(`#/${path}`); await page.evaluate((value) => { const current = JSON.parse(localStorage.getItem("mettlefield_state_v1") || "null") || { version: 1, profile: { name: "", units: "imperial", goal: "recomp", activity: 1.45 }, goals: { calories: 2200, protein: 150, carbs: 240, fat: 70, water: 8, sleep: 8 }, foods: [], water: [], weights: [], sleep: [], workouts: [], cardio: [], habits: [], plans: [], manualMaxes: {}, integrations: {} }; current.theme = value; localStorage.setItem("mettlefield_state_v1", JSON.stringify(current)); }, theme); await page.reload();
